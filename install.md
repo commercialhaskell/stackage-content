@@ -29,10 +29,10 @@ commonly needed tools.
 
 ```
 sudo apt-get update
-sudo apt-get install software-properties-common
+sudo apt-get install -y software-properties-common
 sudo add-apt-repository -y ppa:hvr/ghc
 sudo apt-get update
-sudo apt-get install cabal-install-1.20 ghc-7.8.3
+sudo apt-get install -y cabal-install-1.20 ghc-7.8.3
 cat >> ~/.bashrc <<EOF
 export PATH=~/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.3/bin:$PATH
 EOF
