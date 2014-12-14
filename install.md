@@ -1,3 +1,9 @@
+<div class="container content">
+<div class="row">
+<div class="span12">
+
+# Installing Haskell
+
 This page contains a general purpose guide for installing a Haskell toolchain.
 The Haskell toolchain consists of:
 
@@ -101,3 +107,7 @@ We hope these limitations are overcome in the future, but for now they make it
 impractical to use.
 
 [Return to Stackage homepage](/)
+
+</div>
+</div>
+</div>
