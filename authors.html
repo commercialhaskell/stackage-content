@@ -1,0 +1,98 @@
+<style>
+  .recommended-snapshots{margin-top:30px;margin-bottom:20px}
+  .how-stackage-works{margin-bottom:50px}
+  .snapshots{margin-left:0;padding-left:0}
+  .snapshots td{padding:0 0.25em 0.25em 0.25em}
+  .snapshots td a{font-weight:bold }
+  .stackage-process p{font-size:30px;line-height:35px}
+  .stackage-process .github{width:150px}
+  .stackage-process .jenkins{width:100px}
+  .stackage-process .ping{width:100px}
+  .stackage-process .stackage{width:100px}
+  .stackage-process .haskell{width:120px}
+  .stackage-process + .stackage-process{margin-top:50px}
+  .steps-to-contribute h2{margin-bottom:0}
+  .steps-to-contribute h2 + p{margin-bottom:1em}
+  .operating-systems{margin-top:1em}
+  .getting-started{margin-bottom:0}
+  .wrap{padding-top:2em;padding-left:15px;padding-right:15px;padding-bottom:2em}
+  .alert{margin-top:1em}
+
+  .span3 { width: 150px !important; }
+  .span9 { width: 400px !important; }
+
+  .lists li { line-height: 30px; }
+
+</style>
+<div class="container content">
+  <div class="row">
+    <div class="span12">
+      <h1>Stackage for Authors</h1>
+      <div class="row steps-to-contribute">
+        <div class="span10">
+          <p>For
+            <em>package authors</em>
+            to contribute to Stackage, follow these instructions:</p>
+          <ul class="lists">
+            <li>Open
+              <a href="https://github.com/fpco/stackage">the Stackage project on Github.</a>
+            </li>
+            <li>Fork it.</li>
+            <li>Add a line to
+              <a href="https://github.com/fpco/stackage/blob/master/Stackage/Config.hs">the Stackage.Config module.</a>
+            </li>
+            <li>Push to your fork.</li>
+            <li>Open a pull request.</li>
+          </ul>
+          <p>Once you have submitted the pull request, a build will be started.
+            There is a dedicated jenkins server at this location:
+            <a href="http://jenkins.stackage.org">jenkins.stackage.org</a>
+            From there you can track the progress, status and
+            results of Stackage builds.</p>
+        </div>
+      </div>
+
+      <h2 class="how-stackage-works">How Stackage Works</h2>
+      <div class="row stackage-process">
+        <div class="span3">
+          <img class="github" src="http://www.stackage.org/static/img/github.png?etag=hMGr7bdB">
+        </div>
+        <div class="span9">
+          <p>Package authors: Open a pull request on the Github repository.</p>
+        </div>
+      </div>
+      <div class="row stackage-process">
+        <div class="span9">
+          <p>Once checked, it's merged and run through Jenkins.</p>
+        </div>
+        <div class="span3">
+          <img class="jenkins" src="http://www.stackage.org/static/img/jenkins.png?etag=eG7F1l4D">
+        </div>
+      </div>
+      <div class="row stackage-process">
+        <div class="span3">
+          <img class="ping" src="http://www.stackage.org/static/img/ping.png?etag=mNm4x5L9">
+        </div>
+        <div class="span9">
+          <p>Authors are notified on Github if any problems arise with their package.</p>
+        </div>
+      </div>
+      <div class="row stackage-process">
+        <div class="span9">
+          <p>If the build succeeds, a new Stackage snapshot is created.</p>
+        </div>
+        <div class="span3">
+          <img class="stackage" src="http://www.stackage.org/static/img/stackage.png?etag=bYStFmQe">
+        </div>
+      </div>
+      <div class="row stackage-process">
+        <div class="span3">
+          <img class="haskell" src="http://www.stackage.org/static/img/haskell.png?etag=ZrPnRyJd">
+        </div>
+        <div class="span9">
+          <p>The community can start using the new snapshot immediately!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
