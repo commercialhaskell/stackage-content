@@ -1,7 +1,7 @@
 -
   name: ghc
   version: 7.10.1
-  url: https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz
+  url: http://download.fpcomplete.com/stackage-cli/linux64/ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz
   sha1: c256f5975613ab49aeb2375b1e60cd8a348ed404
   instructions:
     - tar xJf ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz
@@ -13,7 +13,7 @@
 -
   name: cabal
   version: 1.22.3.0
-  url: https://www.haskell.org/cabal/release/cabal-install-1.22.3.0/cabal-install-1.22.3.0.tar.gz
+  url: http://download.fpcomplete.com/stackage-cli/linux64/cabal-install-1.22.3.0.tar.gz
   sha1: 1771e31f0de89cb47c6d87bb0d5c3a18c5c9e048
   instructions:
     - tar xzf cabal-install-1.22.3.0.tar.gz
