@@ -24,3 +24,11 @@
     - rm cabal-install-1.20.0.3.tar.gz
     - mkdir cabal-1.20.0.3
     - mv $HOME/.cabal/bin/cabal cabal-1.20.0.3/bin/cabal
+-
+  name: stackage
+  version: 0.7.1.0
+  url: http://download.fpcomplete.com/stackage-cli/linux64/stackage-0.7.1.0.tar.xz
+  sha1: 2062ea5e71a836371f8388a4eba66cd10a31d701
+  instructions:
+    - tar xJf stackage-0.7.1.0.tar.xz
+    - rm stackage-0.7.1.0.tar.xz
