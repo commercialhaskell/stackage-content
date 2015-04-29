@@ -32,3 +32,19 @@
   instructions:
     - tar xJf stackage-0.7.1.0.tar.xz
     - rm stackage-0.7.1.0.tar.xz
+-
+  name: happy
+  version: 1.19.5
+  url: http://download.fpcomplete.com/stackage-cli/linux64/happy-1.19.5.tar.gz
+  sha1: 8ec42f50cb37adb08753266c0247b90c2c306efd
+  instructions:
+    - tar xJf happy-1.19.5.tar.xz
+    - rm happy-1.19.5.tar.xz
+-
+  name: alex
+  version: 3.1.4
+  url: http://download.fpcomplete.com/stackage-cli/linux64/alex-3.1.4.tar.xz
+  sha1: 0cf5969cca4abc221ae41235a7f0a39ad0d66473
+  instructions:
+    - tar xJf alex-3.1.4.tar.xz
+    - rm alex-3.1.4.tar.xz
