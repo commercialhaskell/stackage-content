@@ -35,7 +35,7 @@
 -
   name: happy
   version: 1.19.5
-  url: http://download.fpcomplete.com/stackage-cli/linux64/happy-1.19.5.tar.gz
+  url: http://download.fpcomplete.com/stackage-cli/linux64/happy-1.19.5.tar.xz
   sha1: 8ec42f50cb37adb08753266c0247b90c2c306efd
   instructions:
     - tar xJf happy-1.19.5.tar.xz
