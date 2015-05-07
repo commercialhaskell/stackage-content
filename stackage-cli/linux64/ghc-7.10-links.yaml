@@ -12,18 +12,18 @@
     - cd ..
 -
   name: cabal
-  version: 1.22.3.0
-  url: http://download.fpcomplete.com/stackage-cli/linux64/cabal-install-1.22.3.0.tar.gz
-  sha1: 1771e31f0de89cb47c6d87bb0d5c3a18c5c9e048
+  version: 1.22.4.0
+  url: http://download.fpcomplete.com/stackage-cli/linux64/cabal-install-1.22.4.0.tar.gz
+  sha1: b98eea96d321cdeed83a201c192dac116e786ec2
   instructions:
-    - tar xzf cabal-install-1.22.3.0.tar.gz
-    - rm cabal-install-1.22.3.0.tar.gz
-    - cd cabal-install-1.22.3.0
+    - tar xzf cabal-install-1.22.4.0.tar.gz
+    - rm cabal-install-1.22.4.0.tar.gz
+    - cd cabal-install-1.22.4.0
     - ./bootstrap.sh
     - cd ..
-    - rm -r cabal-install-1.22.3.0
-    - mkdir cabal-1.22.3.0
-    - mv $HOME/.cabal/bin/cabal cabal-1.22.3.0/bin/cabal
+    - rm -r cabal-install-1.22.4.0
+    - mkdir cabal-1.22.4.0
+    - mv $HOME/.cabal/bin/cabal cabal-1.22.4.0/bin/cabal
 -
   name: stackage
   version: 0.7.1.0
