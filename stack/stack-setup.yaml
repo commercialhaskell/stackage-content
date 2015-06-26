@@ -60,3 +60,9 @@ ghc:
         7.10:
             version: 7.10.1
             url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-portbld-freebsd.tar.xz"
+
+    # Untested so far, see: https://github.com/commercialhaskell/stack/issues/416#issuecomment-115553835
+    openbsd64:
+        7.8:
+            version: 7.8.3
+            url: "https://openbsd.dead-parrot.de/distfiles/ghc-7.8.3.20150623-amd64-unknown-openbsd.tar.bz2"
