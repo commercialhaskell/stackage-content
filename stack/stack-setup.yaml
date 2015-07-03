@@ -20,6 +20,16 @@ ghc:
             version: 7.10.1
             url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz"
 
+    linux32-gmp4:
+        7.8:
+            version: 7.8.4
+            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-i386-unknown-linux-centos65.tar.xz"
+
+    linux64-gmp4:
+        7.8:
+            version: 7.8.4
+            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-unknown-linux-centos65.tar.xz"
+
     macosx:
         7.8:
             version: 7.8.4
