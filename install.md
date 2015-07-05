@@ -2,6 +2,22 @@
 <div class="row">
 <div class="span12">
 
+# Install stack
+
+The recommended method for getting up and running is to [install
+stack](https://github.com/commercialhaskell/stack/wiki/Downloads). You can find
+out more information about stack on [the stack
+homepage](https://github.com/commercialhaskell/stack#readme). As a quick
+overview: stack is a full-featured Haskell build tool that will install
+necessary build tools (like the Glasgow Haskell Compiler- GHC), and is
+preloaded with support for Stackage snapshots- both LTS Haskell and Stackage
+Nightly.
+
+We've kept the previous installation instructions in case they are useful, but
+note that they are __no longer recommended__.
+
+[Return to Stackage homepage](/)
+
 # Installing Haskell
 
 This page contains a general purpose guide for installing a Haskell toolchain.
