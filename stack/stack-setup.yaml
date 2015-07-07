@@ -1,8 +1,8 @@
 sevenzexe: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
 sevenzdll: "https://github.com/fpco/minghc/blob/master/bin/7z.dll?raw=true"
 portable-git:
-    version: 2.4.0.1
-    url: "https://github.com/git-for-windows/git/releases/download/v2.4.0.windows.1/PortableGit-2.4.0.1-dev-preview-32-bit.7z.exe"
+    version: 2.4.5.1
+    url: "https://github.com/git-for-windows/git/releases/download/v2.4.5.windows.1/PortableGit-2.4.5.1-4th-release-candidate-32-bit.7z.exe"
 ghc:
     linux32:
         7.8:
