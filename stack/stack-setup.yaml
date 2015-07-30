@@ -122,10 +122,10 @@ ghc:
             content-length: 68504948
             sha1: fa6164a1408b94c719957b23f043da8539376351
         7.10:
-            version: 7.10.1
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-i386-portbld-freebsd.tar.xz"
-            content-length: 75523240
-            sha1: 5dd18c6a5c2da422dc1784720c7948f4e25b7f70
+            version: 7.10.2
+            url: "https://www.haskell.org/ghc/dist/7.10.2/ghc-7.10.2-i386-portbld-freebsd.tar.xz"
+            content-length: 87968692
+            sha1: 6925a297932d1922f8e6c9f4ad0f0ccbdd3ea5b9
 
     freebsd64:
         7.8:
@@ -134,10 +134,10 @@ ghc:
             content-length: 68223736
             sha1: 3507549290a8226febb1284a50c51a5f10261d94
         7.10:
-            version: 7.10.1
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-portbld-freebsd.tar.xz"
-            content-length: 76047456
-            sha1: e1d9d07bb8806f1b7d6ba110471aa24442e881dc
+            version: 7.10.2
+            url: "https://www.haskell.org/ghc/dist/7.10.2/ghc-7.10.2-x86_64-portbld-freebsd.tar.xz"
+            content-length: 88841932
+            sha1: 43372109b84f55cf9138982f84f39cd178d95975
 
     # Untested so far, see: https://github.com/commercialhaskell/stack/issues/416#issuecomment-115553835
     openbsd64:
