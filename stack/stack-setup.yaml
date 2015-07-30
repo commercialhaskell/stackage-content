@@ -46,6 +46,11 @@ ghc:
             url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-i386-unknown-linux-centos65.tar.xz"
             content-length: 61873796
             sha1: 0ec1f10b38e1e94b41e260855f4744f271f462f2
+        7.10:
+            version: 7.10.2
+            url: "https://www.haskell.org/ghc/dist/7.10.2/ghc-7.10.2-i386-unknown-linux-centos66.tar.xz"
+            content-length: 87824296
+            sha1: f37d2a1323c191ef9372e1256220691ec2f84b40
 
     linux64-gmp4:
         7.8:
@@ -53,6 +58,11 @@ ghc:
             url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-unknown-linux-centos65.tar.xz"
             content-length: 61654528
             sha1: d204e2a1344734d1f60c79cf330b5e3f40b672a0
+        7.10:
+            version: 7.10.2
+            url: "https://www.haskell.org/ghc/dist/7.10.2/ghc-7.10.2-x86_64-unknown-linux-centos66.tar.xz"
+            content-length: 88804220
+            sha1: e6f128245d66cd53711b1829122b38ba8ded70f1
 
     macosx:
         7.8:
