@@ -77,6 +77,11 @@ ghc:
             sha1: 0a043340952fad211f4c9780bde873e0d9e4d331
 
     windowsintegersimple32:
+        7.8:
+            version: 7.8.4
+            url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-7.8.4-i386-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 78390236
+            sha1: c02ec0f80db83ba081943204894e6e83b7d378ba
         7.10:
             version: 7.10.2
             url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-7.10.2-i386-unknown-mingw32-integer-simple.tar.xz"
@@ -84,6 +89,11 @@ ghc:
             sha1: 346a193ac16bf8fc050bb0de4355a3d298dfca51
 
     windowsintegersimple64:
+        7.8:
+            version: 7.8.4
+            url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-7.8.4-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 94397496
+            sha1: 2b7c9e11990ba6e91032fb935d441fde8106c9cf
         7.10:
             version: 7.10.2
             url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-7.10.2-x86_64-unknown-mingw32-integer-simple.tar.xz"
