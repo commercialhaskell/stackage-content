@@ -1,7 +1,3 @@
-# These strings remain for compatibility with old versions of stack.
-sevenzexe: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
-sevenzdll: "https://github.com/fpco/minghc/blob/master/bin/7z.dll?raw=true"
-
 sevenzexe-info:
     url: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
     content-length: 73728
