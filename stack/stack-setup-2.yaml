@@ -19,7 +19,7 @@ msys2:
         sha1: 18f33537212bca9552659012a16d8c511ef5fc23
     windows64:
         version: "20150512"
-        url: "https://github.com/fpco/minghc/releases/download/2015-05-14/msys2-base-i686-20150512.tar.xz"
+        url: "https://github.com/fpco/minghc/releases/download/2015-05-14/msys2-base-x86_64-20150512.tar.xz"
         content-length: 33451040
         sha1: 88fa66ac2a18715a542e0768b1af9b2f6e3680b2
 ghc:
