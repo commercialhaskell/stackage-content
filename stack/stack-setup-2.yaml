@@ -178,7 +178,5 @@ ghc:
             sha1: 33e5d2fcc9be1e3123002ba06f76a3f4989c23a9
 ghcjs:
     source:
-        ghcjs-0.1.0.20150923_ghc-7.10.2:
-            url: "https://github.com/mgsloan/ghcjs/releases/download/v0.1.0.20150923/ghcjs-0.1.0.20150923.tar.gz"
         ghcjs-0.1.0.20150924_ghc-7.10.2:
             url: "https://github.com/mgsloan/ghcjs/releases/download/v0.1.0.20150924/ghcjs-0.1.0.20150924.tar.gz"
