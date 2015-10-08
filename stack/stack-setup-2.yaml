@@ -22,6 +22,12 @@ msys2:
         url: "https://github.com/fpco/minghc/releases/download/2015-05-14/msys2-base-x86_64-20150512.tar.xz"
         content-length: 33451040
         sha1: 88fa66ac2a18715a542e0768b1af9b2f6e3680b2
+stack:
+    linux64:
+        0.1.5.0:
+            url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.5.0/stack-0.1.5.0-x86_64-linux.tar.gz"
+            content-length: 7008502
+            sha1: f45777e165848fe11346271228b655a4f3d6dd41
 ghc:
     linux32:
         7.8.4:
