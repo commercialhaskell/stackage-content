@@ -5,7 +5,7 @@
 # Install stack
 
 The recommended method for getting up and running is to [install
-stack](https://github.com/commercialhaskell/stack/wiki/Downloads). You can find
+stack](https://github.com/commercialhaskell/stack/blob/master/doc/install_and_upgrade.md). You can find
 out more information about stack on [the stack
 homepage](https://github.com/commercialhaskell/stack#readme). As a quick
 overview: stack is a full-featured Haskell build tool that will install
