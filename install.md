@@ -13,14 +13,16 @@ necessary build tools (like the Glasgow Haskell Compiler- GHC), and is
 preloaded with support for Stackage snapshots- both LTS Haskell and Stackage
 Nightly.
 
-We've kept the previous installation instructions in case they are useful, but
-note that they are __no longer recommended__.
-
 [Return to Stackage homepage](/)
 
-# Installing Haskell
+* * *
 
-This page contains a general purpose guide for installing a Haskell toolchain.
+# Alternatively, manually install Haskell tools
+
+We've kept these installation instructions in case they are useful but note that
+they are __no longer recommended__.
+
+This is a general purpose guide for installing a Haskell toolchain.
 The Haskell toolchain consists of:
 
 1. The GHC compiler (version 7.8.4)
