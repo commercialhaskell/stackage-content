@@ -1,0 +1,14 @@
+- name: Linux 32-bit, libgmp4 for CentOS 6.x
+  pattern: i386-linux-gmp4
+- name: Linux 32-bit, standard
+  pattern: i386-linux
+- name: Linux 64-bit, libgmp4 for CentOS 6.x
+  pattern: x86_64-linux-gmp4
+- name: Linux 64-bit, standard
+  pattern: x86_64-linux
+- name: Mac OS X 64-bit
+  pattern: x86_64-osx
+- name: Windows 32-bit
+  pattern: i386-windows
+- name: Windows 64-bit
+  pattern: x86_64-windows
