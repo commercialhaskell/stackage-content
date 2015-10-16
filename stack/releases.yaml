@@ -8,7 +8,11 @@
   pattern: linux-x86_64
 - name: Mac OS X 64-bit
   pattern: osx-x86_64
+- name: Windows 32-bit Installer
+  pattern: windows-i386-installer
 - name: Windows 32-bit
   pattern: windows-i386
+- name: Windows 64-bit Installer
+  pattern: windows-x86_64-installer
 - name: Windows 64-bit
   pattern: windows-x86_64
