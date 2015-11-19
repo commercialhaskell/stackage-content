@@ -35,7 +35,7 @@ ghc:
             content-length: 69743420
             sha1: a5d4f65b9b063eae476657cb9b93277609c42cf1
         7.10.1:
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-i386-unknown-linux-deb7.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-linux-deb7.tar.xz"
             content-length: 78546928
             sha1: aa87ce310b966ac6836f30b8dd4ecfd0b9d2ba0d
         7.10.2:
@@ -49,7 +49,7 @@ ghc:
             content-length: 70325112
             sha1: 11aec12d4bb27f6fa59dcc8535a7a3b3be8cb787
         7.10.1:
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz"
             content-length: 78610472
             sha1: c256f5975613ab49aeb2375b1e60cd8a348ed404
         7.10.2:
@@ -83,7 +83,7 @@ ghc:
             content-length: 129602990
             sha1: b7aff3983e9005b74d90c5a4fd7c837f9e752923
         7.10.1:
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-apple-darwin.tar.bz2"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-apple-darwin.tar.bz2"
             content-length: 146558980
             sha1: 5c7282f955020e92dc83560af9e7e3eadc2bd58f
         7.10.2:
@@ -126,7 +126,7 @@ ghc:
             content-length: 75057588
             sha1: 9acfb321f1f8bbfcb6d6b58f6d88fe93f0abaf63
         7.10.1:
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-i386-unknown-mingw32.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-mingw32.tar.xz"
             content-length: 83338828
             sha1: adba4e5912064bf65c410c9516849efd3e337c09
         7.10.2:
@@ -140,7 +140,7 @@ ghc:
             content-length: 92141344
             sha1: cec5b4c4fe612ac1fe9302f491ae58ac44812b26
         7.10.1:
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-unknown-mingw32.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 100171232
             sha1: 21dbe6ce2e613c738d604993f71cd4368e227fc0
         7.10.2:
@@ -154,7 +154,7 @@ ghc:
             content-length: 68504948
             sha1: fa6164a1408b94c719957b23f043da8539376351
         7.10.1:
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-i386-portbld-freebsd.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-portbld-freebsd.tar.xz"
             content-length: 75523240
             sha1: 5dd18c6a5c2da422dc1784720c7948f4e25b7f70
         7.10.2:
@@ -168,7 +168,7 @@ ghc:
             content-length: 68223736
             sha1: 3507549290a8226febb1284a50c51a5f10261d94
         7.10.1:
-            url: "https://www.haskell.org/ghc/dist/7.10.1/ghc-7.10.1-x86_64-portbld-freebsd.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 76047456
             sha1: e1d9d07bb8806f1b7d6ba110471aa24442e881dc
         7.10.2:
