@@ -31,7 +31,7 @@ msys2:
 ghc:
     linux32:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-i386-unknown-linux-deb7.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-linux-deb7.tar.xz"
             content-length: 69743420
             sha1: a5d4f65b9b063eae476657cb9b93277609c42cf1
         7.10.1:
@@ -45,7 +45,7 @@ ghc:
 
     linux64:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-unknown-linux-deb7.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-linux-deb7.tar.xz"
             content-length: 70325112
             sha1: 11aec12d4bb27f6fa59dcc8535a7a3b3be8cb787
         7.10.1:
@@ -59,7 +59,7 @@ ghc:
 
     linux32-gmp4:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-i386-unknown-linux-centos65.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-linux-centos65.tar.xz"
             content-length: 61873796
             sha1: 0ec1f10b38e1e94b41e260855f4744f271f462f2
         7.10.2:
@@ -69,7 +69,7 @@ ghc:
 
     linux64-gmp4:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-unknown-linux-centos65.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-linux-centos65.tar.xz"
             content-length: 61654528
             sha1: d204e2a1344734d1f60c79cf330b5e3f40b672a0
         7.10.2:
@@ -79,7 +79,7 @@ ghc:
 
     macosx:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-apple-darwin.tar.bz2"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-apple-darwin.tar.bz2"
             content-length: 129602990
             sha1: b7aff3983e9005b74d90c5a4fd7c837f9e752923
         7.10.1:
@@ -122,7 +122,7 @@ ghc:
 
     windows32:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-i386-unknown-mingw32.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-mingw32.tar.xz"
             content-length: 75057588
             sha1: 9acfb321f1f8bbfcb6d6b58f6d88fe93f0abaf63
         7.10.1:
@@ -136,7 +136,7 @@ ghc:
 
     windows64:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-unknown-mingw32.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-mingw32.tar.xz"
             content-length: 92141344
             sha1: cec5b4c4fe612ac1fe9302f491ae58ac44812b26
         7.10.1:
@@ -150,7 +150,7 @@ ghc:
 
     freebsd32:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-i386-portbld-freebsd.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-portbld-freebsd.tar.xz"
             content-length: 68504948
             sha1: fa6164a1408b94c719957b23f043da8539376351
         7.10.1:
@@ -164,7 +164,7 @@ ghc:
 
     freebsd64:
         7.8.4:
-            url: "https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-portbld-freebsd.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-portbld-freebsd.tar.xz"
             content-length: 68223736
             sha1: 3507549290a8226febb1284a50c51a5f10261d94
         7.10.1:
