@@ -6,8 +6,8 @@ stack:
             sha1: aa29874a1444911aa99c3493a1858fdf57065f65
         0.1.8.0:
             url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.8.0/stack-0.1.8.0-linux-x86_64.tar.gz"		
-            content-length: 7301956		
-            sha1: 30f048c77f60a9dfb321492a827dcb1c2bdd4cd7
+            content-length: 7301569		
+            sha1: 387e41cf5baec728e27661895ba13e2f08c206b2
 sevenzexe-info:
     url: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
     content-length: 73728
