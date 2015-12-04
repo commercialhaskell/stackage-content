@@ -1,13 +1,17 @@
 stack:		
     linux64:		
         0.1.6.0:
-            url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.6.0/stack-0.1.6.0-linux-x86_64.tar.gz"		
-            content-length: 7148665		
+            url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.6.0/stack-0.1.6.0-linux-x86_64.tar.gz"
+            content-length: 7148665
             sha1: aa29874a1444911aa99c3493a1858fdf57065f65
         0.1.8.0:
-            url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.8.0/stack-0.1.8.0-linux-x86_64.tar.gz"		
-            content-length: 7301569		
+            url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.8.0/stack-0.1.8.0-linux-x86_64.tar.gz"
+            content-length: 7301569
             sha1: 387e41cf5baec728e27661895ba13e2f08c206b2
+        0.1.10.0:
+            url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.10.0/stack-0.1.10.0-linux-x86_64.tar.gz"
+            content-length: 7555466
+            sha1: 3eb43b6ac39bd02084388dd7db8e6f9123bc6782
 sevenzexe-info:
     url: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
     content-length: 73728
