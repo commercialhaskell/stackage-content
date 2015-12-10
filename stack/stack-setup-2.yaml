@@ -50,6 +50,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-linux-deb7.tar.xz"
             content-length: 90779224
             sha1: d02d88a2049fb7e9e375c54013a40229b41758f2
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-deb8-linux.tar.xz"
+            content-length: 89982800
+            sha1: 8f4ca6505788deb7f68cde91f38acba68ab37d99
 
     linux64:
         7.8.4:
@@ -64,6 +68,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-linux-deb7.tar.xz"
             content-length: 91852904
             sha1: c32eff3ecb16eeb9a8682ae2222574a6d1a68bc1
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-deb8-linux.tar.xz"
+            content-length: 90852380
+            sha1: bab16f95ef4fe6b7cc2fb6b36a02dceeeb53faa4
 
     linux32-gmp4:
         7.8.4:
@@ -74,6 +82,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-linux-centos66.tar.xz"
             content-length: 87824296
             sha1: f37d2a1323c191ef9372e1256220691ec2f84b40
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-centos67-linux.tar.xz"
+            content-length: 89763976
+            sha1: 072514fa1abb3eba7e49cd69cc2fcc0c64726edf
 
     linux64-gmp4:
         7.8.4:
@@ -84,6 +96,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-linux-centos66.tar.xz"
             content-length: 88804220
             sha1: e6f128245d66cd53711b1829122b38ba8ded70f1
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-centos67-linux.tar.xz"
+            content-length: 88359180
+            sha1: fad52ba8843d957cd80b503a9abec9846e407e84
 
     macosx:
         7.8.4:
@@ -98,6 +114,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-apple-darwin.tar.bz2"
             content-length: 146921830
             sha1: 0a043340952fad211f4c9780bde873e0d9e4d331
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-apple-darwin.tar.bz2"
+            content-length: 147586850
+            sha1: ba9cab4aea232a970d0f1d3e60a8f6701f57fb3e
 
     windows32-integersimple:
         7.8.4:
@@ -141,6 +161,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-mingw32.tar.xz"
             content-length: 103096112
             sha1: e7dd5be85f5fb7f1fe90c590cfe354787472b715
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-unknown-mingw32.tar.xz"
+            content-length: 131297148
+            sha1: 415ab240da0da196deb8e7100b8743a14c389b2b
 
     windows64:
         7.8.4:
@@ -155,6 +179,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-mingw32.tar.xz"
             content-length: 134230828
             sha1: 5372a4ed3cb393bed7e1b0e0c454ecb051e85ddd
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-unknown-mingw32.tar.xz"
+            content-length: 133494476
+            sha1: 18d145b59df45dd055f9bfb165e5fa1f562933e0
 
     freebsd32:
         7.8.4:
