@@ -210,7 +210,7 @@ ghc:
             content-length: 87968692
             sha1: 6925a297932d1922f8e6c9f4ad0f0ccbdd3ea5b9
         7.10.3:
-            url: "http://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-i386-portbld-freebsd.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-portbld-freebsd.tar.xz"
             content-length: 75898016
             sha1: 6d8e1ae331d07148cf631195bc8c2d03ecaf5e04
     freebsd64:
@@ -227,7 +227,7 @@ ghc:
             content-length: 88841932
             sha1: 43372109b84f55cf9138982f84f39cd178d95975
         7.10.3:
-            url: "http://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-x86_64-portbld-freebsd.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-portbld-freebsd.tar.xz"
             sha1: 459e438f1a397f4a93f7e873ea74b396dedc77aa
             content-length: 76298356
     # Untested so far, see: https://github.com/commercialhaskell/stack/issues/416#issuecomment-115553835
