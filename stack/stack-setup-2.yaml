@@ -36,6 +36,10 @@ stack:
             url: "https://github.com/commercialhaskell/stack/releases/download/v1.0.4/stack-1.0.4.2-linux-x86_64.tar.gz"
             content-length: 8566652
             sha1: 53e137b10de8bd6e982dc13ea6a6964d6bbaeb10
+        1.0.4.3:
+            url: "https://github.com/commercialhaskell/stack/releases/download/v1.0.4.3/stack-1.0.4.3-linux-x86_64.tar.gz"
+            content-length: 8566293
+            sha1: e3624fb942436cde6486ffa38f29527e1e873ba4
 sevenzexe-info:
     url: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
     content-length: 73728
