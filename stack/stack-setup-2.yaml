@@ -113,9 +113,9 @@ ghc:
             content-length: 89687224
             sha1: dbee82a232536f50f5211664f152b2bf36006ac4
         8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
-            content-length: 109259931
-            sha1: e4c6c67f94d5eb5caed1ddbfcbd88da150863cf4
+            url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
+            content-length: 113261740
+            sha1: 185b114913b1b63b323203c387bf3a5e1b64ff34
 
     linux32-gmp4:
         7.8.4:
