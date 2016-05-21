@@ -298,6 +298,10 @@ ghc:
             url: "https://openbsd.dead-parrot.de/distfiles/ghc-7.8.3.20150623-amd64-unknown-openbsd.tar.bz2"
             content-length: 56087622
             sha1: 33e5d2fcc9be1e3123002ba06f76a3f4989c23a9
+        7.10.3:
+            url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-7.10.3-openbsd-x86_64-current.tar.bz2"
+            content-length: 135191335
+            sha1: 35f8b595434fcbfa2cb6fc0e9561a5a4d87382a5
         8.0.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
             content-length: 100619184
