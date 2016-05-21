@@ -299,6 +299,8 @@ ghc:
             content-length: 56087622
             sha1: 33e5d2fcc9be1e3123002ba06f76a3f4989c23a9
         7.10.3:
+            # Originally from https://haskell.sru-systems.com/ghc-7.10.3-openbsd-x86_64-current.tar.bz2
+            # provided by https://github.com/mrijkeboer
             url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-7.10.3-openbsd-x86_64-current.tar.bz2"
             content-length: 135191335
             sha1: 35f8b595434fcbfa2cb6fc0e9561a5a4d87382a5
