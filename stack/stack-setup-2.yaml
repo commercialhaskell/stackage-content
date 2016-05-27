@@ -113,7 +113,7 @@ ghc:
             content-length: 89687224
             sha1: dbee82a232536f50f5211664f152b2bf36006ac4
         8.0.1:
-            url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
             content-length: 113261740
             sha1: 185b114913b1b63b323203c387bf3a5e1b64ff34
 
@@ -171,9 +171,9 @@ ghc:
             content-length: 147607506
             sha1: 0bbf715f041a20250d916847da19776837718d63
         8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-apple-darwin.tar.xz"
-            content-length: 118496652
-            sha1: e7a1c558a095afbc4fb514256be940ddb0f23a29
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-apple-darwin.tar.bz2"
+            content-length: 199375579
+            sha1: 1398088cb8d50c4489470be66264312d5dc8a9b5
 
     windows32-integersimple:
         7.8.4:
