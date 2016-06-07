@@ -33,25 +33,36 @@
       </div>
     </div>
     <div class="row">
-      <div class="span6">
+      <div class="span12">
         <p>
           Stackage is a stable source of Haskell packages. We guarantee that
           packages build consistently and pass tests before generating nightly and Long Term Support (LTS)
           releases.
         </p>
-        <h2>Browse available packages</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <h2>Users</h2>
+        <p>
+          You browse the latest long term support
+          (<a href="https://github.com/fpco/lts-haskell#readme">what
+          are Long Term Support releases?</a>) release, or the latest
+          bleeding-edge nightly release.
+        </p>
         <ul>
           <li>
             <a href="/lts">LTS Haskell</a>
             <a href="/feed/lts"><img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-rss-s.png" alt="LTS Haskell Release Feed"></a>
-            (<a href="https://github.com/fpco/lts-haskell#readme">what is Long Term Support Haskell?</a>)
           </li>
           <li>
             <a href="/nightly">Stackage Nightly</a>
             <a href="/feed/nightly"><img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-rss-s.png" alt="Stackage Nightly Release Feed"></a>
           </li>
         </ul>
-        <h2>Package Authors</h2>
+      </div>
+      <div class="span6">
+        <h2>Authors</h2>
         <p>For package authors to contribute to Stackage, follow these instructions:</p>
         <ul>
           <li><a href="https://github.com/fpco/stackage/edit/master/build-constraints.yaml">Edit the build-constraints.yaml</a> file to add your packages,
@@ -63,33 +74,9 @@
             information.</li>
         </ul>
       </div>
-      <div class="span6">
-        <div class="well quickstart">
-          <h2>Quick start</h2>
-          <ol>
-            <li>
-              Download and install <a href="http://haskellstack.org">Stack</a>.</li>
-            <li>
-              Run <code>stack build</code>
-            </li>
-            <li>
-              Done!
-            </li>
-          </ol>
-          <p><strong>Using cabal</strong></p>
-          <p>
-            Download the following file, place it in your project's root directory
-            (next to your project's <code>.cabal</code> file) and you’re done.
-          </p>
-          <pre>$ wget <a href="https://www.stackage.org/lts/cabal.config">https://www.stackage.org/lts/cabal.config</a>
-$ cabal update
-$ cabal install</pre>
-          <p><b>NOTE</b>: Requires GHC 7.10. For GHC 7.8, please change the URL to <a href="/lts-2/cabal.config">https://www.stackage.org/lts-2/cabal.config</a></p>
-        </div>
-      </div>
     </div>
     <div class="row">
-      <div class="span12">
+      <div class="span6">
         <h2>Community and support</h2>
         <p>
           You can discuss Stackage
@@ -99,6 +86,8 @@ $ cabal install</pre>
         <p>
           There is also #haskell-stack channel on freenode.
         </p>
+      </div>
+      <div class="span6">
         <h2>Commercial Haskell</h2>
         <p>
           Stackage is part of an initiative
