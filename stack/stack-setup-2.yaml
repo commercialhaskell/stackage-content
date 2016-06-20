@@ -308,6 +308,21 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
             content-length: 100619184
             sha1: 7ed707de43456ddc4534f68a17ef58b7099e9a59
+            
+    # ARMv7 support is experimental
+    arm:
+        7.10.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-arm-unknown-linux.tar.xz"
+            content-length: 113388524
+            sha1: 5e889d063c382e867e15e2443775167a8e9e348b
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-armv7-deb8-linux.tar.xz"
+            content-length: 118129964
+            sha1: fa672f2b1953485a7b3f99b7751f28db18bef43a
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-armv7-deb8-linux.tar.xz"
+            content-length: 144300284
+            sha1: 62a645db8b0ad2b458189502c182a9e847d90710
 
 ghcjs:
     source:
