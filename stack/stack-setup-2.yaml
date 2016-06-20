@@ -310,7 +310,7 @@ ghc:
             sha1: 7ed707de43456ddc4534f68a17ef58b7099e9a59
             
     # ARMv7 support is experimental
-    arm:
+    armv7:
         7.10.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-arm-unknown-linux.tar.xz"
             content-length: 113388524
