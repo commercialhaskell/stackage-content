@@ -292,8 +292,8 @@ ghc:
             content-length: 112094652
             sha1: 9ce6836d5e6f06fa0f3099cee39a9ab4bdb291d4
             
-    # Untested so far, see: https://github.com/commercialhaskell/stack/issues/416#issuecomment-115553835
     openbsd64:
+        # This bindist of 7.10.3 has some issues, see https://github.com/commercialhaskell/stack/issues/416#issuecomment-220797513
         7.10.3:
             # Originally from https://haskell.sru-systems.com/ghc-7.10.3-openbsd-x86_64-current.tar.bz2
             # provided by https://github.com/mrijkeboer
