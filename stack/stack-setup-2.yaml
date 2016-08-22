@@ -153,6 +153,24 @@ ghc:
             content-length: 112386128
             sha1: 1735fc722cc1c72b446534e8d021d09f383856ff
 
+    linux64-tinfo6:
+        7.8.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-fedora24-linux.tar.xz"
+            content-length: 70718476
+            sha1: 41048596d821f2dd1b545f7e386b4c16a0dea4ec
+        7.10.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-fedora24-linux.tar.xz"
+            content-length: 72007420
+            sha1: f8fd476d60b6e57b36c83e8b67f06d41800ab759
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-fedora24-linux.tar.xz"
+            content-length: 72034376
+            sha1: 3745dd3bd61e4d4c972adcad6d1988c01b0c3200
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux.tar.xz"
+            content-length: 108995132
+            sha1: 3cfa8b628a9e7420519eff2985dec2de2f4abb3c
+
     macosx:
         7.8.4:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-apple-darwin.tar.bz2"
@@ -291,7 +309,7 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 112094652
             sha1: 9ce6836d5e6f06fa0f3099cee39a9ab4bdb291d4
-            
+
     openbsd64:
         # This bindist of 7.10.3 has some issues, see https://github.com/commercialhaskell/stack/issues/416#issuecomment-220797513
         7.10.3:
@@ -304,7 +322,7 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
             content-length: 100619184
             sha1: 7ed707de43456ddc4534f68a17ef58b7099e9a59
-            
+
     # ARMv7 support is experimental
     linux-armv7:
         7.10.2:
