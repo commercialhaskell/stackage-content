@@ -171,6 +171,12 @@ ghc:
             content-length: 108995132
             sha1: 3cfa8b628a9e7420519eff2985dec2de2f4abb3c
 
+    linux64-ncurses6:
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-arch-linux.tar.xz"
+            content-length: 114072880
+            sha1: aaea8a135c5619b76f012daf27871f221d58e714
+
     macosx:
         7.8.4:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-apple-darwin.tar.bz2"
