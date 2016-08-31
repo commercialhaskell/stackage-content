@@ -2,6 +2,8 @@
   pattern: linux-i386-gmp4
 - name: Linux 32-bit, standard
   pattern: linux-i386
+- name: Linux 64-bit, static
+  pattern: linux-x86_64-static
 - name: Linux 64-bit, libgmp4 for CentOS 6.x
   pattern: linux-x86_64-gmp4
 - name: Linux 64-bit, standard
