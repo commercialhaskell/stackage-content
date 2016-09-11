@@ -1,5 +1,5 @@
-stack:		
-    linux64:		
+stack:
+    linux64:
         0.1.6.0:
             url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.6.0/stack-0.1.6.0-linux-x86_64.tar.gz"
             content-length: 7148665
@@ -95,6 +95,48 @@ ghc:
             content-length: 113866888
             sha1: e382750f92f462c8a1afe63e7be87f113d61b29e
 
+    linux32-nopie:
+        7.8.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-linux-deb7.tar.xz"
+            content-length: 69743420
+            sha1: a5d4f65b9b063eae476657cb9b93277609c42cf1
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-linux-deb7.tar.xz"
+            content-length: 78546928
+            sha1: aa87ce310b966ac6836f30b8dd4ecfd0b9d2ba0d
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-linux-deb7.tar.xz"
+            content-length: 90779224
+            sha1: d02d88a2049fb7e9e375c54013a40229b41758f2
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-i386-deb7-linux.tar.xz"
+            content-length: 88684592
+            sha1: c412ceb6eabeccdbbbf12148723669a03298ef96
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-deb7-linux.tar.xz"
+            content-length: 113866888
+            sha1: e382750f92f462c8a1afe63e7be87f113d61b29e
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+
     linux64:
         7.8.4:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-linux-deb7.tar.xz"
@@ -116,6 +158,48 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
             content-length: 113261740
             sha1: 185b114913b1b63b323203c387bf3a5e1b64ff34
+
+    linux64-nopie:
+        7.8.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-linux-deb7.tar.xz"
+            content-length: 70325112
+            sha1: 11aec12d4bb27f6fa59dcc8535a7a3b3be8cb787
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz"
+            content-length: 78610472
+            sha1: c256f5975613ab49aeb2375b1e60cd8a348ed404
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-linux-deb7.tar.xz"
+            content-length: 91852904
+            sha1: c32eff3ecb16eeb9a8682ae2222574a6d1a68bc1
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-deb7-linux.tar.xz"
+            content-length: 89687224
+            sha1: dbee82a232536f50f5211664f152b2bf36006ac4
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
+            content-length: 113261740
+            sha1: 185b114913b1b63b323203c387bf3a5e1b64ff34
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
 
     linux32-gmp4:
         7.8.4:
