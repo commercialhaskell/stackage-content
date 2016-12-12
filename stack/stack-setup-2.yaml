@@ -52,6 +52,9 @@ stack:
             url: "https://github.com/commercialhaskell/stack/releases/download/v1.2.0/stack-1.2.0-linux-x86_64-static.tar.gz"
             content-length: 8771659
             sha1: 4adce79f33e1dd996fa84396fbac4ba4913589d7
+        --
+        -- AS OF STACK 1.3.0, THIS INFORMATION IS NO LONGER USED, AND NEWER VERSIONS OF STACK WILL NOT BE ADDED.
+        --
 sevenzexe-info:
     url: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
     content-length: 73728
