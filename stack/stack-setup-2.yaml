@@ -322,6 +322,10 @@ ghc:
             url: "https://s3.amazonaws.com/download.fpcomplete.com/ghc/ghc-7.10.2-x86_64-unknown-mingw32-integer-simple.tar.xz"
             content-length: 103028936
             sha1: 1f0ffcb4dedc748a82118ee42ee1a4ebd4a8465a
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-unknown-mingw32-integer-simple.tar.bz2"
+            content-length: 192236698
+            sha1: 799dcce7cd96a963b0dbcf0890ff20ce7cb86bdf
 
     windows32:
         7.8.4:
