@@ -326,6 +326,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-unknown-mingw32-integer-simple.tar.bz2"
             content-length: 192236698
             sha1: 799dcce7cd96a963b0dbcf0890ff20ce7cb86bdf
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 149902252
+            sha1: b9afb7d48331082b98654ee0159ae41c3d847296
 
     windows32:
         7.8.4:
