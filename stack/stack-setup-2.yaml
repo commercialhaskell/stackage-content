@@ -285,6 +285,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux.tar.xz"
             content-length: 108995132
             sha1: 3cfa8b628a9e7420519eff2985dec2de2f4abb3c
+        8.0.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux.tar.xz"
+            content-length: 108034028
+            sha1: 926b9ae1448df7894c0c4d5791d5eb5161a9cb52
 
     linux64-ncurses6:
         7.10.3:
