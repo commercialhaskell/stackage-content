@@ -299,6 +299,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-arch-linux.tar.xz"
             content-length: 114072880
             sha1: aaea8a135c5619b76f012daf27871f221d58e714
+        8.0.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-arch-linux.tar.xz"
+            content-length: 113645348
+            sha1: d68db4afd0727c2a1a9510637d3c4ed766fe7b18
 
     macosx:
         7.8.4:
