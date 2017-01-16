@@ -390,8 +390,8 @@ ghc:
             sha1: 6cd127ebfd1ab37f07f133a8c7ab92c7efd98be7
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-unknown-mingw32.tar.xz"
-            content-length: 93984876
-            sha1: 4927dacc3bef426b218bd9905a4bb94c51f3380d
+            content-length: 147024640
+            sha1: 7de14f44ce165a0bc5608ab9dbffed4bf11d3a1d
 
     windows64:
         7.8.4:
@@ -416,8 +416,8 @@ ghc:
             sha1: 5901210c31ec903b64872765edf2a1fb697c8e18
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-mingw32.tar.xz"
-            content-length: 97162136
-            sha1: f585e09bdf6e4a921ffdaadf646d66a7094c2b3a
+            content-length: 149083788
+            sha1: 81f232c6fb15b25361a50a6fe8df9fdabeee3073
 
     freebsd32:
         7.8.4:
