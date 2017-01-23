@@ -290,6 +290,36 @@ ghc:
             content-length: 108034028
             sha1: 926b9ae1448df7894c0c4d5791d5eb5161a9cb52
 
+    linux64-tinfo6-nopie:
+        7.8.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-fedora24-linux.tar.xz"
+            content-length: 70718476
+            sha1: 41048596d821f2dd1b545f7e386b4c16a0dea4ec
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-fedora24-linux.tar.xz"
+            content-length: 72007420
+            sha1: f8fd476d60b6e57b36c83e8b67f06d41800ab759
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-fedora24-linux.tar.xz"
+            content-length: 72034376
+            sha1: 3745dd3bd61e4d4c972adcad6d1988c01b0c3200
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux.tar.xz"
+            content-length: 108995132
+            sha1: 3cfa8b628a9e7420519eff2985dec2de2f4abb3c
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+
     linux64-ncurses6:
         7.10.3:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-arch-linux.tar.xz"
