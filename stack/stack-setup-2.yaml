@@ -319,6 +319,13 @@ ghc:
             configure-env:
                 CONF_CC_OPTS_STAGE2: -fno-PIE
                 CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        8.0.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux.tar.xz"
+            content-length: 108034028
+            sha1: 926b9ae1448df7894c0c4d5791d5eb5161a9cb52
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
 
     linux64-ncurses6:
         7.10.3:
