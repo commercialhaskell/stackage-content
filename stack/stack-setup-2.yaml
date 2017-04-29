@@ -410,55 +410,55 @@ ghc:
 
     windows32:
         7.8.4:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-mingw32.tar.xz"
-            content-length: 75057588
-            sha1: 9acfb321f1f8bbfcb6d6b58f6d88fe93f0abaf63
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-mingw32-win10.tar.xz"
+            content-length: 88645064
+            sha1: f144a3c39eedac1bb9420da603f2cc6aba5719df
         7.10.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-mingw32.tar.xz"
-            content-length: 83338828
-            sha1: adba4e5912064bf65c410c9516849efd3e337c09
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-mingw32-win10.tar.xz"
+            content-length: 98776304
+            sha1: 1cb1fecd18f6206140f76e795ac459fbfb8a199f
         7.10.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-mingw32.tar.xz"
-            content-length: 103096112
-            sha1: e7dd5be85f5fb7f1fe90c590cfe354787472b715
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-mingw32-win10.tar.xz"
+            content-length: 105154984
+            sha1: bbfa52c5b87f2d301cf03f39caf613cf5f26974d
         7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-unknown-mingw32.tar.xz"
-            content-length: 131297148
-            sha1: 415ab240da0da196deb8e7100b8743a14c389b2b
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-unknown-mingw32-win10.tar.xz"
+            content-length: 134521624
+            sha1: dbd0b448d034ca7e2aa7027b61fa3fd18425da7f
         8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-unknown-mingw32.tar.xz"
-            content-length: 153078444
-            sha1: 6cd127ebfd1ab37f07f133a8c7ab92c7efd98be7
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-unknown-mingw32-win10.tar.xz"
+            content-length: 157395516
+            sha1: 7540c8d0a1017f18978fe9a685f7d26b8722d922
         8.0.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-unknown-mingw32.tar.xz"
-            content-length: 147024640
-            sha1: 7de14f44ce165a0bc5608ab9dbffed4bf11d3a1d
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-unknown-mingw32-win10.tar.xz"
+            content-length: 150847788
+            sha1: 2d99a736c156ca40a1879a7137c0833142d4643b
 
     windows64:
         7.8.4:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-mingw32.tar.xz"
-            content-length: 92141344
-            sha1: cec5b4c4fe612ac1fe9302f491ae58ac44812b26
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-mingw32-win10.tar.xz"
+            content-length: 120131616
+            sha1: c7a2f368b5a89a5e077f7e3d2afd519a88e75992
         7.10.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-unknown-mingw32.tar.xz"
-            content-length: 100171232
-            sha1: 21dbe6ce2e613c738d604993f71cd4368e227fc0
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-unknown-mingw32-win10.tar.xz"
+            content-length: 129618628
+            sha1: 6eabf31b8da23084747c4d4b328eaae7dc783afc
         7.10.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-mingw32.tar.xz"
-            content-length: 134230828
-            sha1: 5372a4ed3cb393bed7e1b0e0c454ecb051e85ddd
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-mingw32-win10.tar.xz"
+            content-length: 136724720
+            sha1: fa3c147f48fae47d6bc6d8188b65b9179e469b87
         7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-unknown-mingw32.tar.xz"
-            content-length: 134638496
-            sha1: 9c52997aedec37f56c27f6a4f17a95cf0691f677
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-unknown-mingw32-win10.tar.xz"
+            content-length: 136246768
+            sha1: e471784db3c693d875b30c0189eb454a01117dcc
         8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-mingw32.tar.xz"
-            content-length: 154950476
-            sha1: 5901210c31ec903b64872765edf2a1fb697c8e18
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-mingw32-win10.tar.xz"
+            content-length: 158624976
+            sha1: 222409b58e3911e8f40b4a9fdcf607bfd96cecd5
         8.0.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-mingw32.tar.xz"
-            content-length: 149083788
-            sha1: 81f232c6fb15b25361a50a6fe8df9fdabeee3073
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-mingw32-win10.tar.xz"
+            content-length: 152282428
+            sha1: 4a6779a2d2bb376dfb4a63dbb3f906c0b54d23e3
 
     freebsd32:
         7.8.4:
