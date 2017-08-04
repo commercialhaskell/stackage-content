@@ -576,6 +576,12 @@ ghc:
             content-length: 115142184
             sha1: b9bac0f843687facc11cefe3a59d465c780e2e67
 
+    openbsd64-maj6-min1:
+        8.2.1:
+            url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-openbsd61-openbsd.tar.xz"
+            content-length: 115110128
+            sha1: 5ac8a867cf1241eeebdef7a6eee74f0a55e4543e
+
     # This block is not very useful, but ensures compatibility for people who do not specify ghc-build by hand.
     openbsd64:
         # This bindist of 7.10.3 has some issues, see https://github.com/commercialhaskell/stack/issues/416#issuecomment-220797513
