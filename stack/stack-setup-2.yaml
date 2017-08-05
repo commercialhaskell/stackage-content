@@ -578,7 +578,7 @@ ghc:
 
     openbsd64-maj6-min1:
         8.2.1:
-            url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-openbsd61-openbsd.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-openbsd61-openbsd.tar.xz"
             content-length: 115110128
             sha1: 5ac8a867cf1241eeebdef7a6eee74f0a55e4543e
 
