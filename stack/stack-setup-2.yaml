@@ -366,6 +366,10 @@ ghc:
         url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-arch-linux-ncurses6-nopie.tar.xz"
         content-length: 121731460
         sha1: 6621b9f30e76e6789a0b6c162c29981f561a1b08
+      8.2.1:
+        url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-arch-linux-ncurses6-nopie.tar.xz"
+        content-length: 135823968
+        sha1: 5bd7c36f45e419c87fcfdccf4488f9c8b6626009
 
     macosx:
         7.8.4:
