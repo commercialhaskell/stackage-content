@@ -109,6 +109,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-deb7-linux.tar.xz"
             content-length: 124942812
             sha1: 17eef9b2151a9bfc5aee93b11cbe76f1a5a2eb02
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-deb7-linux.tar.xz"
+            content-length: 125076928
+            sha1: 862a3ddf030bb3ded2de5e1842a7f432ac0f3158
+            sha256: cd18766b1a9b74fc6c90003a719ecab158f281f9a755d8b1bd3fd764ba6947b5
 
     linux32-nopie:
         7.8.4:
@@ -159,6 +164,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-deb8-linux.tar.xz"
             content-length: 122702996
             sha1: 6f16930d7f189c74f4fd0bf082036945ddcfb41c
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-deb8-linux.tar.xz"
+            content-length: 122791056
+            sha1: 0bb8d532e7d7967a1cc4941cb4fa1fa62d665bc9
+            sha256: 9e67d72d76482e0ba91c718e727b00386a1a12a32ed719714976dc56ca8c8223
 
     linux64:
         7.8.4:
@@ -189,6 +199,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-deb7-linux.tar.xz"
             content-length: 127680144
             sha1: 510c37cb5e285a1720c3ba705867b637ca5de001
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-deb7-linux.tar.xz"
+            content-length: 127815304
+            sha1: 7af4a44973da66399465381c8e3fbb342d6ff2ff
+            sha256: cd7afbca54edf9890da9f432c63366556246c85c1198e40c99df5af01c555834
 
     linux64-nopie:
         7.8.4:
@@ -239,6 +254,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-deb8-linux.tar.xz"
             content-length: 126809836
             sha1: 3e52527de6f1cad6d7f1c392ddde8148116d4e36
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-deb8-linux.tar.xz"
+            content-length: 127028808
+            sha1: 7d0312d0ad3e5c5602e1102d6454ff390e961851
+            sha256: 48e205c62b9dc1ccf6739a4bc15a71e56dde2f891a9d786a1b115f0286111b2a
 
     linux32-gmp4:
         7.8.4:
@@ -411,6 +431,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-apple-darwin.tar.bz2"
             content-length: 192847037
             sha1: 523e506883ab420dfef9dca7a8da03dc869a8b8e
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-apple-darwin.tar.bz2"
+            content-length: 192467920
+            sha1: 2449769c9e2791f65d666b7063778f0b22dea665
+            sha256: 7968bb7fbf454cdef47a36cb26621c8b9d42576e280500a5484778312d56b98d
 
     windows32-integersimple:
         7.8.4:
@@ -486,6 +511,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-unknown-mingw32.tar.xz"
             content-length: 173071480
             sha1: bdede26c1a2cfcf4ebb08329853d285e32213b3d
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-unknown-mingw32.tar.xz"
+            content-length: 171806704
+            sha1: 6527c96a0d8126e36d1c7ab04fae90c2abe3a73d
+            sha256: 6b79c96825ccf99878342b228e132b62e46e8303c4ef76e46450de42e5825bea
 
     windows64:
         7.8.4:
@@ -516,6 +546,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 175053796
             sha1: 51df67de9cb5cad1420626c12c063b2896dceb65
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-unknown-mingw32.tar.xz"
+            content-length: 175118948
+            sha1: 5e081f3c1db001d8792cb73403f50ba80e8d237e
+            sha256: 1e033df2092aa546e763e7be63167720b32df64f76673ea1ce7ae7c9f564b223
 
     freebsd32:
         7.8.4:
@@ -572,12 +607,22 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-portbld10_3-freebsd.tar.xz"
             content-length: 115765760
             sha1: d413c0b193e7417fcf42058e0105e31310221c8e
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-portbld10_3-freebsd.tar.xz"
+            content-length: 113792360
+            sha1: 913528b902a2ceb8060d08760b31e7bde15157d0
+            sha256: 9e99aaeaec4b2c6d660d80246c0d4dbd41fda88f1eb7a908b29dc8fa8d663949
 
     freebsd64-11:
         8.2.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-portbld11-freebsd.tar.xz"
             content-length: 124245556
             sha1: 2c928c5c367df1397eeba416566587858f8f7d74
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-portbld11-freebsd.tar.xz"
+            content-length: 126845368
+            sha1: 58d9d9b8beee0cd5e3135231e906a75f92d71d0f
+            sha256: cd351c704b92b9af23994024df07de8ca7090ea7675d5c8b14b2be857a46d804
 
     # OpenBSD releases are not binary compatible. For each release, we need a separate block, called `openbsd64-$GhcBuild`,
     # with any bindists available for that OpenBSD release. `$GhcBuild` encodes the OpenBSD release number.
