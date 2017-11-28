@@ -333,6 +333,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-fedora24-linux.tar.xz"
             content-length: 120967988
             sha1: f60a88ea9ec6d824302ddeaec8aa22c482ba2548
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 121834996
+            sha1: 955325a4d551b0da3b06d8569dbfc417b8a01af3
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -374,6 +378,13 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-fedora24-linux.tar.xz"
             content-length: 120967988
             sha1: f60a88ea9ec6d824302ddeaec8aa22c482ba2548
+            configure-env:
+                CONF_CC_OPTS_STAGE2: -fno-PIE
+                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 121834996
+            sha1: 955325a4d551b0da3b06d8569dbfc417b8a01af3
             configure-env:
                 CONF_CC_OPTS_STAGE2: -fno-PIE
                 CONF_LD_LINKER_OPTS_STAGE2: -no-pie
