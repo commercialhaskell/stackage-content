@@ -307,6 +307,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-centos67-linux.tar.xz"
             content-length: 119576128
             sha1: b4d7fba53f87f3d11048b56a4190cc2cf5208dc6
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
+            content-length: 121107428
+            sha1: d66dc65a8e3b534ae319ba791e77c4fec5bc1fae
 
     linux64-tinfo6:
         7.8.4:
