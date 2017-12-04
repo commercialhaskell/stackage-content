@@ -308,7 +308,7 @@ ghc:
             content-length: 119576128
             sha1: b4d7fba53f87f3d11048b56a4190cc2cf5208dc6
         8.2.2:
-            url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
             content-length: 121107428
             sha1: d66dc65a8e3b534ae319ba791e77c4fec5bc1fae
 
