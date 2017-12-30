@@ -116,46 +116,6 @@ ghc:
             sha256: cd18766b1a9b74fc6c90003a719ecab158f281f9a755d8b1bd3fd764ba6947b5
 
     linux32-nopie:
-        7.8.4:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-linux-deb7.tar.xz"
-            content-length: 69743420
-            sha1: a5d4f65b9b063eae476657cb9b93277609c42cf1
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-linux-deb7.tar.xz"
-            content-length: 78546928
-            sha1: aa87ce310b966ac6836f30b8dd4ecfd0b9d2ba0d
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-linux-deb7.tar.xz"
-            content-length: 90779224
-            sha1: d02d88a2049fb7e9e375c54013a40229b41758f2
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-i386-deb7-linux.tar.xz"
-            content-length: 88684592
-            sha1: c412ceb6eabeccdbbbf12148723669a03298ef96
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-deb7-linux.tar.xz"
-            content-length: 113866888
-            sha1: e382750f92f462c8a1afe63e7be87f113d61b29e
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-deb8-linux.tar.xz"
             content-length: 112576160
@@ -169,6 +129,8 @@ ghc:
             content-length: 122791056
             sha1: 0bb8d532e7d7967a1cc4941cb4fa1fa62d665bc9
             sha256: 9e67d72d76482e0ba91c718e727b00386a1a12a32ed719714976dc56ca8c8223
+        # Since GHC 8.0.2, these should match linux32 (without any additional configure-env)
+        # Stack-1.7 will no longer use the '-nopie' builds
 
     linux64:
         7.8.4:
@@ -206,46 +168,6 @@ ghc:
             sha256: cd7afbca54edf9890da9f432c63366556246c85c1198e40c99df5af01c555834
 
     linux64-nopie:
-        7.8.4:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-linux-deb7.tar.xz"
-            content-length: 70325112
-            sha1: 11aec12d4bb27f6fa59dcc8535a7a3b3be8cb787
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-unknown-linux-deb7.tar.xz"
-            content-length: 78610472
-            sha1: c256f5975613ab49aeb2375b1e60cd8a348ed404
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-linux-deb7.tar.xz"
-            content-length: 91852904
-            sha1: c32eff3ecb16eeb9a8682ae2222574a6d1a68bc1
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-deb7-linux.tar.xz"
-            content-length: 89687224
-            sha1: dbee82a232536f50f5211664f152b2bf36006ac4
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
-            content-length: 113261740
-            sha1: 185b114913b1b63b323203c387bf3a5e1b64ff34
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -no-pie
-                CONF_GCC_LINKER_OPTS_STAGE2: -no-pie
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-deb8-linux.tar.xz"
             content-length: 114373576
@@ -259,6 +181,8 @@ ghc:
             content-length: 127028808
             sha1: 7d0312d0ad3e5c5602e1102d6454ff390e961851
             sha256: 48e205c62b9dc1ccf6739a4bc15a71e56dde2f891a9d786a1b115f0286111b2a
+        # Since GHC 8.0.2, these should match linux64 (without any additional configure-env)
+        # Stack-1.7 will no longer use the '-nopie' builds
 
     linux32-gmp4:
         7.8.4:
@@ -330,68 +254,39 @@ ghc:
             content-length: 108995132
             sha1: 3cfa8b628a9e7420519eff2985dec2de2f4abb3c
         8.0.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux.tar.xz"
-            content-length: 108034028
-            sha1: 926b9ae1448df7894c0c4d5791d5eb5161a9cb52
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 106426808
+            sha1: 1adfec095c341ce5fff4bc0e1419e8a4d8eb8a8c
+            sha256: 1e5faace39e79bf308c1fed1e627804a938c815494b5e0c0bf737a741eea874e
         8.2.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-fedora24-linux.tar.xz"
-            content-length: 120967988
-            sha1: f60a88ea9ec6d824302ddeaec8aa22c482ba2548
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 127450796
+            sha1: cac207dd01575bb936430fd0428c1100e2fbf123
+            sha256: 76d689246f6b18292b542c438cbe0ca6e73b2824ac223bfc3d6bc9bf4de79617
         8.2.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-fedora27-linux.tar.xz"
-            content-length: 121834996
-            sha1: 955325a4d551b0da3b06d8569dbfc417b8a01af3
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-fedora27-linux-patch1.tar.xz"
+            content-length: 128823976
+            sha1: 124b0f81079cecfa5813cbed0b37cd4bff89345d
+            sha256: 282094d67a786e975d71022f1c9650d19f6f5eeb6a618a9c14dd9cccf1eff9f7
 
     linux64-tinfo6-nopie:
-        7.8.4:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-fedora24-linux.tar.xz"
-            content-length: 70718476
-            sha1: 41048596d821f2dd1b545f7e386b4c16a0dea4ec
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -fno-PIE
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-fedora24-linux.tar.xz"
-            content-length: 72007420
-            sha1: f8fd476d60b6e57b36c83e8b67f06d41800ab759
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -fno-PIE
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-fedora24-linux.tar.xz"
-            content-length: 72034376
-            sha1: 3745dd3bd61e4d4c972adcad6d1988c01b0c3200
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -fno-PIE
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
-        8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux.tar.xz"
-            content-length: 108995132
-            sha1: 3cfa8b628a9e7420519eff2985dec2de2f4abb3c
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -fno-PIE
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
         8.0.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux.tar.xz"
-            content-length: 108034028
-            sha1: 926b9ae1448df7894c0c4d5791d5eb5161a9cb52
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -fno-PIE
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 106426808
+            sha1: 1adfec095c341ce5fff4bc0e1419e8a4d8eb8a8c
+            sha256: 1e5faace39e79bf308c1fed1e627804a938c815494b5e0c0bf737a741eea874e
         8.2.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-fedora24-linux.tar.xz"
-            content-length: 120967988
-            sha1: f60a88ea9ec6d824302ddeaec8aa22c482ba2548
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -fno-PIE
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 127450796
+            sha1: cac207dd01575bb936430fd0428c1100e2fbf123
+            sha256: 76d689246f6b18292b542c438cbe0ca6e73b2824ac223bfc3d6bc9bf4de79617
         8.2.2:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-fedora27-linux.tar.xz"
-            content-length: 121834996
-            sha1: 955325a4d551b0da3b06d8569dbfc417b8a01af3
-            configure-env:
-                CONF_CC_OPTS_STAGE2: -fno-PIE
-                CONF_LD_LINKER_OPTS_STAGE2: -no-pie
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-fedora27-linux-patch1.tar.xz"
+            content-length: 128823976
+            sha1: 124b0f81079cecfa5813cbed0b37cd4bff89345d
+            sha256: 282094d67a786e975d71022f1c9650d19f6f5eeb6a618a9c14dd9cccf1eff9f7
+        # Since GHC 8.0.2, these should match linux64-tinfo6 (without any additional configure-env)
+        # Stack-1.7 will no longer use the '-nopie' builds
 
     linux64-ncurses6:
         7.10.3:
@@ -406,16 +301,32 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-arch-linux.tar.xz"
             content-length: 113645348
             sha1: d68db4afd0727c2a1a9510637d3c4ed766fe7b18
+        8.2.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-arch-linux-ncurses6-nopie.tar.xz"
+            content-length: 135823968
+            sha1: 5bd7c36f45e419c87fcfdccf4488f9c8b6626009
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-void-linux-ncurses6.tar.xz"
+            content-length: 125670004
+            sha1: bdb78b277aca50dd854802e4fd56fb9624107c91
+            sha256: 026dcc46ed74b63c61cbecf2cc6de5f462f96d7ce2de62df62144fcc1ff4f5e8
 
     linux64-ncurses6-nopie:
-      8.0.2:
-        url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-arch-linux-ncurses6-nopie.tar.xz"
-        content-length: 121731460
-        sha1: 6621b9f30e76e6789a0b6c162c29981f561a1b08
-      8.2.1:
-        url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-arch-linux-ncurses6-nopie.tar.xz"
-        content-length: 135823968
-        sha1: 5bd7c36f45e419c87fcfdccf4488f9c8b6626009
+        8.0.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-arch-linux-ncurses6-nopie.tar.xz"
+            content-length: 121731460
+            sha1: 6621b9f30e76e6789a0b6c162c29981f561a1b08
+        8.2.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-arch-linux-ncurses6-nopie.tar.xz"
+            content-length: 135823968
+            sha1: 5bd7c36f45e419c87fcfdccf4488f9c8b6626009
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-void-linux-ncurses6.tar.xz"
+            content-length: 125670004
+            sha1: bdb78b277aca50dd854802e4fd56fb9624107c91
+            sha256: 026dcc46ed74b63c61cbecf2cc6de5f462f96d7ce2de62df62144fcc1ff4f5e8
+        # Since GHC 8.0.2, these should match linux64-ncurses6 (without any additional configure-env)
+        # Stack-1.7 will no longer use the '-nopie' builds
 
     macosx:
         7.8.4:
