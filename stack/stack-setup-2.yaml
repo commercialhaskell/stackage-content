@@ -146,13 +146,13 @@ ghc:
             content-length: 91852904
             sha1: c32eff3ecb16eeb9a8682ae2222574a6d1a68bc1
         7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-deb7-linux.tar.xz"
-            content-length: 89687224
-            sha1: dbee82a232536f50f5211664f152b2bf36006ac4
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-deb7-linux-patch1.tar.xz"
+            content-length: 89516984
+            sha1: 28ad5781eb9cf1bde8cdde61fcbedb7340604cd4
         8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux.tar.xz"
-            content-length: 113261740
-            sha1: 185b114913b1b63b323203c387bf3a5e1b64ff34
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux-patch1.tar.xz"
+            content-length: 111218952
+            sha1: e219245814e8273d476b99da7c54e9b0ebca315f
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-deb7-linux.tar.xz"
             content-length: 112769784
@@ -168,6 +168,14 @@ ghc:
             sha256: cd7afbca54edf9890da9f432c63366556246c85c1198e40c99df5af01c555834
 
     linux64-nopie:
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-deb7-linux-patch1.tar.xz"
+            content-length: 89516984
+            sha1: 28ad5781eb9cf1bde8cdde61fcbedb7340604cd4
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-deb7-linux-patch1.tar.xz"
+            content-length: 111218952
+            sha1: e219245814e8273d476b99da7c54e9b0ebca315f
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-deb8-linux.tar.xz"
             content-length: 114373576
@@ -246,13 +254,13 @@ ghc:
             content-length: 72007420
             sha1: f8fd476d60b6e57b36c83e8b67f06d41800ab759
         7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-fedora24-linux.tar.xz"
-            content-length: 72034376
-            sha1: 3745dd3bd61e4d4c972adcad6d1988c01b0c3200
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 83788536
+            sha1: 86f66ffe380fbfd19e2e8a57303b90b75ebb9e68
         8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux.tar.xz"
-            content-length: 108995132
-            sha1: 3cfa8b628a9e7420519eff2985dec2de2f4abb3c
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 106992736
+            sha1: f9b6ca4a6ca4e2fdcf8d4761df2255f68fb28a5a
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux-patch1.tar.xz"
             content-length: 106426808
@@ -270,6 +278,14 @@ ghc:
             sha256: 282094d67a786e975d71022f1c9650d19f6f5eeb6a618a9c14dd9cccf1eff9f7
 
     linux64-tinfo6-nopie:
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 83788536
+            sha1: 86f66ffe380fbfd19e2e8a57303b90b75ebb9e68
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 106992736
+            sha1: f9b6ca4a6ca4e2fdcf8d4761df2255f68fb28a5a
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux-patch1.tar.xz"
             content-length: 106426808
@@ -290,13 +306,13 @@ ghc:
 
     linux64-ncurses6:
         7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-arch-linux.tar.xz"
-            content-length: 75716196
-            sha1: e02da81715a1c4782b0e550f830644c57bcab7c0
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-arch-linux-patch1.tar.xz"
+            content-length: 87819972
+            sha1: 0f2e364f624cf9679138f3e6d7ebf108a78fa49b
         8.0.1:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-arch-linux.tar.xz"
-            content-length: 114072880
-            sha1: aaea8a135c5619b76f012daf27871f221d58e714
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-arch-linux-patch1.tar.xz"
+            content-length: 111217156
+            sha1: 537ff041bbd0f7fb960673612348ed67b3450bdd
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-arch-linux.tar.xz"
             content-length: 113645348
@@ -312,6 +328,14 @@ ghc:
             sha256: 026dcc46ed74b63c61cbecf2cc6de5f462f96d7ce2de62df62144fcc1ff4f5e8
 
     linux64-ncurses6-nopie:
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-arch-linux-patch1.tar.xz"
+            content-length: 87819972
+            sha1: 0f2e364f624cf9679138f3e6d7ebf108a78fa49b
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-arch-linux-patch1.tar.xz"
+            content-length: 111217156
+            sha1: 537ff041bbd0f7fb960673612348ed67b3450bdd
         8.0.2:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-arch-linux-ncurses6-nopie.tar.xz"
             content-length: 121731460
