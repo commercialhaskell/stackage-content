@@ -119,6 +119,11 @@ ghc:
             content-length: 147022744
             sha1: 07f80c51632b17c60d4257a625c88c46e7de35df
             sha256: c56c589c76c7ddcb77cdbef885a811761e669d3e76868b723d5be56dedcd4f69
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-deb8-linux.tar.xz"
+            content-length: 147544236
+            sha1: c9d9acd02d6b0aeb53cd13ac2c5e532904884a3a
+            sha256: 2d849c30b4c1eac25dc74333501920921e22fa483153f404993808bbda93df05
 
     linux32-nopie:
         7.8.4:
@@ -159,6 +164,11 @@ ghc:
             content-length: 147022744
             sha1: 07f80c51632b17c60d4257a625c88c46e7de35df
             sha256: c56c589c76c7ddcb77cdbef885a811761e669d3e76868b723d5be56dedcd4f69
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-deb8-linux.tar.xz"
+            content-length: 147544236
+            sha1: c9d9acd02d6b0aeb53cd13ac2c5e532904884a3a
+            sha256: 2d849c30b4c1eac25dc74333501920921e22fa483153f404993808bbda93df05
         # Since GHC 8.0.2, these should match linux32 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -201,6 +211,11 @@ ghc:
             content-length: 152260712
             sha1: 6f62cc1287c314b540cf6436cba1766caf044cb2
             sha256: 427c77a934b30c3f1de992c38c072afb4323fe6fb30dbac919ca8cb6ae98fbd9
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
+            content-length: 151806080
+            sha1: af9058feab34ea81f31e328a233baa5c22a29f08
+            sha256: 246f66eb56f4ad0f1c7755502cfc8f9972f2d067dede17e151f6f479c1f76fbd
 
     linux64-nopie:
         7.8.4:
@@ -241,6 +256,11 @@ ghc:
             content-length: 152260712
             sha1: 6f62cc1287c314b540cf6436cba1766caf044cb2
             sha256: 427c77a934b30c3f1de992c38c072afb4323fe6fb30dbac919ca8cb6ae98fbd9
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
+            content-length: 151806080
+            sha1: af9058feab34ea81f31e328a233baa5c22a29f08
+            sha256: 246f66eb56f4ad0f1c7755502cfc8f9972f2d067dede17e151f6f479c1f76fbd
         # Since GHC 8.0.2, these should match linux64 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -319,6 +339,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
             content-length: 121107428
             sha1: d66dc65a8e3b534ae319ba791e77c4fec5bc1fae
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
+            content-length: 138760652
+            sha1: 84f1c7f999309dbe9e7a2a7eb80349284b71847d
+            sha256: 28c31489ed9a83af4400685ec8bc72a6d43d08958d75b2dc35d29a894a5c9d93
 
     linux64-gmp4-nopie:
         7.8.4:
@@ -349,6 +374,11 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
             content-length: 121107428
             sha1: d66dc65a8e3b534ae319ba791e77c4fec5bc1fae
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
+            content-length: 138760652
+            sha1: 84f1c7f999309dbe9e7a2a7eb80349284b71847d
+            sha256: 28c31489ed9a83af4400685ec8bc72a6d43d08958d75b2dc35d29a894a5c9d93
         # Since GHC 8.0.2, these should match linux64-gmp4 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -527,6 +557,11 @@ ghc:
             content-length: 228713832
             sha1: 9e1246ee2d3dd3a57bbf81bbbf3a67805fec2dd2
             sha256: e75fbb3c8bf433e2ae3e76a0367476f81019f08170449e0a4f02c9bcd7f040da
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-apple-darwin.tar.bz2"
+            content-length: 230691313
+            sha1: 11566daf1fedbc0ea93dac2bc9996440b9018367
+            sha256: fe6744384c50b045b2cb6084c6f143a2d9e46d08be3c79a927626f88bf5a6336
 
     windows32-integersimple:
         7.8.4:
@@ -616,6 +651,11 @@ ghc:
             content-length: 187493212
             sha1: d3b261da648888c9e7671ec31263b217ac4154f9
             sha256: c543330f9c89f670682541e0ed24e5ec38c53ddffda48367c6e1364367045b0d
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-unknown-mingw32.tar.xz"
+            content-length: 187906396
+            sha1: 9080c5bbe7e073509cbd03daaecf01e0492d1e5f
+            sha256: 5c3bab299dfa6593d851c84c0a56ccbce668a01dc8993c0fcb8055fffb534bde
 
     windows64:
         7.8.4:
@@ -656,6 +696,11 @@ ghc:
             content-length: 191687004
             sha1: 227729550d4b9d15d7fa94ff5159994390786ca4
             sha256: 328b013fc651d34e075019107e58bb6c8a578f0155cf3ad4557e6f2661b03131
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-unknown-mingw32.tar.xz"
+            content-length: 192170476
+            sha1: 1c36f68a2e27340c1f6b13b795da752ea9afae51
+            sha256: 797634aa9812fc6b2084a24ddb4fde44fa83a2f59daea82e0af81ca3dd323fde
 
     freebsd32:
         7.8.4:
@@ -733,6 +778,11 @@ ghc:
             content-length: 145379480
             sha1: 17d4b0d730e1289a9d4ee2c4b30bbd5ac45a34bc
             sha256: e748daec098445c6190090fe32bb2817a1140553be5acd2188e1af05ad24e5aa
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
+            content-length: 145946192
+            sha1: 97c21764580814a93dc171f076d657c91e52adec
+            sha256: e9ed417fdf94c2ff2c6e344ed16f332bf6b591511f6442c0d9ea94854882b66c
 
     # OpenBSD releases are not binary compatible. For each release, we need a separate block, called `openbsd64-$GhcBuild`,
     # with any bindists available for that OpenBSD release. `$GhcBuild` encodes the OpenBSD release number.
@@ -825,6 +875,11 @@ ghc:
             content-length: 200351604
             sha1: 5e39c72c9440564d552c425cc72701c543597e10
             sha256: 04c313c0574a6f61720d2a0b7839b8b307eb638f009673be51abf669d6357fcd
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-aarch64-deb8-linux.tar.xz"
+            content-length: 200629892
+            sha1: 64c063a98a37c133b4be3de7ab995c05bdff612f
+            sha256: 684f8d2f5ddb954719e5c0cc149333e3c0396de9592cbad2b7b78c1547dffadc
 
 ghcjs:
     source:
