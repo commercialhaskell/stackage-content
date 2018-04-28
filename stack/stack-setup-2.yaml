@@ -762,6 +762,16 @@ ghc:
             content-length: 113792360
             sha1: 913528b902a2ceb8060d08760b31e7bde15157d0
             sha256: 9e99aaeaec4b2c6d660d80246c0d4dbd41fda88f1eb7a908b29dc8fa8d663949
+        8.4.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-portbld11-freebsd.tar.xz"
+            content-length: 145379480
+            sha1: 17d4b0d730e1289a9d4ee2c4b30bbd5ac45a34bc
+            sha256: e748daec098445c6190090fe32bb2817a1140553be5acd2188e1af05ad24e5aa
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
+            content-length: 145946192
+            sha1: 97c21764580814a93dc171f076d657c91e52adec
+            sha256: e9ed417fdf94c2ff2c6e344ed16f332bf6b591511f6442c0d9ea94854882b66c
 
     freebsd64-11:
         8.2.1:
