@@ -1,1 +1,5 @@
+# Some spammers have started uploaded bogus packages to Hackage as spam.  In
+# order to reduce these incentives, we will not display such packages on
+# stackage.org. If you believe a package should be added (or removed) from this
+# list, please send a PR to this file.
 - Facebook-Password-Hacker-Online-Latest-Version
