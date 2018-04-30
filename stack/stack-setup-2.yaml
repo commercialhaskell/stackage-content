@@ -419,6 +419,11 @@ ghc:
             content-length: 152583608
             sha1: 76a63daba744d94ca870ea17696e5f69293cdaa0
             sha256: 89328a013e64b9b56825a9071fea5616ddd623d37fd41e8fb913dfebc609e7ea
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 152889300
+            sha1: 0765e4af6e5db27bfc0c1782678611c4680e43bf
+            sha256: d057b5c833596dbe4ae5d0dc2994f6cc5d0f4c2a21ea1d7900821d165fd4e846
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -457,6 +462,11 @@ ghc:
             content-length: 152583608
             sha1: 76a63daba744d94ca870ea17696e5f69293cdaa0
             sha256: 89328a013e64b9b56825a9071fea5616ddd623d37fd41e8fb913dfebc609e7ea
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 152889300
+            sha1: 0765e4af6e5db27bfc0c1782678611c4680e43bf
+            sha256: d057b5c833596dbe4ae5d0dc2994f6cc5d0f4c2a21ea1d7900821d165fd4e846
         # Since GHC 8.0.2, these should match linux64-tinfo6 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -487,6 +497,11 @@ ghc:
             content-length: 152583608
             sha1: 76a63daba744d94ca870ea17696e5f69293cdaa0
             sha256: 89328a013e64b9b56825a9071fea5616ddd623d37fd41e8fb913dfebc609e7ea
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 152889300
+            sha1: 0765e4af6e5db27bfc0c1782678611c4680e43bf
+            sha256: d057b5c833596dbe4ae5d0dc2994f6cc5d0f4c2a21ea1d7900821d165fd4e846
 
     linux64-ncurses6-nopie:
         7.10.3:
@@ -515,6 +530,11 @@ ghc:
             content-length: 152583608
             sha1: 76a63daba744d94ca870ea17696e5f69293cdaa0
             sha256: 89328a013e64b9b56825a9071fea5616ddd623d37fd41e8fb913dfebc609e7ea
+        8.4.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 152889300
+            sha1: 0765e4af6e5db27bfc0c1782678611c4680e43bf
+            sha256: d057b5c833596dbe4ae5d0dc2994f6cc5d0f4c2a21ea1d7900821d165fd4e846
         # Since GHC 8.0.2, these should match linux64-ncurses6 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
