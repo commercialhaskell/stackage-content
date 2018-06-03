@@ -126,6 +126,11 @@ ghc:
             content-length: 147544236
             sha1: c9d9acd02d6b0aeb53cd13ac2c5e532904884a3a
             sha256: 2d849c30b4c1eac25dc74333501920921e22fa483153f404993808bbda93df05
+        8.4.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-deb8-linux.tar.xz"
+            content-length: 147610164
+            sha1: bb8b3153d38111d6a0d2ca9a082045b71f6349a0
+            sha256: f5763983a26dedd88b65a0b17267359a3981b83a642569b26334423f684f8b8c
 
     linux32-nopie:
         7.8.4:
@@ -171,6 +176,11 @@ ghc:
             content-length: 147544236
             sha1: c9d9acd02d6b0aeb53cd13ac2c5e532904884a3a
             sha256: 2d849c30b4c1eac25dc74333501920921e22fa483153f404993808bbda93df05
+        8.4.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-deb8-linux.tar.xz"
+            content-length: 147610164
+            sha1: bb8b3153d38111d6a0d2ca9a082045b71f6349a0
+            sha256: f5763983a26dedd88b65a0b17267359a3981b83a642569b26334423f684f8b8c
         # Since GHC 8.0.2, these should match linux32 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -218,6 +228,11 @@ ghc:
             content-length: 151806080
             sha1: af9058feab34ea81f31e328a233baa5c22a29f08
             sha256: 246f66eb56f4ad0f1c7755502cfc8f9972f2d067dede17e151f6f479c1f76fbd
+        8.4.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
+            content-length: 151870024
+            sha1: ece4a75cefa21992683266a1f8fad995dc75245f
+            sha256: 30a402c6d4754a6c020e0547f19ae3ac42e907e35349aa932d347f73e421a8e2
 
     linux64-nopie:
         7.8.4:
@@ -263,6 +278,11 @@ ghc:
             content-length: 151806080
             sha1: af9058feab34ea81f31e328a233baa5c22a29f08
             sha256: 246f66eb56f4ad0f1c7755502cfc8f9972f2d067dede17e151f6f479c1f76fbd
+        8.4.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
+            content-length: 151870024
+            sha1: ece4a75cefa21992683266a1f8fad995dc75245f
+            sha256: 30a402c6d4754a6c020e0547f19ae3ac42e907e35349aa932d347f73e421a8e2
         # Since GHC 8.0.2, these should match linux64 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -584,6 +604,11 @@ ghc:
             content-length: 230691313
             sha1: 11566daf1fedbc0ea93dac2bc9996440b9018367
             sha256: fe6744384c50b045b2cb6084c6f143a2d9e46d08be3c79a927626f88bf5a6336
+        8.4.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-apple-darwin.tar.bz2"
+            content-length: 230762684
+            sha1: 4509e4c1084b8b180075141a34a893c84697feba
+            sha256: 769456a7e4a7f22731834d415ea5687f620581cd83c590cc06fdb2ae2806c40c
 
     windows32-integersimple:
         7.8.4:
@@ -678,6 +703,11 @@ ghc:
             content-length: 187906396
             sha1: 9080c5bbe7e073509cbd03daaecf01e0492d1e5f
             sha256: 5c3bab299dfa6593d851c84c0a56ccbce668a01dc8993c0fcb8055fffb534bde
+        8.4.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-unknown-mingw32.tar.xz"
+            content-length: 188977912
+            sha1: 20dda38df3439d5886cbfab31c72125840cb870d
+            sha256: 4c702f123185a52f5cfb86c6d7a189f2223a5fb15775101ff3c5b50acaf166d2
 
     windows64:
         7.8.4:
@@ -723,6 +753,11 @@ ghc:
             content-length: 192170476
             sha1: 1c36f68a2e27340c1f6b13b795da752ea9afae51
             sha256: 797634aa9812fc6b2084a24ddb4fde44fa83a2f59daea82e0af81ca3dd323fde
+        8.4.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-unknown-mingw32.tar.xz"
+            content-length: 192361576
+            sha1: 55195bcdb6742ea8bc2fb2e6f1115a2eea49e5f7
+            sha256: 8a83cfbf9ae84de0443c39c93b931693bdf2a6d4bf163ffb41855f80f4bf883e
 
     freebsd32:
         7.8.4:
