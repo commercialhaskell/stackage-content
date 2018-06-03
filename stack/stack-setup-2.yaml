@@ -72,15 +72,15 @@ portable-git:
 # For upgrade instructions, see: https://github.com/commercialhaskell/stack/blob/stable/doc/MAINTAINER_GUIDE.md#upgrading-msys
 msys2:
     windows32:
-        version: "20161025"
-        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20161025/msys2-20161025-i686.tar.xz"
-        content-length: 55382088
-        sha256: 81dab3568b32a1275b04ff87d04037e6a41aa32df0a3d797da37aae0b9aa9b60
+        version: "20180531"
+        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20180531/msys2-20180531-i686.tar.xz"
+        content-length: 63829268
+        sha256: c2bfaa02fa90c848a629a60790152605fe3e6d1dd04b368b26263d6976ced985
     windows64:
-        version: "20161025"
-        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20161025/msys2-20161025-x86_64.tar.xz"
-        content-length: 56726648
-        sha256: 1ab0b2e46f20ea1a39a6a02b5a34e4041547ce9a34ded766f9abd746b8d5e9c8
+        version: "20180531"
+        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20180531/msys2-20180531-x86_64.tar.xz"
+        content-length: 63974800
+        sha256: 29b84292cdd7e02e1fd1964a203b379b93e52f716a6d0739f5590f50414b9875
 ghc:
     linux32:
         7.8.4:
