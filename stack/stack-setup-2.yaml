@@ -68,17 +68,19 @@ portable-git:
     url: "https://github.com/git-for-windows/git/releases/download/v2.4.5.windows.1/PortableGit-2.4.5.1-4th-release-candidate-32-bit.7z.exe"
     content-length: 44221160
     sha1: 3df088915f67297cb5ad3ab73ba9361fcb5e44ea
+
+# For upgrade instructions, see: https://github.com/commercialhaskell/stack/blob/stable/doc/MAINTAINER_GUIDE.md#upgrading-msys
 msys2:
     windows32:
-        version: "20150512"
-        url: "https://github.com/fpco/minghc/releases/download/2015-05-14/msys2-base-i686-20150512.tar.xz"
-        content-length: 33519844
-        sha1: 18f33537212bca9552659012a16d8c511ef5fc23
+        version: "20180531"
+        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20180531/msys2-20180531-i686.tar.xz"
+        content-length: 63829268
+        sha256: c2bfaa02fa90c848a629a60790152605fe3e6d1dd04b368b26263d6976ced985
     windows64:
-        version: "20150512"
-        url: "https://github.com/fpco/minghc/releases/download/2015-05-14/msys2-base-x86_64-20150512.tar.xz"
-        content-length: 33451040
-        sha1: 88fa66ac2a18715a542e0768b1af9b2f6e3680b2
+        version: "20180531"
+        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20180531/msys2-20180531-x86_64.tar.xz"
+        content-length: 63974800
+        sha256: 29b84292cdd7e02e1fd1964a203b379b93e52f716a6d0739f5590f50414b9875
 ghc:
     linux32:
         7.8.4:
