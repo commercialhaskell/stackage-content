@@ -1,7 +1,7 @@
 ---
 author: Dan Burton
-title: Announce: Stackage LTS 12 with ghc-8.4.3
-description: Announce: Stackage LTS 12 with ghc-8.4.3
+title: "Announce: Stackage LTS 12 with ghc-8.4.3"
+description: "Announce: Stackage LTS 12 with ghc-8.4.3"
 timestamp: 2018-07-09T00:01:00Z
 ---
 
