@@ -131,6 +131,11 @@ ghc:
             content-length: 147610164
             sha1: bb8b3153d38111d6a0d2ca9a082045b71f6349a0
             sha256: f5763983a26dedd88b65a0b17267359a3981b83a642569b26334423f684f8b8c
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-deb8-linux.tar.xz"
+            content-length: 147557416
+            sha1: 84f83d60ea415df6341df4047e95eadd155987dc
+            sha256: 678bafaabea6af70ba71ccf0210bb437f9f5591ec28ac1cbbbd5f7aa6894e450
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-deb8-linux.tar.xz"
             content-length: 177317168
@@ -186,6 +191,11 @@ ghc:
             content-length: 147610164
             sha1: bb8b3153d38111d6a0d2ca9a082045b71f6349a0
             sha256: f5763983a26dedd88b65a0b17267359a3981b83a642569b26334423f684f8b8c
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-deb8-linux.tar.xz"
+            content-length: 147557416
+            sha1: 84f83d60ea415df6341df4047e95eadd155987dc
+            sha256: 678bafaabea6af70ba71ccf0210bb437f9f5591ec28ac1cbbbd5f7aa6894e450
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-deb8-linux.tar.xz"
             content-length: 177317168
@@ -243,6 +253,11 @@ ghc:
             content-length: 151870024
             sha1: ece4a75cefa21992683266a1f8fad995dc75245f
             sha256: 30a402c6d4754a6c020e0547f19ae3ac42e907e35349aa932d347f73e421a8e2
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
+            content-length: 151910212
+            sha1: f132449742711cd4ef8534067f9dbb09bfae20e7
+            sha256: 4c2a8857f76b7f3e34ecba0b51015d5cb8b767fe5377a7ec477abde10705ab1a
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
             content-length: 179223364
@@ -298,6 +313,11 @@ ghc:
             content-length: 151870024
             sha1: ece4a75cefa21992683266a1f8fad995dc75245f
             sha256: 30a402c6d4754a6c020e0547f19ae3ac42e907e35349aa932d347f73e421a8e2
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
+            content-length: 151910212
+            sha1: f132449742711cd4ef8534067f9dbb09bfae20e7
+            sha256: 4c2a8857f76b7f3e34ecba0b51015d5cb8b767fe5377a7ec477abde10705ab1a
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
             content-length: 179223364
@@ -471,6 +491,11 @@ ghc:
             content-length: 152892592
             sha1: 8d4328ebfd10c08c9b8e221df27c54e5d035017c
             sha256: 269e7a4d3f336491b88409a020998122b30a3a729af78d33be86d3b3f8000c3e
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 152903812
+            sha1: cc71b6329b930d317a7efff069ad80975b8b5fb9
+            sha256: 8ab2befddc14d1434d0aad0c5d3c7e0c2b78ff84caa3429fa62527bfc6b86095
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
             content-length: 182150376
@@ -524,6 +549,11 @@ ghc:
             content-length: 152892592
             sha1: 8d4328ebfd10c08c9b8e221df27c54e5d035017c
             sha256: 269e7a4d3f336491b88409a020998122b30a3a729af78d33be86d3b3f8000c3e
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 152903812
+            sha1: cc71b6329b930d317a7efff069ad80975b8b5fb9
+            sha256: 8ab2befddc14d1434d0aad0c5d3c7e0c2b78ff84caa3429fa62527bfc6b86095
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
             content-length: 182150376
@@ -569,6 +599,11 @@ ghc:
             content-length: 152892592
             sha1: 8d4328ebfd10c08c9b8e221df27c54e5d035017c
             sha256: 269e7a4d3f336491b88409a020998122b30a3a729af78d33be86d3b3f8000c3e
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 152903812
+            sha1: cc71b6329b930d317a7efff069ad80975b8b5fb9
+            sha256: 8ab2befddc14d1434d0aad0c5d3c7e0c2b78ff84caa3429fa62527bfc6b86095
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
             content-length: 182150376
@@ -612,6 +647,11 @@ ghc:
             content-length: 152892592
             sha1: 8d4328ebfd10c08c9b8e221df27c54e5d035017c
             sha256: 269e7a4d3f336491b88409a020998122b30a3a729af78d33be86d3b3f8000c3e
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 152903812
+            sha1: cc71b6329b930d317a7efff069ad80975b8b5fb9
+            sha256: 8ab2befddc14d1434d0aad0c5d3c7e0c2b78ff84caa3429fa62527bfc6b86095
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
             content-length: 182150376
@@ -669,6 +709,11 @@ ghc:
             content-length: 230762684
             sha1: 4509e4c1084b8b180075141a34a893c84697feba
             sha256: 769456a7e4a7f22731834d415ea5687f620581cd83c590cc06fdb2ae2806c40c
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-apple-darwin.tar.bz2"
+            content-length: 230734167
+            sha1: 5884aeaf2b29f2293d8efb48036350472f0db4bb
+            sha256: 1d1ab7ebeb9caccba25226e49dbe96229988aae7c0e1cc0cf879fca77d2d4a30
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-apple-darwin.tar.bz2"
             content-length: 232075903
@@ -773,6 +818,11 @@ ghc:
             content-length: 188977912
             sha1: 20dda38df3439d5886cbfab31c72125840cb870d
             sha256: 4c702f123185a52f5cfb86c6d7a189f2223a5fb15775101ff3c5b50acaf166d2
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-unknown-mingw32.tar.xz"
+            content-length: 187842536
+            sha1: daa7c2ff8412d6cc65df9da5c20d4eba72a2e660
+            sha256: 4e6a3ce4df602cdbf0f6780e16b2d727dae9e3517a972bc81ea0f657f1e6dccf
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-unknown-mingw32.tar.xz"
             content-length: 210011272
@@ -828,6 +878,11 @@ ghc:
             content-length: 192361576
             sha1: 55195bcdb6742ea8bc2fb2e6f1115a2eea49e5f7
             sha256: 8a83cfbf9ae84de0443c39c93b931693bdf2a6d4bf163ffb41855f80f4bf883e
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-unknown-mingw32.tar.xz"
+            content-length: 191925112
+            sha1: 697db44cdf7fdf1a6d83ada61e36857f2e241e3d
+            sha256: da29dbb0f1199611c7d5bb7b0dd6a7426ca98f67dfd6da1526b033cd3830dc05
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 213498368
@@ -930,6 +985,11 @@ ghc:
             content-length: 145946192
             sha1: 97c21764580814a93dc171f076d657c91e52adec
             sha256: e9ed417fdf94c2ff2c6e344ed16f332bf6b591511f6442c0d9ea94854882b66c
+        8.4.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-portbld-freebsd11.tar.xz"
+            content-length: 154115020
+            sha1: 8190d79c91911bb0b5fdbb95ca7702b7195d1aac
+            sha256: 44fbd142d1c355d6110595c59c760e2c73866ff9259ec85ebf814edb244d1940
         8.6.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 158235144
