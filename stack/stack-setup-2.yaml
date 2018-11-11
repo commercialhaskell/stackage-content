@@ -141,6 +141,11 @@ ghc:
             content-length: 177317168
             sha1: 8cd4c56adb4bb269d2da87eea157857d3b76c037
             sha256: 83573af96e3dec8f67c1a844512f92cbf7d51ae7ceca53d948fc2a3300abd05c
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-i386-deb8-linux.tar.xz"
+            content-length: 177362500
+            sha1: fd4e000a3a077ce9434ae852dd3798ec9853ccc0
+            sha256: a288026d9ef22f7ac387edab6b29ef7dcb3b28945c8ea532a15c1fa35d4733ed
 
     linux32-nopie:
         7.8.4:
@@ -201,6 +206,11 @@ ghc:
             content-length: 177317168
             sha1: 8cd4c56adb4bb269d2da87eea157857d3b76c037
             sha256: 83573af96e3dec8f67c1a844512f92cbf7d51ae7ceca53d948fc2a3300abd05c
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-i386-deb8-linux.tar.xz"
+            content-length: 177362500
+            sha1: fd4e000a3a077ce9434ae852dd3798ec9853ccc0
+            sha256: a288026d9ef22f7ac387edab6b29ef7dcb3b28945c8ea532a15c1fa35d4733ed
         # Since GHC 8.0.2, these should match linux32 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -263,6 +273,11 @@ ghc:
             content-length: 179223364
             sha1: 6ff44e86582c8360620b8f3e353e208aeb72c58e
             sha256: 6d8784401b7dd80c90fa17306ec0539920e3987399a2c7ef247989e53197dc42
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
+            content-length: 179351624
+            sha1: 67b0e8ee52f20cf2797b1ac81af6f89235dc8e50
+            sha256: 13f96e8b83bb5bb60f955786ff9085744c24927a33be8a17773f84c7c248533a
 
     linux64-nopie:
         7.8.4:
@@ -323,6 +338,11 @@ ghc:
             content-length: 179223364
             sha1: 6ff44e86582c8360620b8f3e353e208aeb72c58e
             sha256: 6d8784401b7dd80c90fa17306ec0539920e3987399a2c7ef247989e53197dc42
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
+            content-length: 179351624
+            sha1: 67b0e8ee52f20cf2797b1ac81af6f89235dc8e50
+            sha256: 13f96e8b83bb5bb60f955786ff9085744c24927a33be8a17773f84c7c248533a
         # Since GHC 8.0.2, these should match linux64 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -501,6 +521,11 @@ ghc:
             content-length: 182150376
             sha1: 6878d9017edfd4341b0f9dd598a7bc0c229d84e4
             sha256: da903fbcf11ee6c977a8b7dac3f04dbc098d674def587880b6624b8f32588beb
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 182230252
+            sha1: e1c195d4f15a5762cf58aabf129989291113a652
+            sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -559,6 +584,11 @@ ghc:
             content-length: 182150376
             sha1: 6878d9017edfd4341b0f9dd598a7bc0c229d84e4
             sha256: da903fbcf11ee6c977a8b7dac3f04dbc098d674def587880b6624b8f32588beb
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 182230252
+            sha1: e1c195d4f15a5762cf58aabf129989291113a652
+            sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
         # Since GHC 8.0.2, these should match linux64-tinfo6 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -609,6 +639,11 @@ ghc:
             content-length: 182150376
             sha1: 6878d9017edfd4341b0f9dd598a7bc0c229d84e4
             sha256: da903fbcf11ee6c977a8b7dac3f04dbc098d674def587880b6624b8f32588beb
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 182230252
+            sha1: e1c195d4f15a5762cf58aabf129989291113a652
+            sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
 
     linux64-ncurses6-nopie:
         7.10.3:
@@ -657,6 +692,11 @@ ghc:
             content-length: 182150376
             sha1: 6878d9017edfd4341b0f9dd598a7bc0c229d84e4
             sha256: da903fbcf11ee6c977a8b7dac3f04dbc098d674def587880b6624b8f32588beb
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 182230252
+            sha1: e1c195d4f15a5762cf58aabf129989291113a652
+            sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
         # Since GHC 8.0.2, these should match linux64-ncurses6 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -719,6 +759,11 @@ ghc:
             content-length: 232075903
             sha1: c6e71489407ba093fcf7d08a40bb757abb2fcc4c
             sha256: 4804e051a9d6e059c26dcc00bf694ed18af3995eb90c758a08a0ee6c94e3950b
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-apple-darwin.tar.xz"
+            content-length: 162149432
+            sha1: 083609db2e0e545331a3d29bdeefb37130fbe4df
+            sha256: 8ec46a25872226dd7e5cf7271e3f3450c05f32144b96e6b9cb44cc4079db50dc
 
     windows32-integersimple:
         7.8.4:
@@ -828,6 +873,11 @@ ghc:
             content-length: 210011272
             sha1: db8f701c96cc8e1d11124e775f6db1bb973c9867
             sha256: 64e4ded48bd03ddd93401c3ff8a2016bc32c584ce27461d4028d6fddd56eea06
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-i386-unknown-mingw32.tar.xz"
+            content-length: 210002540
+            sha1: 64635bf2b1a34883025c8379a44b771f470a56a5
+            sha256: a597240406b653aeed7a816496e170bff0b59be3082e87d7f65b0a3bc13e3a89
 
     windows64:
         7.8.4:
@@ -888,6 +938,11 @@ ghc:
             content-length: 213498368
             sha1: a82c1955f841be3b3c1bc5dd57bd2740d0136a84
             sha256: 7316d9cb5e486460476754f872c7bac30ee2082e42f46da4342f872d10b88099
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-unknown-mingw32.tar.xz"
+            content-length: 213699632
+            sha1: 9738c346030e4f59a0fcd140de6b7c613135a34f
+            sha256: 9a398e133cab09ff2610834337355d4e26c35e0665403fb9ff8db79315f74d3d
 
     freebsd32:
         7.8.4:
