@@ -1250,6 +1250,10 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-armv7-deb8-linux.tar.xz"
             content-length: 156227876
             sha1: 7d734275c6486f440f31c4026f220c2d7f64a753
+        8.6.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-armv7-deb8-linux.tar.xz"
+            content-length: 201443196
+            sha1: 7c7092d754105bb818925f4cb98c1e57ca312829
 
     linux-aarch64:
         8.2.1:
