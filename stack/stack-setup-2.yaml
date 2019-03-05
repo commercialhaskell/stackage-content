@@ -151,6 +151,11 @@ ghc:
             content-length: 177351188
             sha1: 6965ef1875423532850f61a6a8520be3676ee715
             sha256: b57070ba8c70b1333a3e47ce124baf791be39c20a592954772532fd6dd51882f
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-deb9-linux.tar.xz"
+            content-length: 186494668
+            sha1: 59ed4f57e6079470db5d7b5c4a6886d8639bc544
+            sha256: 5e2ce88f4d13d23ac37e278e0c7b51c801008931359b9fa8a631d804d2da552c
 
     linux32-nopie:
         7.8.4:
@@ -221,6 +226,11 @@ ghc:
             content-length: 177351188
             sha1: 6965ef1875423532850f61a6a8520be3676ee715
             sha256: b57070ba8c70b1333a3e47ce124baf791be39c20a592954772532fd6dd51882f
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-deb9-linux.tar.xz"
+            content-length: 186494668
+            sha1: 59ed4f57e6079470db5d7b5c4a6886d8639bc544
+            sha256: 5e2ce88f4d13d23ac37e278e0c7b51c801008931359b9fa8a631d804d2da552c
         # Since GHC 8.0.2, these should match linux32 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -293,6 +303,11 @@ ghc:
             content-length: 179335960
             sha1: 0ee1ed815f24b6bb51a466cab8d2da7683592a9a
             sha256: 291ca565374f4d51cc311488581f3279d3167a064fabfd4a6722fe2bd4532fd5
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
+            content-length: 185834596
+            sha1: 434988420a61279d0fa9d61155cd7aeeba33c308
+            sha256: 34ef5fc8ddf2fc32a027180bea5b1c8a81ea840c87faace2977a572188d4b42d
 
     linux64-nopie:
         7.8.4:
@@ -363,6 +378,11 @@ ghc:
             content-length: 179335960
             sha1: 0ee1ed815f24b6bb51a466cab8d2da7683592a9a
             sha256: 291ca565374f4d51cc311488581f3279d3167a064fabfd4a6722fe2bd4532fd5
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
+            content-length: 185834596
+            sha1: 434988420a61279d0fa9d61155cd7aeeba33c308
+            sha256: 34ef5fc8ddf2fc32a027180bea5b1c8a81ea840c87faace2977a572188d4b42d
         # Since GHC 8.0.2, these should match linux64 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -551,6 +571,11 @@ ghc:
             content-length: 182356948
             sha1: ca192a146e70996d31a0aae8ec7de20608508d10
             sha256: 52ae92f4e8bb2ac0b7847287ea3da37081f5f7bf8bbb7c78ac35fde537d1a89f
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 188609132
+            sha1: 13c153c27d34b8efc1beaed29dfb3bf2266a2638
+            sha256: e0b1ada7a679d6c35f9d7a1192ed35fde054f3650bb0bd2570d103729ad3b846
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -619,6 +644,11 @@ ghc:
             content-length: 182356948
             sha1: ca192a146e70996d31a0aae8ec7de20608508d10
             sha256: 52ae92f4e8bb2ac0b7847287ea3da37081f5f7bf8bbb7c78ac35fde537d1a89f
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 188609132
+            sha1: 13c153c27d34b8efc1beaed29dfb3bf2266a2638
+            sha256: e0b1ada7a679d6c35f9d7a1192ed35fde054f3650bb0bd2570d103729ad3b846
         # Since GHC 8.0.2, these should match linux64-tinfo6 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
@@ -803,6 +833,11 @@ ghc:
             content-length: 233455995
             sha1: 67b223dd746e5fa27baa2ad1287648923f40eb01
             sha256: d74b51579545e67f355d31f4d25e472c627e819df1195794477916157f94c31c
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-apple-darwin.tar.bz2"
+            content-length: 226239478
+            sha1: afd82114421119a16ace4875f6aded51fbe0615c
+            sha256: 62e7a420016e4ddd8a10b21638f3d3cd1edff81c33761217d2b6e7e86200ba98
 
     windows32-integersimple:
         7.8.4:
@@ -992,6 +1027,11 @@ ghc:
             content-length: 213391796
             sha1: 5a352e50ccf1deecc335300c5d8984ce863059b4
             sha256: 2fec383904e5fa79413e9afd328faf9bc700006c8c3d4bcdd8d4f2ccf0f7fa2a
+        8.6.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-unknown-mingw32.tar.xz"
+            content-length: 178790960
+            sha1: 7d7e8448ad9b5b412223ad78c4fbde5af31c0fc4
+            sha256: e8d021b7a90772fc559862079da20538498d991956d7557b468ca19ddda22a08
 
     freebsd32:
         7.8.4:
