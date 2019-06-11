@@ -244,6 +244,14 @@ ghc:
         # Since GHC 8.0.2, these should match linux32 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
 
+    linux32-musl:
+        8.6.5:
+            # Mirrored from https://github.com/redneb/ghc-alt-libc/releases
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-unknown-linux-musl.tar.xz"
+            content-length: 139470532
+            sha1: 05c4113c2fb16f09233a12d291b8badea0032080
+            sha256: db13ff894faf431f9c64db21c090a1e4e42803794d56720a704c50166c7ca05d
+
     linux64:
         7.8.4:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-unknown-linux-deb7-patch1.tar.xz"
@@ -405,6 +413,14 @@ ghc:
             sha256: c419fd0aa9065fe4d2eb9a248e323860c696ddf3859749ca96a84938aee49107
         # Since GHC 8.0.2, these should match linux64 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
+
+    linux64-musl:
+        8.6.5:
+            # Mirrored from https://github.com/redneb/ghc-alt-libc/releases
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-unknown-linux-musl.tar.xz"
+            content-length: 140167348
+            sha1: 3ce575af840e886ba5d2641f68577ace38ac21c6
+            sha256: ec6d0417822c3bfafc7aea0b0402294901231bc5d72dd17a2b849e3f44850695
 
     linux32-gmp4:
         7.8.4:
