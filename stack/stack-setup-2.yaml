@@ -1120,59 +1120,70 @@ ghc:
             content-length: 111754984
             sha1: 74a7e7b7407b68ef74eddb03f492a8fda813e4bb
         8.4.3:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.4.3-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-portbld-freebsd.tar.xz"
             content-length: 126295576
             sha1: daeefab32b748603c393f546679ca60070e42d2d
             sha256: e5a6dd406dcb579450be07d6878b81c3953c924d299c710cc17bf1e0da10f873
         8.4.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.4.4-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-portbld-freebsd.tar.xz"
             content-length: 125239532
             sha1: 21819ec65611e4658b558be81301f634eb07b374
             sha256: 983431a74da7a74c3f223660bde6b8e45fe6f428f7c52ab62d647f8d8288ea5f
         8.6.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.2-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-portbld-freebsd.tar.xz"
             content-length: 130358776
             sha1: 84539094b9ee71376403c95ee048fcf4861f79af
             sha256: 04b4ca6d0e28169d11b82d4b90124a50b77e7e2b3ca31ecd1eb3d13afa9ebecb
         8.6.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.4-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-portbld-freebsd.tar.xz"
             content-length: 123660828
             sha1: 1d24fbb39a70177ed0cf9f01751a30f1e954683d
             sha256: af7b64d7af0bb8745888bfb059a892c31780767cad9f67052f986355f7d4eb2c
         8.6.5:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.5-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-portbld-freebsd.tar.xz"
             content-length: 123764504
             sha1: d0d7870fbc0ed842555249a9c8a4ee50fa36bd39
             sha256: 3fba6259fa74986046d99e271082f091fb5b133a7b7d8efdf08152a9eae3fea1
 
     freebsd32-ino64:
         8.4.3:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.4.3-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 126046156
             sha1: c5bdef51806b90329062b456c92fd1d3d0d457f6
             sha256: 69f85a0876bcd71a78697babb4fcd17628daeba7ed11d1b0ca5308ffce7fc635
         8.4.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.4.4-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 125681068
             sha1: 8b838833a2340526a2ea247313263284a8bd5821
             sha256: e9d1e92e596a86f4bd832848b7dae3ca2123f443e92346de28a2aab96e390d59
         8.6.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.2-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 130788128
             sha1: 6fda56f6d2e7443f2d9f00878a4c9464d1b392fe
             sha256: d2c8e6b25c329b9f6e6eed53352f7624cd2b5557c8198992080b1ffa2aaede20
         8.6.3:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.3-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 139823808
             sha1: c51ab7caf8312615817682f57009c72f0c3d08d8
             sha256: 4fbe0a0a2cf3c05eaf1ffc20b49071fa927f450df26d8205389a98852c9cba6f
         8.6.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.4-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 123727092
             sha1: fae1e27b276089dd45de1432a698c91f28fbf72f
             sha256: 60b0e5bda007cc265b80e8b04b606755b9549793a286d507b8c94d2e166f829e
         8.6.5:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.5-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 123730032
             sha1: 9f9708b9a2cb48edbf6121bd731d05d57e9d70ea
             sha256: ee3bc4993dffa4abbeca7f07d754c8cf7a4b26071bb7e8efa39f4adde56fe60e
@@ -1222,12 +1233,14 @@ ghc:
             sha1: 97c21764580814a93dc171f076d657c91e52adec
             sha256: e9ed417fdf94c2ff2c6e344ed16f332bf6b591511f6442c0d9ea94854882b66c
         8.4.3:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.4.3-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-portbld-freebsd.tar.xz"
             content-length: 128190868
             sha1: 505335467ddd4e22befa2506b371e7c6b93262da
             sha256: 53c0d71ccb2dc78b3ddd8893537128bb7ee5bea3469d55a086edb5fe47f88387
         8.4.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.4.4-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-portbld-freebsd.tar.xz"
             content-length: 128343660
             sha1: cbd498d281575e33f13dd3967da498516688387b
             sha256: b51c437635da47898957dc625631c4f5d5b89abe05e621655179d7d466b2a892
@@ -1237,7 +1250,8 @@ ghc:
             sha1: 76610344f6ea536526fb4ba2f3be18d5d74a4242
             sha256: 51403b054a3a649039ac988e1d1112561f96750bfced63df864091a3fab36f08
         8.6.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.2-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-portbld-freebsd.tar.xz"
             content-length: 132243904
             sha1: c5770d3c2e99e984b286e867d7cda4b855d78dfc
             sha256: a4b44ed1c03e167d92c3fa0f0c08aea1d67f353701ed2c65f4d1fb60e0563e89
@@ -1247,44 +1261,52 @@ ghc:
             sha1: c7a344736d396107b34c8a511b8aa09f11ddb6b4
             sha256: bc2419fa180f8a7808c49775987866435995df9bdd9ce08bcd38352d63ba6031
         8.6.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.4-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-portbld-freebsd.tar.xz"
             content-length: 125608956
             sha1: b00a086212c08f763305c0c4f9ccab5e844b84cb
             sha256: 3ea8f8f34f15b44dbf8a24db8e24b3a88da9699ca15b423062e7ff552f7f8932
         8.6.5:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz"
             content-length: 125536608
             sha1: 96f837896ad8c1c8991aeeab25b0c1d0ef03626b
             sha256: 80f510479a382db3d29f48ec67266dab4efe39537c094a3939cbb51e3fe40b7a
 
     freebsd64-ino64:
         8.4.3:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.4.3-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 133311852
             sha1: d2e75a008ef537952ec2a015de722cb1baa4fcb6
             sha256: efca822be839033353df109b9d238d53f3e29c23592aaf48b81d95237569eecf
         8.4.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.4.4-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 133547444
             sha1: ed492f46113a384c94745cc2bdfba316c57e6f93
             sha256: 29cee1e0b488726c45daa763181244ea7a40451087f492c9b5317028a0a5055a
         8.6.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.2-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 137761040
             sha1: 88c2d656bf5c48b96df95832afecfa99569c58d0
             sha256: a3a9c20727b959039138c97e1ecc272390e429da3efbc2967ebabf7fae8cfd92
         8.6.3:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.3-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 146413352
             sha1: dff2a108364226f737a3084d4c87e7d4b0439f49
             sha256: 1f9c281dde9889fc51e3a40dfe67acbc75095125b94b1374e3bf2168ffa83f3e
         8.6.4:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.4-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 130175812
             sha1: cb05599b1e8a8a5971cec3759b85005b6aa82e0a
             sha256: a210bd2713640ec4c9fc133dd15c110cfe226f0f2f95b6798c4b4e52f2401ab1
         8.6.5:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.freebsd.org/local-distfiles/arrowd/stack-bindists
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 130162964
             sha1: a40656fd470b79b1ad652c71b8a62c075ff00c78
             sha256: 901d0bb78bde9028fa50f1060dc2c139020b38094d00a24021fafde08978d875
