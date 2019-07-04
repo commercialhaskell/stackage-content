@@ -2,7 +2,7 @@
 author: Michael Snoyman
 title: New Stackage snapshot format
 description: "We've been making some changes to how we build Stackage snapshots, and the file format used. This post covers those changes, and what's coming next."
-timestamp: 2019-07-04T13:00:00Z
+timestamp: 2019-07-04T08:24:47Z
 ---
 
 I've been blogging off and on about [Pantry](https://www.stackage.org/package/pantry-tmp) and how it affects both Stack and Stackage. There have been a number of Github issues lying around about changes to how we'll build Stackage snapshots. Most of those changes have landed, and it's worth recapping the problems we were trying to solve, how things used to work, how they work now, and what's left.
