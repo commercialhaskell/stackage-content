@@ -29,7 +29,7 @@ Finally, [Stackage Server](https://github.com/fpco/stackage-server/) (a.k.a. [st
 ## Changes
 
 * We're scrapping the previous `stackage-curator` tool entirely.
-* There's a brand new `curator` tool, which uses the same snapshot format as Stack 2, Pantry, and what was previously known as custom snapshots.
+* There's a brand new [`curator` tool](https://github.com/commercialhaskell/stack/tree/master/subs/curator), which uses the same snapshot format as Stack 2, Pantry, and what was previously known as custom snapshots.
 * This curator tool still does bounds checking, and is now included in Travis CI. However, this tool does _not_ build packages. It shells out to Stack to do that instead. That makes this tool _much_ simpler.
 * __Important end user consideration__: the old tool would automatically add dependencies of packages to a snapshot. After some discussion and lots of requests around this, __all packages to be included in a snapshot must appear explicitly in `build-constraints.yaml`__. Some people have already gotten reports about this, which is what initially spurred this blog post.
 * New snapshots are landing in the [`stackage-snapshots`](https://github.com/commercialhaskell/stackage-snapshots/) repo.
