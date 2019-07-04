@@ -5,7 +5,7 @@ description: "We've been making some changes to how we build Stackage snapshots,
 timestamp: 2019-07-04T13:00:00Z
 ---
 
-I've been blogging off-and-on about [Pantry](https://www.stackage.org/package/pantry-tmp) and how it affects both Stack and Stackage. There have been a number of Github issues lying around about changes to how we'll build Stackage snapshots. Most of those changes have landed, and it's worth recapping the problems we were trying to solve, how things used to work, how they work now, and what's left.
+I've been blogging off and on about [Pantry](https://www.stackage.org/package/pantry-tmp) and how it affects both Stack and Stackage. There have been a number of Github issues lying around about changes to how we'll build Stackage snapshots. Most of those changes have landed, and it's worth recapping the problems we were trying to solve, how things used to work, how they work now, and what's left.
 
 ## Old build process overview
 
