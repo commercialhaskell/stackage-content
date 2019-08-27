@@ -261,6 +261,12 @@ ghc:
             content-length: 139470532
             sha1: 05c4113c2fb16f09233a12d291b8badea0032080
             sha256: db13ff894faf431f9c64db21c090a1e4e42803794d56720a704c50166c7ca05d
+        8.8.1:
+            # Mirrored from https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.8.1-musl/ghc-8.8.1-i386-unknown-linux-musl.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-unknown-linux-musl.tar.xz"
+            content-length: 159416536
+            sha1: ad53d6c5448f850df8a7f87152dbb8e5acb5e6b2
+            sha256: 3f5462341a455a5677fba5cb24da8938878261069da5ee4234b1c6ac2d2ef77e
 
     linux64:
         7.8.4:
@@ -441,6 +447,12 @@ ghc:
             content-length: 140167348
             sha1: 3ce575af840e886ba5d2641f68577ace38ac21c6
             sha256: ec6d0417822c3bfafc7aea0b0402294901231bc5d72dd17a2b849e3f44850695
+        8.8.1:
+            # Mirrored from https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.8.1-musl/ghc-8.8.1-x86_64-unknown-linux-musl.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-unknown-linux-musl.tar.xz"
+            content-length: 153677236
+            sha1: 26358f7d8e85b4d399f638bf4e060e9343e9918e
+            sha256: 029163c42a219983f4220d73c26b910c3ecf6eda45a3e5e27236e8a66b080890
 
     linux32-gmp4:
         7.8.4:
