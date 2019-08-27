@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-12.0 script
+-- stack --resolver lts-14.3 script
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Yaml
