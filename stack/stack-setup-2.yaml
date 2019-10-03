@@ -253,6 +253,7 @@ ghc:
             sha256: 3d3bb75aff2dd79ec87ace10483368681fbc328ff00ebf15edad33420f00f7f5
         # Since GHC 8.0.2, these should match linux32 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
+        # We are no longer adding '-nopie' builds to the metadata as of October 2019
 
     linux32-musl:
         8.6.5:
@@ -439,6 +440,7 @@ ghc:
             sha256: fd96eb851971fbc3332bf2fa7821732cfa8b37e5a076a69f6a06f83f0ea7ccc5
         # Since GHC 8.0.2, these should match linux64 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
+        # We are no longer adding '-nopie' builds to the metadata as of October 2019
 
     linux64-musl:
         8.6.5:
@@ -499,6 +501,7 @@ ghc:
             sha1: 738ff402074834ee1ad999d5d61f3d0c0d1dd77f
         # Since GHC 8.0.2, these should match linux32-gmp4 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
+        # We are no longer adding '-nopie' builds to the metadata as of October 2019
 
     linux64-gmp4:
         7.8.4:
@@ -571,6 +574,7 @@ ghc:
             sha256: 28c31489ed9a83af4400685ec8bc72a6d43d08958d75b2dc35d29a894a5c9d93
         # Since GHC 8.0.2, these should match linux64-gmp4 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
+        # We are no longer adding '-nopie' builds to the metadata as of October 2019
 
     linux64-tinfo6:
         7.8.4:
@@ -739,6 +743,7 @@ ghc:
             sha256: 851a78df620bc056c34b252c97040d5755e294993fa8afa5429708b5229204d6
         # Since GHC 8.0.2, these should match linux64-tinfo6 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
+        # We are no longer adding '-nopie' builds to the metadata as of October 2019
 
     linux64-ncurses6:
         7.10.3:
@@ -851,6 +856,7 @@ ghc:
         #    sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
         # Since GHC 8.0.2, these should match linux64-ncurses6 (without any additional configure-env)
         # Stack-1.7 will no longer use the '-nopie' builds
+        # We are no longer adding '-nopie' builds to the metadata as of October 2019
 
     macosx:
         7.8.4:
