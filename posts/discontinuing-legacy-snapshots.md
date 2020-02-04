@@ -16,6 +16,8 @@ For the past seven months, we've been generating new snapshots in the new format
 
 As we mentioned at announcement, though, we wouldn't be continuing that conversion indefinitely. Today, we're announcing that within the next two weeks (likely sooner), we'll be turning off that job. It's never been automated correctly, has taken some work, and prevents us from using outside-of-Hackage packages.
 
+Our plan is to continue converting LTS 14 files to the legacy format, but on the cut-off date suspend nightly legacy files, and never convert LTS 15 files to the legacy format at all.
+
 ## How this affects me
 
 All currently existing snapshot files will remain. If you're using Stack 1.9 and an existing LTS or Nightly snapshot, that combination will continue to work indefinitely. However, you will not be able to use Stack 1.9 or earlier with newer snapshots. Additionally, the `stack new` and `stack init` features with older Stack versions will begin to fail without being explicitly told which snapshot to use.
