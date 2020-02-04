@@ -20,6 +20,6 @@ Our plan is to continue converting LTS 14 files to the legacy format, but on the
 
 ## How this affects me
 
-All currently existing snapshot files will remain. If you're using Stack 1.9 and an existing LTS or Nightly snapshot, that combination will continue to work indefinitely. However, you will not be able to use Stack 1.9 or earlier with newer snapshots. Additionally, the `stack new` and `stack init` features with older Stack versions will begin to fail without being explicitly told which snapshot to use.
+All currently existing snapshot files will remain. If you're using Stack 1.9 and an existing LTS or Nightly snapshot, that combination will continue to work indefinitely. However, you will not be able to use Stack 1.9 or earlier with newer nightly or LTS 15 snapshots. Additionally, the `stack new` and `stack init` features with older Stack versions will begin to fail without being explicitly told which snapshot to use.
 
 At the time of writing, I don't know if other downstream projects of Stackage have migrated to the new snapshot file format. If they have, users of those tools will experience no impact. Otherwise, they will not be able to use new snapshots until converting over.
