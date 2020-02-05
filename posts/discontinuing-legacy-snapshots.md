@@ -2,7 +2,7 @@
 author: Michael Snoyman
 title: Discontinuing legacy snapshots
 description: "We are no longer going to be producing the legacy, pre-Pantry snapshot files."
-timestamp: 2020-02-04T08:24:47Z
+timestamp: 2020-02-05T03:41:03Z
 ---
 Seven months ago, we [announced a new Stackage snapshot format](https://www.stackage.org/blog/2019/07/new-snapshot-format) based on the work in Pantry. This snapshot format provides a number of advantages over the previous format:
 
