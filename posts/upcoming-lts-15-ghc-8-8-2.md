@@ -13,7 +13,7 @@ this LTS 15 will [discontinue the legacy format for snapshots]
 (https://www.stackage.org/blog/2020/02/discontinuing-legacy-snapshots).
 
 To give everyone some time to prepare, we are announcing the planned release date
-as approximately **two** from the date of this post.
+as approximately **one week** from the date of this post.
 
 Getting your package into the nightly snapshot will ensure its inclusion
 in LTS 15 as well. To add your package, please submit a PR to
