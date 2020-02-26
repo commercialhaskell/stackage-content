@@ -172,6 +172,12 @@ ghc:
             content-length: 204955748
             sha1: 9c6c8dc35eddef98865d64f2de6e7643b07a5570
             sha256: ad1c628082c32635a436905a7ff83eaa4246347d869be5ef6b33c3bf85e8f00c
+        8.8.3:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-i386-deb9-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-deb9-linux.tar.xz"
+            content-length: 204980812
+            sha1: ca5dccb4cae10fadd72c5918f45a45fad33f85fb
+            sha256: 441e2c7a4fc83ebf179712bd939b555cda7c6633545b7c8ac38049f9d85003ae
 
     linux32-nopie:
         7.8.4:
@@ -280,6 +286,12 @@ ghc:
             content-length: 159318020
             sha1: 3f13dd6843844bf11d581f94f365c6f45d3e9e06
             sha256: 4ea4a81b6b5ba807c93b21b3cddf1f1b4b0fc1ce018cf6aa255a9ee40137b278
+        8.8.3:
+            # Mirrored from https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.8.3-musl/ghc-8.8.3-i386-unknown-linux-musl.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-unknown-linux-musl.tar.xz"
+            content-length: 159226004
+            sha1: 705ceec62f5fa30196001f418348ed8304f6bf1a
+            sha256: 7a5f41646d06777e75636291a1855d60a0984552bbdf33c3d107565d302f38a4
 
     linux64:
         7.8.4:
@@ -371,6 +383,12 @@ ghc:
             content-length: 196276084
             sha1: 4aad81a524c8405a72f8ffe0d3c6f41bafaa231f
             sha256: fbe69652eba75dadb758d00292247d17fb018c29cac5acd79843e56311256c9f
+        8.8.3:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-deb8-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-deb8-linux.tar.xz"
+            content-length: 196286620
+            sha1: a240d4fa2ac50fb08623f8f8f4f79615fe47d204
+            sha256: 92b9fadc442976968d2c190c14e000d737240a7d721581cda8d8741b7bd402f0
 
     linux64-nopie:
         7.8.4:
@@ -479,6 +497,12 @@ ghc:
             content-length: 153445788
             sha1: cc9ccb90b856bd223527c490d08baba9824ef655
             sha256: 09d49c75b5626606409c982b23f70dec241a944928243f32d1b59b2005de6dea
+        8.8.3:
+            # Mirrored from https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.8.3-musl/ghc-8.8.3-x86_64-unknown-linux-musl.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-unknown-linux-musl.tar.xz"
+            content-length: 153463904
+            sha1: a35752c81eccaa5cda4abe9af9e130e752bf4371
+            sha256: 77a990d76dc10abe2ed19e5fcfef4095f0e9819d4ab84bec6d82f00dd85812a7
 
     linux32-gmp4:
         7.8.4:
@@ -688,6 +712,12 @@ ghc:
             content-length: 202542116
             sha1: 18f7ad61250a850b4b3fd555c31092c374d75a3a
             sha256: dbe2db717b33460f790e155e487d2a31c9b21a9d245f0c9490ad65844c3ea21f
+        8.8.3:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-fedora27-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-fedora27-linux.tar.xz"
+            content-length: 202566004
+            sha1: 7318afe94b784f10720892a999275aac067f63fc
+            sha256: 45ee1de3bfc98cbcc4886b65fc7651ade2d3820aa85eac2dbe9bc7bf91e7c818
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -978,6 +1008,12 @@ ghc:
             content-length: 272458737
             sha1: f79af2e058146929091477a03569eba9d4c598d8
             sha256: b2f5c4d33b05ce57cad4eab30b3d327b1bce2d4dafef7da0c7f1afb9130c9bcc
+        8.8.3:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-apple-darwin.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-apple-darwin.tar.bz2"
+            content-length: 272333646
+            sha1: 4d53fe6b519a5b02ba93731708de1b40f81c7f6c
+            sha256: 20b68a7384e5dea69da7e29d8000bb7666fccf930b01386611e60798663a1145
 
     windows32-integersimple:
         7.8.4:
@@ -1193,6 +1229,12 @@ ghc:
             content-length: 395954376
             sha1: 1ff82017057346546862736f7b3b0931516492a7
             sha256: e25d9b16ee62cafc7387af2cd021eea676a99cd2c32b83533b016162c63065d9
+        8.8.3:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-unknown-mingw32.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-unknown-mingw32.tar.xz"
+            content-length: 204702116
+            sha1: 1f00c0c348acc67592e8a23b0d0a76245df0a930
+            sha256: e22586762af0911c06e8140f1792e3ca381a3a482a20d67b9054883038b3a422
 
     freebsd32:
         7.8.4:
@@ -1256,7 +1298,8 @@ ghc:
             sha1: d082c73921ec966e8760947c60f6e61f7c3e1490
             sha256: 6f27d96765b99ddca0a96cef8130722b05b6b7f0a30bdd83b4941f6f27e8eb38
         8.8.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-i386-portbld-freebsd.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-portbld-freebsd.tar.xz"
             content-length: 135515128
             sha1: 0db1dc81e32fb6331f7a216ff9fd011a52e31d39
             sha256: 668ac30ace7cd93575bcb34a40d7f374eb71373b032838d646ca68c31bd81e52
@@ -1305,7 +1348,8 @@ ghc:
             sha1: baf9bc0c0a5090a9950eabc8dbfb231961fec959
             sha256: 38b7d6863b3576204b099867fdae7f3d68db2cd9ac5886a91b20bdda8219b335
         8.8.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-i386-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-i386-portbld-freebsd.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-portbld-freebsd_ino64.tar.xz"
             content-length: 135557104
             sha1: da2f855b6fc7c2265823fa1dd1c3debc3f2a8bd0
             sha256: 8ec560fa324d9bd48470600e7de4ee51b4b4e3849b53b2d1c1deb384d61bfa42
@@ -1401,7 +1445,8 @@ ghc:
             sha1: 85b92216c3dc75eae6381be32c2fed6d16e2cc45
             sha256: ec54bd953f4e03a8970ef4057fb3fc80c084e1638af67faa79881822006b1750
         8.8.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz"
             content-length: 135960644
             sha1: 5b298f8f6481721aa90bb1a65b98542f3d8ddcc4
             sha256: 9ebf2518fb66709ae84ca3eb1cd58c374f1990228533453c51f8580448ed0027
@@ -1450,7 +1495,8 @@ ghc:
             sha1: 4d6ecab48f0f03ad833730b934ee6c109a24dbac
             sha256: 4619d965b59d017be129b6136bd24686e299050f43fea1672de3de17bc4590bb
         8.8.2:
-            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz"
+            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-portbld-freebsd_ino64.tar.xz"
             content-length: 138926424
             sha1: 0a109cc63b3ea3ef4f8440ec47a8fcc5c0e9ccfa
             sha256: 169df16688a84f633d6f40f20ecae166af2d9278ec08acf1e09e39fae498d6a1
@@ -1607,6 +1653,12 @@ ghc:
             content-length: 300890924
             sha1: ffb1d0d8c2f67ad7bf5b66daa92eb3fe82f03648
             sha256: b4b66b8d38a8b6d9ab4ce9c27a34d016c55729e7cba4385d4e4c755b937457f4
+        8.8.3:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-aarch64-deb9-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-aarch64-deb9-linux.tar.xz"
+            content-length: 300943608
+            sha1: c533c36439c13b06325aa9968d51e5078a0e16bd
+            sha256: 2a6821d0e7326cfa7670851702924bbab3b092415ba41247c37419158327eed9
 
 ghcjs:
     source:
