@@ -1702,6 +1702,12 @@ ghc:
             content-length: 207834124
             sha1: cedb6aa1283911cf720dc8d1df432b3436e72389
             sha256: 841d4cf0673a4db44d93082f56479ffd679bd369c67d715e7b288630ec7eb4f0
+        8.6.5:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-aarch64-ubuntu18.04-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-aarch64-ubuntu18.04-linux.tar.xz"
+            content-length: 190614704
+            sha1: 74c5682cce4a59ca4e3782f1df65e46d19b83388
+            sha256: 1852589037e4b2805ab517bc430e25a3125c4a118a1674ffefbb443394a0c786
         8.8.1:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-aarch64-deb9-linux.tar.xz"
             content-length: 300455372
