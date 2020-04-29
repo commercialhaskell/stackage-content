@@ -1,25 +1,26 @@
-- name: Linux 32-bit, libgmp4 for CentOS 6.x
-  pattern: linux-i386-gmp4
-- name: Linux 32-bit, standard
-  pattern: linux-i386
-- name: Linux 64-bit, static
+#- name: Linux 32-bit, libgmp4 for CentOS 6.x
+#  pattern: linux-i386-gmp4
+#- name: Linux 32-bit, standard
+#  pattern: linux-i386
+# TODO: REMOVE IN NEXT RELEASE
+- name: Linux 64-bit (deprecated static)
   pattern: linux-x86_64-static
-- name: Linux 64-bit, libgmp4 for CentOS 6.x
-  pattern: linux-x86_64-gmp4
-- name: Linux 64-bit, standard
+# - name: Linux 64-bit, libgmp4 for CentOS 6.x
+#   pattern: linux-x86_64-gmp4
+- name: Linux 64-bit (static)
   pattern: linux-x86_64
-- name: Linux ARMv7
-  pattern: linux-arm
-- name: Linux AArch64
-  pattern: linux-aarch64
+# - name: Linux ARMv7
+#   pattern: linux-arm
+# - name: Linux AArch64
+#   pattern: linux-aarch64
 - name: MacOS 64-bit
   pattern: osx-x86_64
-- name: FreeBSD 64-bit
-  pattern: freebsd-x86_64
-- name: Windows 32-bit Installer
-  pattern: windows-i386-installer
-- name: Windows 32-bit
-  pattern: windows-i386
+# - name: FreeBSD 64-bit
+#   pattern: freebsd-x86_64
+# - name: Windows 32-bit Installer
+#   pattern: windows-i386-installer
+# - name: Windows 32-bit
+#   pattern: windows-i386
 - name: Windows 64-bit Installer
   pattern: windows-x86_64-installer
 - name: Windows 64-bit
