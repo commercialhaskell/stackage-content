@@ -49,7 +49,8 @@ globalPackageDbHints :: [GhcVer] -> RIO SimpleApp GlobalHintsFragment
 globalPackageDbHints vers = do
   pairs <- for vers $ \ghcVer -> do
     let args' =
-          [ "--resolver"
+          [ "--setup-info-yaml=./stack-setup-2.yaml"
+          , "--resolver"
           , T.unpack ghcVer
           , "exec"
           , "--no-ghc-package-path"
@@ -90,7 +91,7 @@ scrapeGhcReleaseNotes vers = liftIO $ do
       myScrapeURL ghcVer parser = do
         response <- httpBS (fromString (url ghcVer))
         let mversions = scrapeStringLike (decodeUtf8 $ getResponseBody response) parser
-        pure (ghcVer, fromMaybe mempty mversions) 
+        pure (ghcVer, fromMaybe mempty mversions)
       parser = Map.fromList <$> pairs
       pairs = chroots ("div" @: ["id" @= "included-libraries"] // "tr") $ do
         (pkg:ver:_) <- texts "td"
