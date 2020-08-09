@@ -190,6 +190,12 @@ ghc:
             content-length: 215852640
             sha1: 30b28ec4d3b6af5eb3f25668a2567d9ba5c06de0
             sha256: 8b53eef2c827b5f634d72920a93c0c9dd66ea288691a2bfe28def45d3c686ee2
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-i386-deb9-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-i386-deb9-linux.tar.xz"
+            content-length: 214239684
+            sha1: ceb3bc9c2befdf6e44ab18b298d09fc122a77b31
+            sha256: 9dae2a86ad43d08f72c783542c944d1556b075aa20a8063efae5034ea88e7c2f
 
     linux32-nopie:
         7.8.4:
@@ -425,6 +431,12 @@ ghc:
             content-length: 212806588
             sha1: 4d50d074123e686eb0313c90a24959b26131f73c
             sha256: d1cf7886f27af070f3b7dbe1975a78b43ef2d32b86362cbe953e79464fe70761
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-deb9-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-deb9-linux.tar.xz"
+            content-length: 214854644
+            sha1: afe3a9234cf0124461fd4ccb6ae8d6e338b95b88
+            sha256: 4dbe3b479e76767bfeb4cbb7a4db8b761c4720266193483ca370b2ace3f10f7c
 
     linux64-nopie:
         7.8.4:
@@ -778,6 +790,12 @@ ghc:
             content-length: 214693280
             sha1: 3023b3456c50a045e6431de8dbba4e3840c7ab14
             sha256: 3c4cd72b4806045779739e8f5d1658e30e57123d88c2c8966422cdbcae448470
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-fedora27-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 215874384
+            sha1: ca8e587c5a8631896fb46332cd5689fe8c5be8eb
+            sha256: 8c675da83e9b3c2f64ebb407b5f9ebb2c1f21aa5d701020614fdce644a542e3b
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -1086,6 +1104,12 @@ ghc:
             content-length: 276312008
             sha1: 84cf3279235abbed0215c0e7fcfae90d7ed8a459
             sha256: b3b23cd2e91c9c447dc7a0bfe8dddc5ea5aa7f26ae9156553ea79e88385d54b2
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-apple-darwin.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-apple-darwin.tar.bz2"
+            content-length: 277386977
+            sha1: 11a66eecce70dafe56ac1368255a4623a5c131f4
+            sha256: 6759696bc07af5f4034d776d8afc858af0277e054ccd52a2957ba9abaa89e33d
 
     windows32-integersimple:
         7.8.4:
@@ -1319,6 +1343,12 @@ ghc:
             content-length: 427479476
             sha1: 19867b0e4edb18aba8c62f5d44c1d7a67ee6220a
             sha256: 38a3166ea50cccd5bae7e1680eae3aae2b4ae31b61f82a1d8168fb821f43bd67
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-unknown-mingw32.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-unknown-mingw32.tar.xz"
+            content-length: 428286988
+            sha1: d4a06724701af9fbf8b0b4faaac239c9fd2798f9
+            sha256: dcae4c173b9896e07ff048de5509aa0a4537233150e06e5ce8848303dfadc176
 
     freebsd32:
         7.8.4:
@@ -1668,6 +1698,12 @@ ghc:
             content-length: 158207536
             sha1: c7a344736d396107b34c8a511b8aa09f11ddb6b4
             sha256: bc2419fa180f8a7808c49775987866435995df9bdd9ce08bcd38352d63ba6031
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-unknown-freebsd.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-unknown-freebsd.tar.xz"
+            content-length: 179791636
+            sha1: 5c54c56444f480601e1bf188a9dfc280d07885c8
+            sha256: 9e5957f3497f4b58ecd3699568d9caaa11a47a6d7e902032c261e450fa0f6686
 
     # OpenBSD releases are not binary compatible. For each release, we need a separate block, called `openbsd64-$GhcBuild`,
     # with any bindists available for that OpenBSD release. `$GhcBuild` encodes the OpenBSD release number.
@@ -1755,6 +1791,12 @@ ghc:
             content-length: 342015984
             sha1: 8a84cb1f08cbf29e4d7c3958754cd1d855be9999
             sha256: afe1bde2b0d6deb0320b9460fffe5d9427e302df85aec866b9c1458777d52b28
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-armv7-deb10-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-armv7-deb10-linux.tar.xz"
+            content-length: 341245768
+            sha1: 66f286cc897c31473d05d9ea8a92b1b842d4c74a
+            sha256: bb9c97826b1f4d7a8ef8bce0616b612f1ded10480ef10fcf7fb4e6d10a6681c8
 
     linux-aarch64:
         8.2.1:
@@ -1809,6 +1851,12 @@ ghc:
             content-length: 313033012
             sha1: 947f53273ac37a9478739f0f60a78eb30a9fff80
             sha256: c099011e07999db917e797fb5d89c31f075a562556ab99be8ab0accbf2a94db7
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-aarch64-deb10-linux.tar.xz
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-aarch64-deb10-linux.tar.xz"
+            content-length: 310742020
+            sha1: 22bd6d4f9f9004cc8e0dd74d0da16bb90ec73903
+            sha256: 5cf24189077e6e2dce2aa16367ad8a53f603e751a15010dfb23d067206e55593
 
 ghcjs:
     source:
