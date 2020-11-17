@@ -73,7 +73,7 @@ portable-git:
 msys2:
     windows32:
         version: "20200517"
-        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20200517/msys2-20200517-i686.tar.xz"
+        url: "https://github.com/fpco/stackage-content/releases/download/20200517/msys2-20200517-i686.tar.xz"
         content-length: 79049224
         sha256: 9152ddf50c6bacfae33c1436338235f8db4b10d73aaea63adefd96731fb0bceb
     windows64:
