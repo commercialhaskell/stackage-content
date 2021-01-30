@@ -1669,6 +1669,11 @@ ghc:
             content-length: 133106276
             sha1: f2e031ca443c262fa82c8855cfca1c3aa208f66a
             sha256: ed8735d9bc5865f140b651fa8c7051c3e349e8abe7636a0dca43ad54ffed07b6
+        8.10.3:
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.10.3-i386-portbld-freebsd.tar.xz"
+            content-length: 137837900
+            sha1: 02a3450ab49289ec4517ef25c1ccd53b17aa67bc
+            sha256: bd07946d105f58c18a8e1a702707784e1ed06ed4233cd2a78f7a55ec1e2050e1
 
     freebsd64:
         7.8.4:
@@ -1790,6 +1795,11 @@ ghc:
             content-length: 134146304
             sha1: e4cf18416f41629c8c8db1cc6ae69dd34c4ff834
             sha256: ae5999b0e56d6c922707c05fa95959e5290bcf0527891b72e6b9489879b3305a
+        8.10.3:
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.10.3-x86_64-portbld-freebsd.tar.xz"
+            content-length: 138763036
+            sha1: 5f49e227a3224a78bb4f93507cebce1330bf891c
+            sha256: 04027dbf20ef96d41a56dc9b74d7ffa05921ab9adf83838ebee2586abd705363
 
     freebsd64-ino64:
         8.4.3:
@@ -1852,6 +1862,11 @@ ghc:
             content-length: 132248260
             sha1: 30b68faf7cf9cc995fc3a1ae8fb3894d60999146
             sha256: 92ea3904d8fe5ab65c6cea7960e9953fae2ff7cea5abe4e6d86e809d1ee69c9e
+        8.10.3:
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.10.3-x86_64-portbld-freebsd.tar.xz"
+            content-length: 137155304
+            sha1: 3d14cf5c904c2a025d9a7338b848a3ed61d67e7e
+            sha256: 1b1ee005ecdf20bfa9eb51c9199ce1b8109c05709ee29d3dd69b7d9f141b6659
 
     freebsd64-11:
         8.2.1:
