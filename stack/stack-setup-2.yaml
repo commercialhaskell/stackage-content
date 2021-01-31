@@ -105,113 +105,113 @@ ghc:
             sha1: 2ba321f45918f477a1c69d153ca793b4a11540e0
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-i386-deb7-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-deb7-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-deb7-linux.tar.xz"
             content-length: 112800144
             sha1: d99aecac26d94fd0d3b996c1a48c1aec9745cd59
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-i386-deb7-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-deb7-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-deb7-linux.tar.xz"
             content-length: 124942812
             sha1: 17eef9b2151a9bfc5aee93b11cbe76f1a5a2eb02
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-i386-deb7-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-deb7-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-deb7-linux.tar.xz"
             content-length: 125076928
             sha1: 862a3ddf030bb3ded2de5e1842a7f432ac0f3158
             sha256: cd18766b1a9b74fc6c90003a719ecab158f281f9a755d8b1bd3fd764ba6947b5
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-i386-deb8-linux.tar.xz"
             content-length: 147022744
             sha1: 07f80c51632b17c60d4257a625c88c46e7de35df
             sha256: c56c589c76c7ddcb77cdbef885a811761e669d3e76868b723d5be56dedcd4f69
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-deb8-linux.tar.xz"
             content-length: 147544236
             sha1: c9d9acd02d6b0aeb53cd13ac2c5e532904884a3a
             sha256: 2d849c30b4c1eac25dc74333501920921e22fa483153f404993808bbda93df05
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-deb8-linux.tar.xz"
             content-length: 147610164
             sha1: bb8b3153d38111d6a0d2ca9a082045b71f6349a0
             sha256: f5763983a26dedd88b65a0b17267359a3981b83a642569b26334423f684f8b8c
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-deb8-linux.tar.xz"
             content-length: 147557416
             sha1: 84f83d60ea415df6341df4047e95eadd155987dc
             sha256: 678bafaabea6af70ba71ccf0210bb437f9f5591ec28ac1cbbbd5f7aa6894e450
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-deb8-linux.tar.xz"
             content-length: 177317168
             sha1: 8cd4c56adb4bb269d2da87eea157857d3b76c037
             sha256: 83573af96e3dec8f67c1a844512f92cbf7d51ae7ceca53d948fc2a3300abd05c
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-deb8-linux.tar.xz"
             content-length: 177362500
             sha1: fd4e000a3a077ce9434ae852dd3798ec9853ccc0
             sha256: a288026d9ef22f7ac387edab6b29ef7dcb3b28945c8ea532a15c1fa35d4733ed
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-i386-deb8-linux.tar.xz"
             content-length: 177351188
             sha1: 6965ef1875423532850f61a6a8520be3676ee715
             sha256: b57070ba8c70b1333a3e47ce124baf791be39c20a592954772532fd6dd51882f
         8.6.4:
             url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-deb9-linux.tar.xz"
             content-length: 186494668
             sha1: 59ed4f57e6079470db5d7b5c4a6886d8639bc544
             sha256: 5e2ce88f4d13d23ac37e278e0c7b51c801008931359b9fa8a631d804d2da552c
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-deb9-linux.tar.xz"
             content-length: 187048424
             sha1: 3aab514beadef20d1c31eaa165ae987eedc1c686
             sha256: 1cddb907393a669342b1a922dd16d505d9d93d50bd9433a54a8162f8701250dc
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-deb9-linux.tar.xz"
             content-length: 204669320
             sha1: 5c9e1cad872d09f70d493744241d85e0e4b2d772
             sha256: 3d3bb75aff2dd79ec87ace10483368681fbc328ff00ebf15edad33420f00f7f5
         8.8.2:
             url: "https://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-deb9-linux.tar.xz"
             content-length: 204955748
             sha1: 9c6c8dc35eddef98865d64f2de6e7643b07a5570
             sha256: ad1c628082c32635a436905a7ff83eaa4246347d869be5ef6b33c3bf85e8f00c
         8.8.3:
             url: "https://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-deb9-linux.tar.xz"
             content-length: 204980812
             sha1: ca5dccb4cae10fadd72c5918f45a45fad33f85fb
             sha256: 441e2c7a4fc83ebf179712bd939b555cda7c6633545b7c8ac38049f9d85003ae
         8.8.4:
             url: "https://downloads.haskell.org/~ghc/8.8.4/ghc-8.8.4-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-i386-deb9-linux.tar.xz"
             content-length: 210077656
             sha1: eefb902bb3373925f596f1f1838f112caa95cd39
             sha256: 43dd954910c9027694312cef0aabc7774d102d0422b7172802cfb72f7d5da3a0
         8.10.1:
             url: "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-i386-deb9-linux.tar.xz"
             content-length: 215852640
             sha1: 30b28ec4d3b6af5eb3f25668a2567d9ba5c06de0
             sha256: 8b53eef2c827b5f634d72920a93c0c9dd66ea288691a2bfe28def45d3c686ee2
         8.10.2:
             url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-i386-deb9-linux.tar.xz"
             content-length: 214239684
             sha1: ceb3bc9c2befdf6e44ab18b298d09fc122a77b31
             sha256: 9dae2a86ad43d08f72c783542c944d1556b075aa20a8063efae5034ea88e7c2f
         8.10.3:
             url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-i386-deb9-linux.tar.xz"
             content-length: 215707372
             sha1: a6685fe6ed0362862d810229a83ba813c57e7c2d
             sha256: f0addd2a16b705f58ff9e8702c3ddf3e2d6bd0d3555707b5b5095e51bafee7b1
@@ -239,77 +239,77 @@ ghc:
             sha1: 2ba321f45918f477a1c69d153ca793b4a11540e0
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-deb8-linux.tar.xz"
             content-length: 112576160
             sha1: bb5e2c2989836924db915f97256c8c954e1d42ed
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-deb8-linux.tar.xz"
             content-length: 122702996
             sha1: 6f16930d7f189c74f4fd0bf082036945ddcfb41c
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-deb8-linux.tar.xz"
             content-length: 122791056
             sha1: 0bb8d532e7d7967a1cc4941cb4fa1fa62d665bc9
             sha256: 9e67d72d76482e0ba91c718e727b00386a1a12a32ed719714976dc56ca8c8223
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-i386-deb8-linux.tar.xz"
             content-length: 147022744
             sha1: 07f80c51632b17c60d4257a625c88c46e7de35df
             sha256: c56c589c76c7ddcb77cdbef885a811761e669d3e76868b723d5be56dedcd4f69
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-deb8-linux.tar.xz"
             content-length: 147544236
             sha1: c9d9acd02d6b0aeb53cd13ac2c5e532904884a3a
             sha256: 2d849c30b4c1eac25dc74333501920921e22fa483153f404993808bbda93df05
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-deb8-linux.tar.xz"
             content-length: 147610164
             sha1: bb8b3153d38111d6a0d2ca9a082045b71f6349a0
             sha256: f5763983a26dedd88b65a0b17267359a3981b83a642569b26334423f684f8b8c
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-deb8-linux.tar.xz"
             content-length: 147557416
             sha1: 84f83d60ea415df6341df4047e95eadd155987dc
             sha256: 678bafaabea6af70ba71ccf0210bb437f9f5591ec28ac1cbbbd5f7aa6894e450
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-deb8-linux.tar.xz"
             content-length: 177317168
             sha1: 8cd4c56adb4bb269d2da87eea157857d3b76c037
             sha256: 83573af96e3dec8f67c1a844512f92cbf7d51ae7ceca53d948fc2a3300abd05c
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-deb8-linux.tar.xz"
             content-length: 177362500
             sha1: fd4e000a3a077ce9434ae852dd3798ec9853ccc0
             sha256: a288026d9ef22f7ac387edab6b29ef7dcb3b28945c8ea532a15c1fa35d4733ed
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-i386-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-i386-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-i386-deb8-linux.tar.xz"
             content-length: 177351188
             sha1: 6965ef1875423532850f61a6a8520be3676ee715
             sha256: b57070ba8c70b1333a3e47ce124baf791be39c20a592954772532fd6dd51882f
         8.6.4:
             url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-i386-deb9-linux.tar.xz"
             content-length: 186494668
             sha1: 59ed4f57e6079470db5d7b5c4a6886d8639bc544
             sha256: 5e2ce88f4d13d23ac37e278e0c7b51c801008931359b9fa8a631d804d2da552c
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-deb9-linux.tar.xz"
             content-length: 187048424
             sha1: 3aab514beadef20d1c31eaa165ae987eedc1c686
             sha256: 1cddb907393a669342b1a922dd16d505d9d93d50bd9433a54a8162f8701250dc
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-i386-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-deb9-linux.tar.xz"
             content-length: 204669320
             sha1: 5c9e1cad872d09f70d493744241d85e0e4b2d772
             sha256: 3d3bb75aff2dd79ec87ace10483368681fbc328ff00ebf15edad33420f00f7f5
@@ -390,113 +390,113 @@ ghc:
             sha1: e219245814e8273d476b99da7c54e9b0ebca315f
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-deb7-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-deb7-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-deb7-linux.tar.xz"
             content-length: 112769784
             sha1: 929e96628276190c6083e083e0a00265a46edce7
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-deb7-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-deb7-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-deb7-linux.tar.xz"
             content-length: 127680144
             sha1: 510c37cb5e285a1720c3ba705867b637ca5de001
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-deb7-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-deb7-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-deb7-linux.tar.xz"
             content-length: 127815304
             sha1: 7af4a44973da66399465381c8e3fbb342d6ff2ff
             sha256: cd7afbca54edf9890da9f432c63366556246c85c1198e40c99df5af01c555834
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-deb8-linux.tar.xz"
             content-length: 152260712
             sha1: 6f62cc1287c314b540cf6436cba1766caf044cb2
             sha256: 427c77a934b30c3f1de992c38c072afb4323fe6fb30dbac919ca8cb6ae98fbd9
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
             content-length: 151806080
             sha1: af9058feab34ea81f31e328a233baa5c22a29f08
             sha256: 246f66eb56f4ad0f1c7755502cfc8f9972f2d067dede17e151f6f479c1f76fbd
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
             content-length: 151870024
             sha1: ece4a75cefa21992683266a1f8fad995dc75245f
             sha256: 30a402c6d4754a6c020e0547f19ae3ac42e907e35349aa932d347f73e421a8e2
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
             content-length: 151910212
             sha1: f132449742711cd4ef8534067f9dbb09bfae20e7
             sha256: 4c2a8857f76b7f3e34ecba0b51015d5cb8b767fe5377a7ec477abde10705ab1a
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
             content-length: 179223364
             sha1: 6ff44e86582c8360620b8f3e353e208aeb72c58e
             sha256: 6d8784401b7dd80c90fa17306ec0539920e3987399a2c7ef247989e53197dc42
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
             content-length: 179351624
             sha1: 67b0e8ee52f20cf2797b1ac81af6f89235dc8e50
             sha256: 13f96e8b83bb5bb60f955786ff9085744c24927a33be8a17773f84c7c248533a
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-deb8-linux.tar.xz"
             content-length: 179335960
             sha1: 0ee1ed815f24b6bb51a466cab8d2da7683592a9a
             sha256: 291ca565374f4d51cc311488581f3279d3167a064fabfd4a6722fe2bd4532fd5
         8.6.4:
             url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
             content-length: 185834596
             sha1: 434988420a61279d0fa9d61155cd7aeeba33c308
             sha256: 34ef5fc8ddf2fc32a027180bea5b1c8a81ea840c87faace2977a572188d4b42d
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-deb8-linux.tar.xz"
             content-length: 184373828
             sha1: a39933ccfcb3fc10fe8f0be3b1f0e61dcb4a3e34
             sha256: c419fd0aa9065fe4d2eb9a248e323860c696ddf3859749ca96a84938aee49107
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-deb8-linux.tar.xz"
             content-length: 195900372
             sha1: 0463026056657ef024a608fb41b406cb69deaf85
             sha256: fd96eb851971fbc3332bf2fa7821732cfa8b37e5a076a69f6a06f83f0ea7ccc5
         8.8.2:
             url: "https://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-deb8-linux.tar.xz"
             content-length: 196276084
             sha1: 4aad81a524c8405a72f8ffe0d3c6f41bafaa231f
             sha256: fbe69652eba75dadb758d00292247d17fb018c29cac5acd79843e56311256c9f
         8.8.3:
             url: "https://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-deb8-linux.tar.xz"
             content-length: 196286620
             sha1: a240d4fa2ac50fb08623f8f8f4f79615fe47d204
             sha256: 92b9fadc442976968d2c190c14e000d737240a7d721581cda8d8741b7bd402f0
         8.8.4:
             url: "https://downloads.haskell.org/~ghc/8.8.4/ghc-8.8.4-x86_64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-deb9-linux.tar.xz"
             content-length: 207233624
             sha1: e83e205d2d88c81e16306c42c843ae8b364c156a
             sha256: 4862559d221153caf978f4bf2c15a82c114d1e1f43b298b2ecff2ac94b586d20
         8.10.1:
             url: "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-x86_64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-x86_64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-x86_64-deb9-linux.tar.xz"
             content-length: 212806588
             sha1: 4d50d074123e686eb0313c90a24959b26131f73c
             sha256: d1cf7886f27af070f3b7dbe1975a78b43ef2d32b86362cbe953e79464fe70761
         8.10.2:
             url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-deb9-linux.tar.xz"
             content-length: 214854644
             sha1: afe3a9234cf0124461fd4ccb6ae8d6e338b95b88
             sha256: 4dbe3b479e76767bfeb4cbb7a4db8b761c4720266193483ca370b2ace3f10f7c
         8.10.3:
             url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-x86_64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-deb9-linux.tar.xz"
             content-length: 216376220
             sha1: 570eb691e302076a83e11250756e82ca4b006b50
             sha256: 95e4aadea30701fe5ab84d15f757926d843ded7115e11c4cd827809ca830718d
@@ -524,77 +524,77 @@ ghc:
             sha1: e219245814e8273d476b99da7c54e9b0ebca315f
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-deb8-linux.tar.xz"
             content-length: 114373576
             sha1: f298b7d0f37cc9ded7ac66b2662b0fa5ac6d0809
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-deb8-linux.tar.xz"
             content-length: 126809836
             sha1: 3e52527de6f1cad6d7f1c392ddde8148116d4e36
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-deb8-linux.tar.xz"
             content-length: 127028808
             sha1: 7d0312d0ad3e5c5602e1102d6454ff390e961851
             sha256: 48e205c62b9dc1ccf6739a4bc15a71e56dde2f891a9d786a1b115f0286111b2a
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-deb8-linux.tar.xz"
             content-length: 152260712
             sha1: 6f62cc1287c314b540cf6436cba1766caf044cb2
             sha256: 427c77a934b30c3f1de992c38c072afb4323fe6fb30dbac919ca8cb6ae98fbd9
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-deb8-linux.tar.xz"
             content-length: 151806080
             sha1: af9058feab34ea81f31e328a233baa5c22a29f08
             sha256: 246f66eb56f4ad0f1c7755502cfc8f9972f2d067dede17e151f6f479c1f76fbd
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-deb8-linux.tar.xz"
             content-length: 151870024
             sha1: ece4a75cefa21992683266a1f8fad995dc75245f
             sha256: 30a402c6d4754a6c020e0547f19ae3ac42e907e35349aa932d347f73e421a8e2
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-deb8-linux.tar.xz"
             content-length: 151910212
             sha1: f132449742711cd4ef8534067f9dbb09bfae20e7
             sha256: 4c2a8857f76b7f3e34ecba0b51015d5cb8b767fe5377a7ec477abde10705ab1a
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-deb8-linux.tar.xz"
             content-length: 179223364
             sha1: 6ff44e86582c8360620b8f3e353e208aeb72c58e
             sha256: 6d8784401b7dd80c90fa17306ec0539920e3987399a2c7ef247989e53197dc42
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-deb8-linux.tar.xz"
             content-length: 179351624
             sha1: 67b0e8ee52f20cf2797b1ac81af6f89235dc8e50
             sha256: 13f96e8b83bb5bb60f955786ff9085744c24927a33be8a17773f84c7c248533a
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-deb8-linux.tar.xz"
             content-length: 179335960
             sha1: 0ee1ed815f24b6bb51a466cab8d2da7683592a9a
             sha256: 291ca565374f4d51cc311488581f3279d3167a064fabfd4a6722fe2bd4532fd5
         8.6.4:
             url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-deb8-linux.tar.xz"
             content-length: 185834596
             sha1: 434988420a61279d0fa9d61155cd7aeeba33c308
             sha256: 34ef5fc8ddf2fc32a027180bea5b1c8a81ea840c87faace2977a572188d4b42d
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-deb8-linux.tar.xz"
             content-length: 184373828
             sha1: a39933ccfcb3fc10fe8f0be3b1f0e61dcb4a3e34
             sha256: c419fd0aa9065fe4d2eb9a248e323860c696ddf3859749ca96a84938aee49107
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-x86_64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-deb8-linux.tar.xz"
             content-length: 195900372
             sha1: 0463026056657ef024a608fb41b406cb69deaf85
             sha256: fd96eb851971fbc3332bf2fa7821732cfa8b37e5a076a69f6a06f83f0ea7ccc5
@@ -671,7 +671,7 @@ ghc:
             sha1: 80d7f75032e3fd64f63cf554b4ad3dd4fce4a9ae
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-i386-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-centos67-linux.tar.xz"
             content-length: 111819504
             sha1: 738ff402074834ee1ad999d5d61f3d0c0d1dd77f
 
@@ -694,7 +694,7 @@ ghc:
             sha1: 80d7f75032e3fd64f63cf554b4ad3dd4fce4a9ae
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-i386-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-centos67-linux.tar.xz"
             content-length: 111819504
             sha1: 738ff402074834ee1ad999d5d61f3d0c0d1dd77f
         # Since GHC 8.0.2, these should match linux32-gmp4 (without any additional configure-env)
@@ -720,22 +720,22 @@ ghc:
             sha1: bcdf7664d008c8e4e24fc7c044b9d316353cf349
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-centos67-linux.tar.xz"
             content-length: 111869204
             sha1: 937df64b3b8358b87e63059d5b8b73890aea5585
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-centos67-linux.tar.xz"
             content-length: 119576128
             sha1: b4d7fba53f87f3d11048b56a4190cc2cf5208dc6
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
             content-length: 121107428
             sha1: d66dc65a8e3b534ae319ba791e77c4fec5bc1fae
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
             content-length: 138760652
             sha1: 84f1c7f999309dbe9e7a2a7eb80349284b71847d
             sha256: 28c31489ed9a83af4400685ec8bc72a6d43d08958d75b2dc35d29a894a5c9d93
@@ -759,22 +759,22 @@ ghc:
             sha1: bcdf7664d008c8e4e24fc7c044b9d316353cf349
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-centos67-linux.tar.xz"
             content-length: 111869204
             sha1: 937df64b3b8358b87e63059d5b8b73890aea5585
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-centos67-linux.tar.xz"
             content-length: 119576128
             sha1: b4d7fba53f87f3d11048b56a4190cc2cf5208dc6
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-centos67-linux.tar.xz"
             content-length: 121107428
             sha1: d66dc65a8e3b534ae319ba791e77c4fec5bc1fae
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-centos67-linux.tar.xz"
             content-length: 138760652
             sha1: 84f1c7f999309dbe9e7a2a7eb80349284b71847d
             sha256: 28c31489ed9a83af4400685ec8bc72a6d43d08958d75b2dc35d29a894a5c9d93
@@ -816,97 +816,97 @@ ghc:
             sha256: 282094d67a786e975d71022f1c9650d19f6f5eeb6a618a9c14dd9cccf1eff9f7
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
             content-length: 152583608
             sha1: 76a63daba744d94ca870ea17696e5f69293cdaa0
             sha256: 89328a013e64b9b56825a9071fea5616ddd623d37fd41e8fb913dfebc609e7ea
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
             content-length: 152889300
             sha1: 0765e4af6e5db27bfc0c1782678611c4680e43bf
             sha256: d057b5c833596dbe4ae5d0dc2994f6cc5d0f4c2a21ea1d7900821d165fd4e846
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
             content-length: 152892592
             sha1: 8d4328ebfd10c08c9b8e221df27c54e5d035017c
             sha256: 269e7a4d3f336491b88409a020998122b30a3a729af78d33be86d3b3f8000c3e
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
             content-length: 152903812
             sha1: cc71b6329b930d317a7efff069ad80975b8b5fb9
             sha256: 8ab2befddc14d1434d0aad0c5d3c7e0c2b78ff84caa3429fa62527bfc6b86095
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
             content-length: 182150376
             sha1: 6878d9017edfd4341b0f9dd598a7bc0c229d84e4
             sha256: da903fbcf11ee6c977a8b7dac3f04dbc098d674def587880b6624b8f32588beb
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
             content-length: 182230252
             sha1: e1c195d4f15a5762cf58aabf129989291113a652
             sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
             content-length: 182356948
             sha1: ca192a146e70996d31a0aae8ec7de20608508d10
             sha256: 52ae92f4e8bb2ac0b7847287ea3da37081f5f7bf8bbb7c78ac35fde537d1a89f
         8.6.4:
             url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
             content-length: 188609132
             sha1: 13c153c27d34b8efc1beaed29dfb3bf2266a2638
             sha256: e0b1ada7a679d6c35f9d7a1192ed35fde054f3650bb0bd2570d103729ad3b846
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
             content-length: 189351696
             sha1: 0b5b1b15dd36edf01eb29fadbb8566864f95838f
             sha256: cf78b53eaf336083e7a05f4a3000afbae4abe5bbc77ef80cc40e09d04ac5b4a1
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
             content-length: 202227084
             sha1: 1150e35cd4f30cfa1729b97c4eff4bc4b96be9a8
             sha256: 851a78df620bc056c34b252c97040d5755e294993fa8afa5429708b5229204d6
         8.8.2:
             url: "https://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-fedora27-linux.tar.xz"
             content-length: 202542116
             sha1: 18f7ad61250a850b4b3fd555c31092c374d75a3a
             sha256: dbe2db717b33460f790e155e487d2a31c9b21a9d245f0c9490ad65844c3ea21f
         8.8.3:
             url: "https://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-fedora27-linux.tar.xz"
             content-length: 202566004
             sha1: 7318afe94b784f10720892a999275aac067f63fc
             sha256: 45ee1de3bfc98cbcc4886b65fc7651ade2d3820aa85eac2dbe9bc7bf91e7c818
         8.8.4:
             url: "https://downloads.haskell.org/~ghc/8.8.4/ghc-8.8.4-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-fedora27-linux.tar.xz"
             content-length: 208262692
             sha1: 6220f1209f0fa0d103fb18668cbe3227ca4c1456
             sha256: f32e37f8aa03e74bad533ae02f62dc27a4521e78199576af490888ba34b515db
         8.10.1:
             url: "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-x86_64-fedora27-linux.tar.xz"
             content-length: 214693280
             sha1: 3023b3456c50a045e6431de8dbba4e3840c7ab14
             sha256: 3c4cd72b4806045779739e8f5d1658e30e57123d88c2c8966422cdbcae448470
         8.10.2:
             url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-fedora27-linux.tar.xz"
             content-length: 215874384
             sha1: ca8e587c5a8631896fb46332cd5689fe8c5be8eb
             sha256: 8c675da83e9b3c2f64ebb407b5f9ebb2c1f21aa5d701020614fdce644a542e3b
         8.10.3:
             url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-fedora27-linux.tar.xz"
             content-length: 217616268
             sha1: 2cae3641ebe10eb0aeb6d29ce3d2df87c700007a
             sha256: f8739b12008712d6b6a9ffc6c39f9d05af77ef3bcb932c9aff20fa0893c8c159
@@ -945,61 +945,61 @@ ghc:
             sha256: 282094d67a786e975d71022f1c9650d19f6f5eeb6a618a9c14dd9cccf1eff9f7
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
             content-length: 152583608
             sha1: 76a63daba744d94ca870ea17696e5f69293cdaa0
             sha256: 89328a013e64b9b56825a9071fea5616ddd623d37fd41e8fb913dfebc609e7ea
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
             content-length: 152889300
             sha1: 0765e4af6e5db27bfc0c1782678611c4680e43bf
             sha256: d057b5c833596dbe4ae5d0dc2994f6cc5d0f4c2a21ea1d7900821d165fd4e846
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
             content-length: 152892592
             sha1: 8d4328ebfd10c08c9b8e221df27c54e5d035017c
             sha256: 269e7a4d3f336491b88409a020998122b30a3a729af78d33be86d3b3f8000c3e
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
             content-length: 152903812
             sha1: cc71b6329b930d317a7efff069ad80975b8b5fb9
             sha256: 8ab2befddc14d1434d0aad0c5d3c7e0c2b78ff84caa3429fa62527bfc6b86095
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
             content-length: 182150376
             sha1: 6878d9017edfd4341b0f9dd598a7bc0c229d84e4
             sha256: da903fbcf11ee6c977a8b7dac3f04dbc098d674def587880b6624b8f32588beb
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
             content-length: 182230252
             sha1: e1c195d4f15a5762cf58aabf129989291113a652
             sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
             content-length: 182356948
             sha1: ca192a146e70996d31a0aae8ec7de20608508d10
             sha256: 52ae92f4e8bb2ac0b7847287ea3da37081f5f7bf8bbb7c78ac35fde537d1a89f
         8.6.4:
             url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
             content-length: 188609132
             sha1: 13c153c27d34b8efc1beaed29dfb3bf2266a2638
             sha256: e0b1ada7a679d6c35f9d7a1192ed35fde054f3650bb0bd2570d103729ad3b846
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
             content-length: 189351696
             sha1: 0b5b1b15dd36edf01eb29fadbb8566864f95838f
             sha256: cf78b53eaf336083e7a05f4a3000afbae4abe5bbc77ef80cc40e09d04ac5b4a1
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
             content-length: 202227084
             sha1: 1150e35cd4f30cfa1729b97c4eff4bc4b96be9a8
             sha256: 851a78df620bc056c34b252c97040d5755e294993fa8afa5429708b5229204d6
@@ -1123,22 +1123,22 @@ ghc:
     macosx:
         7.8.4:
             url: "https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-x86_64-apple-darwin.tar.bz2"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-apple-darwin.tar.bz2"
             content-length: 129602990
             sha1: b7aff3983e9005b74d90c5a4fd7c837f9e752923
         7.10.1:
             url: "https://downloads.haskell.org/~ghc/7.10.1/ghc-7.10.1-x86_64-apple-darwin.tar.bz2"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-apple-darwin.tar.bz2"
             content-length: 146558980
             sha1: 5c7282f955020e92dc83560af9e7e3eadc2bd58f
         7.10.2:
             url: "https://downloads.haskell.org/~ghc/7.10.2/ghc-7.10.2-x86_64-apple-darwin.tar.bz2"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-apple-darwin.tar.bz2"
             content-length: 146921830
             sha1: 0a043340952fad211f4c9780bde873e0d9e4d331
         7.10.3:
             url: "https://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3b-x86_64-apple-darwin.tar.bz2"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-apple-darwin.tar.bz2"
             content-length: 147607506
             sha1: 0bbf715f041a20250d916847da19776837718d63
         8.0.1:
@@ -1297,90 +1297,90 @@ ghc:
     windows32:
         7.8.4:
             url: "https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-i386-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-unknown-mingw32-win10.tar.xz"
             content-length: 88645064
             sha1: f144a3c39eedac1bb9420da603f2cc6aba5719df
         7.10.1:
             url: "https://downloads.haskell.org/~ghc/7.10.1/ghc-7.10.1-i386-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-unknown-mingw32-win10.tar.xz"
             content-length: 98776304
             sha1: 1cb1fecd18f6206140f76e795ac459fbfb8a199f
         7.10.2:
             url: "https://downloads.haskell.org/~ghc/7.10.2/ghc-7.10.2-i386-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-unknown-mingw32-win10.tar.xz"
             content-length: 105154984
             sha1: bbfa52c5b87f2d301cf03f39caf613cf5f26974d
         7.10.3:
             url: "https://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-i386-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-unknown-mingw32-win10.tar.xz"
             content-length: 134521624
             sha1: dbd0b448d034ca7e2aa7027b61fa3fd18425da7f
         8.0.1:
             url: "https://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-unknown-mingw32-win10.tar.xz"
             content-length: 157395516
             sha1: 7540c8d0a1017f18978fe9a685f7d26b8722d922
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-i386-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-unknown-mingw32-win10.tar.xz"
             content-length: 150847788
             sha1: 2d99a736c156ca40a1879a7137c0833142d4643b
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-i386-unknown-mingw32.tar.xz"
             content-length: 173071480
             sha1: bdede26c1a2cfcf4ebb08329853d285e32213b3d
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-i386-unknown-mingw32.tar.xz"
             content-length: 171806704
             sha1: 6527c96a0d8126e36d1c7ab04fae90c2abe3a73d
             sha256: 6b79c96825ccf99878342b228e132b62e46e8303c4ef76e46450de42e5825bea
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-i386-unknown-mingw32.tar.xz"
             content-length: 187493212
             sha1: d3b261da648888c9e7671ec31263b217ac4154f9
             sha256: c543330f9c89f670682541e0ed24e5ec38c53ddffda48367c6e1364367045b0d
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-i386-unknown-mingw32.tar.xz"
             content-length: 187906396
             sha1: 9080c5bbe7e073509cbd03daaecf01e0492d1e5f
             sha256: 5c3bab299dfa6593d851c84c0a56ccbce668a01dc8993c0fcb8055fffb534bde
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-i386-unknown-mingw32.tar.xz"
             content-length: 188977912
             sha1: 20dda38df3439d5886cbfab31c72125840cb870d
             sha256: 4c702f123185a52f5cfb86c6d7a189f2223a5fb15775101ff3c5b50acaf166d2
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-i386-unknown-mingw32.tar.xz"
             content-length: 187842536
             sha1: daa7c2ff8412d6cc65df9da5c20d4eba72a2e660
             sha256: 4e6a3ce4df602cdbf0f6780e16b2d727dae9e3517a972bc81ea0f657f1e6dccf
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-i386-unknown-mingw32.tar.xz"
             content-length: 210011272
             sha1: db8f701c96cc8e1d11124e775f6db1bb973c9867
             sha256: 64e4ded48bd03ddd93401c3ff8a2016bc32c584ce27461d4028d6fddd56eea06
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-i386-unknown-mingw32.tar.xz"
             content-length: 210002540
             sha1: 64635bf2b1a34883025c8379a44b771f470a56a5
             sha256: a597240406b653aeed7a816496e170bff0b59be3082e87d7f65b0a3bc13e3a89
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-i386-unknown-mingw32.tar.xz"
             content-length: 210044040
             sha1: ceae1078e7a2dee24eee1921e8e607e15801026c
             sha256: 6d221bde8e1864dab0ac121b11bae486bbbeea161b0a2591d22c4c3e322b3590
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-i386-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-unknown-mingw32.tar.xz"
             content-length: 219427628
             sha1: c3de7b9caaea4bcc06c7dd868fa8624a094f22ff
             sha256: 2a8fb73080ed4335f7a172fe6cf9da1a2faa51fdb72817c50088292f497fc57a
@@ -1396,128 +1396,128 @@ ghc:
             sha1: 6eabf31b8da23084747c4d4b328eaae7dc783afc
         7.10.2:
             url: "https://downloads.haskell.org/~ghc/7.10.2/ghc-7.10.2-x86_64-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-unknown-mingw32-win10.tar.xz"
             content-length: 136724720
             sha1: fa3c147f48fae47d6bc6d8188b65b9179e469b87
         7.10.3:
             url: "https://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-x86_64-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-unknown-mingw32-win10.tar.xz"
             content-length: 136246768
             sha1: e471784db3c693d875b30c0189eb454a01117dcc
         8.0.1:
             url: "https://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-mingw32-win10.tar.xz"
             content-length: 158624976
             sha1: 222409b58e3911e8f40b4a9fdcf607bfd96cecd5
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-unknown-mingw32-win10.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-mingw32-win10.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-mingw32-win10.tar.xz"
             content-length: 152282428
             sha1: 4a6779a2d2bb376dfb4a63dbb3f906c0b54d23e3
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 175053796
             sha1: 51df67de9cb5cad1420626c12c063b2896dceb65
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-unknown-mingw32.tar.xz"
             content-length: 175118948
             sha1: 5e081f3c1db001d8792cb73403f50ba80e8d237e
             sha256: 1e033df2092aa546e763e7be63167720b32df64f76673ea1ce7ae7c9f564b223
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 191687004
             sha1: 227729550d4b9d15d7fa94ff5159994390786ca4
             sha256: 328b013fc651d34e075019107e58bb6c8a578f0155cf3ad4557e6f2661b03131
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-unknown-mingw32.tar.xz"
             content-length: 192170476
             sha1: 1c36f68a2e27340c1f6b13b795da752ea9afae51
             sha256: 797634aa9812fc6b2084a24ddb4fde44fa83a2f59daea82e0af81ca3dd323fde
         8.4.3:
             url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-unknown-mingw32.tar.xz"
             content-length: 192361576
             sha1: 55195bcdb6742ea8bc2fb2e6f1115a2eea49e5f7
             sha256: 8a83cfbf9ae84de0443c39c93b931693bdf2a6d4bf163ffb41855f80f4bf883e
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-unknown-mingw32.tar.xz"
             content-length: 191925112
             sha1: 697db44cdf7fdf1a6d83ada61e36857f2e241e3d
             sha256: da29dbb0f1199611c7d5bb7b0dd6a7426ca98f67dfd6da1526b033cd3830dc05
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 213498368
             sha1: a82c1955f841be3b3c1bc5dd57bd2740d0136a84
             sha256: 7316d9cb5e486460476754f872c7bac30ee2082e42f46da4342f872d10b88099
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-unknown-mingw32.tar.xz"
             content-length: 213699632
             sha1: 9738c346030e4f59a0fcd140de6b7c613135a34f
             sha256: 9a398e133cab09ff2610834337355d4e26c35e0665403fb9ff8db79315f74d3d
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-unknown-mingw32.tar.xz"
             content-length: 213391796
             sha1: 5a352e50ccf1deecc335300c5d8984ce863059b4
             sha256: 2fec383904e5fa79413e9afd328faf9bc700006c8c3d4bcdd8d4f2ccf0f7fa2a
         8.6.4:
             url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-unknown-mingw32.tar.xz"
             content-length: 178790960
             sha1: 7d7e8448ad9b5b412223ad78c4fbde5af31c0fc4
             sha256: e8d021b7a90772fc559862079da20538498d991956d7557b468ca19ddda22a08
         8.6.5:
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-unknown-mingw32.tar.xz"
             content-length: 280280296
             sha1: 3eb5017d1dfd75cd93668d5f046587483f7e0c02
             sha256: 457024c6ea43bdce340af428d86319931f267089398b859b00efdfe2fd4ce93f
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 395638616
             sha1: 1d225402594014b9dc59d8dee5802cc531f54f99
             sha256: 29e56e6af38017a5a76b2b6995a39d3988fa58131e4b55b62dd317ba7186ac9b
         8.8.2:
             url: "https://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-unknown-mingw32.tar.xz"
             content-length: 395954376
             sha1: 1ff82017057346546862736f7b3b0931516492a7
             sha256: e25d9b16ee62cafc7387af2cd021eea676a99cd2c32b83533b016162c63065d9
         8.8.3:
             url: "https://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-unknown-mingw32.tar.xz"
             content-length: 204702116
             sha1: 1f00c0c348acc67592e8a23b0d0a76245df0a930
             sha256: e22586762af0911c06e8140f1792e3ca381a3a482a20d67b9054883038b3a422
         8.8.4:
             url: "https://downloads.haskell.org/~ghc/8.8.4/ghc-8.8.4-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-unknown-mingw32.tar.xz"
             content-length: 204705252
             sha1: 08bed264a83cefaa8b6a271a8434998d3a7fe422
             sha256: d185055d2c8dc3bfe5b88afd59d6877eb1e722b672d1c9649f18296e148ed71f
         8.10.1:
             url: "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 427479476
             sha1: 19867b0e4edb18aba8c62f5d44c1d7a67ee6220a
             sha256: 38a3166ea50cccd5bae7e1680eae3aae2b4ae31b61f82a1d8168fb821f43bd67
         8.10.2:
             url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-unknown-mingw32.tar.xz"
             content-length: 428286988
             sha1: d4a06724701af9fbf8b0b4faaac239c9fd2798f9
             sha256: dcae4c173b9896e07ff048de5509aa0a4537233150e06e5ce8848303dfadc176
         8.10.3:
             url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-x86_64-unknown-mingw32.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-unknown-mingw32.tar.xz"
             content-length: 431235000
             sha1: 7917ae4ac9ce4fa1d61c526359e61c0605a4daa0
             sha256: 927a6c699533a115cd49772ef2c753d9af2c13bf9f0b2d3bd13645cc6a144ee3
@@ -1525,32 +1525,32 @@ ghc:
     freebsd32:
         7.8.4:
             url: "https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-i386-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-i386-portbld-freebsd.tar.xz"
             content-length: 68504948
             sha1: fa6164a1408b94c719957b23f043da8539376351
         7.10.1:
             url: "https://downloads.haskell.org/~ghc/7.10.1/ghc-7.10.1-i386-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-i386-portbld-freebsd.tar.xz"
             content-length: 75523240
             sha1: 5dd18c6a5c2da422dc1784720c7948f4e25b7f70
         7.10.2:
             url: "https://downloads.haskell.org/~ghc/7.10.2/ghc-7.10.2-i386-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-i386-portbld-freebsd.tar.xz"
             content-length: 87968692
             sha1: 6925a297932d1922f8e6c9f4ad0f0ccbdd3ea5b9
         7.10.3:
             url: "https://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-i386-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-i386-portbld-freebsd.tar.xz"
             content-length: 75898016
             sha1: 6d8e1ae331d07148cf631195bc8c2d03ecaf5e04
         8.0.1:
             url: "https://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-i386-portbld-freebsd.tar.xz"
             content-length: 112655220
             sha1: 8dbb7b1ec79f39a3e051b7a804f413bbe344695d
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-i386-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-i386-portbld-freebsd.tar.xz"
             content-length: 111754984
             sha1: 74a7e7b7407b68ef74eddb03f492a8fda813e4bb
         8.4.3:
@@ -1578,32 +1578,32 @@ ghc:
             sha1: 1d24fbb39a70177ed0cf9f01751a30f1e954683d
             sha256: af7b64d7af0bb8745888bfb059a892c31780767cad9f67052f986355f7d4eb2c
         8.6.5:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.5-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.5-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-portbld-freebsd.tar.xz"
             content-length: 139996152
             sha1: 2de6e12e4e25bb1a7bf94e17094ffb5250f56b66
             sha256: c2ab5659bd9801e2c90fc4735340030cba67b4b6e1a4df9efebdafe274946eb3
         8.8.1:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.1-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.1-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-portbld-freebsd.tar.xz"
             content-length: 135513460
             sha1: d082c73921ec966e8760947c60f6e61f7c3e1490
             sha256: 6f27d96765b99ddca0a96cef8130722b05b6b7f0a30bdd83b4941f6f27e8eb38
         8.8.2:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-portbld-freebsd.tar.xz"
             content-length: 135515128
             sha1: 0db1dc81e32fb6331f7a216ff9fd011a52e31d39
             sha256: 668ac30ace7cd93575bcb34a40d7f374eb71373b032838d646ca68c31bd81e52
         8.8.3:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.3-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.3-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-portbld-freebsd.tar.xz"
             content-length: 135516700
             sha1: ad2f9207906b8e7767f6711b2490617fbdfdeee0
             sha256: 68eb17aee4f76ed21563fb3efae33994a79159adc9dab46a64ca353908ce91cd
         8.8.4:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.4-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-i386-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.4-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-i386-portbld-freebsd.tar.xz"
             content-length: 133779884
             sha1: bc40be8c2c6a6181ce952ff8f80c983d6427fddb
             sha256: 68a61e07789d77241d9abfaf06713a674c828e0057a925d30b2ab3109a2bd19c
@@ -1640,37 +1640,38 @@ ghc:
             sha1: fae1e27b276089dd45de1432a698c91f28fbf72f
             sha256: 60b0e5bda007cc265b80e8b04b606755b9549793a286d507b8c94d2e166f829e
         8.6.5:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.5-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-portbld-freebsd-ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.5-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 139948440
             sha1: 9953791e452cb126475c8baa82df522afacc0101
             sha256: 98f7987fc1e9c0e6342eff0a16e12975373627a559fc80431cbf26417f800130
         8.8.1:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.1-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-portbld-freebsd-ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.1-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-i386-portbld-freebsd-ino64.tar.xz"
             content-length: 135594248
             sha1: baf9bc0c0a5090a9950eabc8dbfb231961fec959
             sha256: 38b7d6863b3576204b099867fdae7f3d68db2cd9ac5886a91b20bdda8219b335
         8.8.2:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-portbld-freebsd_ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-i386-portbld-freebsd_ino64.tar.xz"
             content-length: 135557104
             sha1: da2f855b6fc7c2265823fa1dd1c3debc3f2a8bd0
             sha256: 8ec560fa324d9bd48470600e7de4ee51b4b4e3849b53b2d1c1deb384d61bfa42
         8.8.3:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.3-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-portbld-freebsd_ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.3-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-i386-portbld-freebsd_ino64.tar.xz"
             content-length: 135532880
             sha1: d705a2139e578c28807849075073361169e314fb
             sha256: 8ab103232679f31426a7660d54352efe002d9b5fd6baf2013140325abcf82bae
         8.8.4:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.4-i386-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-i386-portbld-freebsd_ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.4-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-i386-portbld-freebsd_ino64.tar.xz"
             content-length: 133106276
             sha1: f2e031ca443c262fa82c8855cfca1c3aa208f66a
             sha256: ed8735d9bc5865f140b651fa8c7051c3e349e8abe7636a0dca43ad54ffed07b6
         8.10.3:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.10.3-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-i386-portbld-freebsd_ino64.tar.xz"
             content-length: 137837900
             sha1: 02a3450ab49289ec4517ef25c1ccd53b17aa67bc
             sha256: bd07946d105f58c18a8e1a702707784e1ed06ed4233cd2a78f7a55ec1e2050e1
@@ -1678,54 +1679,54 @@ ghc:
     freebsd64:
         7.8.4:
             url: "https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-portbld-freebsd.tar.xz"
             content-length: 68223736
             sha1: 3507549290a8226febb1284a50c51a5f10261d94
         7.10.1:
             url: "https://downloads.haskell.org/~ghc/7.10.1/ghc-7.10.1-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.1-release/ghc-7.10.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 76047456
             sha1: e1d9d07bb8806f1b7d6ba110471aa24442e881dc
         7.10.2:
             url: "https://downloads.haskell.org/~ghc/7.10.2/ghc-7.10.2-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-portbld-freebsd.tar.xz"
             content-length: 88841932
             sha1: 43372109b84f55cf9138982f84f39cd178d95975
         7.10.3:
             url: "https://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-portbld-freebsd.tar.xz"
             content-length: 76298356
             sha1: 459e438f1a397f4a93f7e873ea74b396dedc77aa
         8.0.1:
             url: "https://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 112094652
             sha1: 9ce6836d5e6f06fa0f3099cee39a9ab4bdb291d4
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-portbld-freebsd.tar.xz"
             content-length: 111330896
             sha1: 057a8af762d0259204cb0b6d758fc6b31f536d46
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-portbld10_3-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-portbld10_3-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-portbld10_3-freebsd.tar.xz"
             content-length: 115765760
             sha1: d413c0b193e7417fcf42058e0105e31310221c8e
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-portbld10_3-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-portbld10_3-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-portbld10_3-freebsd.tar.xz"
             content-length: 113792360
             sha1: 913528b902a2ceb8060d08760b31e7bde15157d0
             sha256: 9e99aaeaec4b2c6d660d80246c0d4dbd41fda88f1eb7a908b29dc8fa8d663949
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-portbld11-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-portbld11-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-portbld11-freebsd.tar.xz"
             content-length: 145379480
             sha1: 17d4b0d730e1289a9d4ee2c4b30bbd5ac45a34bc
             sha256: e748daec098445c6190090fe32bb2817a1140553be5acd2188e1af05ad24e5aa
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
             content-length: 145946192
             sha1: 97c21764580814a93dc171f076d657c91e52adec
             sha256: e9ed417fdf94c2ff2c6e344ed16f332bf6b591511f6442c0d9ea94854882b66c
@@ -1743,7 +1744,7 @@ ghc:
             sha256: b51c437635da47898957dc625631c4f5d5b89abe05e621655179d7d466b2a892
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 158235144
             sha1: 76610344f6ea536526fb4ba2f3be18d5d74a4242
             sha256: 51403b054a3a649039ac988e1d1112561f96750bfced63df864091a3fab36f08
@@ -1755,7 +1756,7 @@ ghc:
             sha256: a4b44ed1c03e167d92c3fa0f0c08aea1d67f353701ed2c65f4d1fb60e0563e89
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-portbld-freebsd.tar.xz"
             content-length: 158207536
             sha1: c7a344736d396107b34c8a511b8aa09f11ddb6b4
             sha256: bc2419fa180f8a7808c49775987866435995df9bdd9ce08bcd38352d63ba6031
@@ -1766,37 +1767,38 @@ ghc:
             sha1: b00a086212c08f763305c0c4f9ccab5e844b84cb
             sha256: 3ea8f8f34f15b44dbf8a24db8e24b3a88da9699ca15b423062e7ff552f7f8932
         8.6.5:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz"
             content-length: 141795004
             sha1: 135960eb9500c946238cdfc30b839f8bf63816db
             sha256: 32e53e6326a2d07cef3023d6ae2e5defb8668edeeda9005c919c34ca0269ba6d
         8.8.1:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.1-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.1-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 136043172
             sha1: 85b92216c3dc75eae6381be32c2fed6d16e2cc45
             sha256: ec54bd953f4e03a8970ef4057fb3fc80c084e1638af67faa79881822006b1750
         8.8.2:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz"
             content-length: 135960644
             sha1: 5b298f8f6481721aa90bb1a65b98542f3d8ddcc4
             sha256: 9ebf2518fb66709ae84ca3eb1cd58c374f1990228533453c51f8580448ed0027
         8.8.3:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.3-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.3-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-portbld-freebsd.tar.xz"
             content-length: 136000040
             sha1: 6077bfb78753ce5414a277c4fb32d115ebe0ab82
             sha256: c2abe91b6449afc0e07c9f81b2773aeb118c749785e392da9d69f733b403ac13
         8.8.4:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.4-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-portbld-freebsd.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.8.4-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-portbld-freebsd.tar.xz"
             content-length: 134146304
             sha1: e4cf18416f41629c8c8db1cc6ae69dd34c4ff834
             sha256: ae5999b0e56d6c922707c05fa95959e5290bcf0527891b72e6b9489879b3305a
         8.10.3:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.10.3-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-portbld-freebsd.tar.xz"
             content-length: 138763036
             sha1: 5f49e227a3224a78bb4f93507cebce1330bf891c
             sha256: 04027dbf20ef96d41a56dc9b74d7ffa05921ab9adf83838ebee2586abd705363
@@ -1833,37 +1835,38 @@ ghc:
             sha1: cb05599b1e8a8a5971cec3759b85005b6aa82e0a
             sha256: a210bd2713640ec4c9fc133dd15c110cfe226f0f2f95b6798c4b4e52f2401ab1
         8.6.5:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-portbld-freebsd-ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.6.5-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 146416884
             sha1: e408d95c7366642210e538507402cd41f22ccc37
             sha256: 5af5022114db5dbf4031dd8f833cf7d3cdbeabe27ca5708b005e522ab9f1a6f0
         8.8.1:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.1-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-portbld-freebsd-ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.1-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-portbld-freebsd-ino64.tar.xz"
             content-length: 139126244
             sha1: 4d6ecab48f0f03ad833730b934ee6c109a24dbac
             sha256: 4619d965b59d017be129b6136bd24686e299050f43fea1672de3de17bc4590bb
         8.8.2:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-portbld-freebsd_ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.2-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-portbld-freebsd_ino64.tar.xz"
             content-length: 138926424
             sha1: 0a109cc63b3ea3ef4f8440ec47a8fcc5c0e9ccfa
             sha256: 169df16688a84f633d6f40f20ecae166af2d9278ec08acf1e09e39fae498d6a1
         8.8.3:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.3-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-portbld-freebsd_ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.3-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-portbld-freebsd_ino64.tar.xz"
             content-length: 139121908
             sha1: afbc685fa22b1e9772b04ffeca70ce1d2cd162e1
             sha256: b7468cd25d5b93ddc4d334e462febbdc3d913e66f3014de525ccaa546333f948
         8.8.4:
-            # Mirrored from http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.4-x86_64-portbld-freebsd.tar.xz
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-portbld-freebsd_ino64.tar.xz"
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.8.4-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-portbld-freebsd_ino64.tar.xz"
             content-length: 132248260
             sha1: 30b68faf7cf9cc995fc3a1ae8fb3894d60999146
             sha256: 92ea3904d8fe5ab65c6cea7960e9953fae2ff7cea5abe4e6d86e809d1ee69c9e
         8.10.3:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.10.3-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-portbld-freebsd_ino64.tar.xz"
             content-length: 137155304
             sha1: 3d14cf5c904c2a025d9a7338b848a3ed61d67e7e
             sha256: 1b1ee005ecdf20bfa9eb51c9199ce1b8109c05709ee29d3dd69b7d9f141b6659
@@ -1871,49 +1874,48 @@ ghc:
     freebsd64-11:
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-portbld11-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-portbld11-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-portbld11-freebsd.tar.xz"
             content-length: 124245556
             sha1: 2c928c5c367df1397eeba416566587858f8f7d74
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-portbld11-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-portbld11-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-portbld11-freebsd.tar.xz"
             content-length: 126845368
             sha1: 58d9d9b8beee0cd5e3135231e906a75f92d71d0f
             sha256: cd351c704b92b9af23994024df07de8ca7090ea7675d5c8b14b2be857a46d804
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-portbld11-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-portbld11-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-portbld11-freebsd.tar.xz"
             content-length: 145379480
             sha1: 17d4b0d730e1289a9d4ee2c4b30bbd5ac45a34bc
             sha256: e748daec098445c6190090fe32bb2817a1140553be5acd2188e1af05ad24e5aa
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-portbld-freebsd.tar.xz"
             content-length: 145946192
             sha1: 97c21764580814a93dc171f076d657c91e52adec
             sha256: e9ed417fdf94c2ff2c6e344ed16f332bf6b591511f6442c0d9ea94854882b66c
         8.4.4:
             url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-x86_64-portbld-freebsd11.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-portbld-freebsd11.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-portbld-freebsd11.tar.xz"
             content-length: 154115020
             sha1: 8190d79c91911bb0b5fdbb95ca7702b7195d1aac
             sha256: 44fbd142d1c355d6110595c59c760e2c73866ff9259ec85ebf814edb244d1940
         8.6.1:
             url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 158235144
             sha1: 76610344f6ea536526fb4ba2f3be18d5d74a4242
             sha256: 51403b054a3a649039ac988e1d1112561f96750bfced63df864091a3fab36f08
         8.6.3:
             url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-portbld-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-portbld-freebsd.tar.xz"
             content-length: 158207536
             sha1: c7a344736d396107b34c8a511b8aa09f11ddb6b4
             sha256: bc2419fa180f8a7808c49775987866435995df9bdd9ce08bcd38352d63ba6031
         8.10.2:
-            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-unknown-freebsd.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-unknown-freebsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-unknown-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-unknown-freebsd.tar.xz"
             content-length: 179791636
             sha1: 5c54c56444f480601e1bf188a9dfc280d07885c8
             sha256: 9e5957f3497f4b58ecd3699568d9caaa11a47a6d7e902032c261e450fa0f6686
@@ -1927,26 +1929,26 @@ ghc:
     openbsd64-maj5-min9:
         8.0.1:
             url: "https://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
             content-length: 100619184
             sha1: 7ed707de43456ddc4534f68a17ef58b7099e9a59
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-unknown-openbsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-openbsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-openbsd.tar.xz"
             content-length: 100054832
             sha1: 426b01e6ac72b5e039eb9626649506bc47eb9510
 
     openbsd64-maj6-min0:
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-openbsd60-openbsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-openbsd60-openbsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-openbsd60-openbsd.tar.xz"
             content-length: 115142184
             sha1: b9bac0f843687facc11cefe3a59d465c780e2e67
 
     openbsd64-maj6-min1:
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-openbsd61-openbsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-openbsd61-openbsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-openbsd61-openbsd.tar.xz"
             content-length: 115110128
             sha1: 5ac8a867cf1241eeebdef7a6eee74f0a55e4543e
 
@@ -1961,17 +1963,17 @@ ghc:
             sha1: 35f8b595434fcbfa2cb6fc0e9561a5a4d87382a5
         8.0.1:
             url: "https://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
             content-length: 100619184
             sha1: 7ed707de43456ddc4534f68a17ef58b7099e9a59
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-x86_64-unknown-openbsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-openbsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-unknown-openbsd.tar.xz"
             content-length: 100054832
             sha1: 426b01e6ac72b5e039eb9626649506bc47eb9510
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-x86_64-openbsd60-openbsd.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-openbsd60-openbsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-openbsd60-openbsd.tar.xz"
             content-length: 115142184
             sha1: b9bac0f843687facc11cefe3a59d465c780e2e67
 
@@ -1979,32 +1981,32 @@ ghc:
     linux-armv7:
         7.10.2:
             url: "https://downloads.haskell.org/~ghc/7.10.2/ghc-7.10.2-arm-unknown-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-arm-unknown-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-arm-unknown-linux.tar.xz"
             content-length: 113388524
             sha1: 5e889d063c382e867e15e2443775167a8e9e348b
         7.10.3:
             url: "https://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3-armv7-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-armv7-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-armv7-deb8-linux.tar.xz"
             content-length: 118129964
             sha1: fa672f2b1953485a7b3f99b7751f28db18bef43a
         8.0.1:
             url: "https://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-armv7-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-armv7-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-armv7-deb8-linux.tar.xz"
             content-length: 144300284
             sha1: 62a645db8b0ad2b458189502c182a9e847d90710
         8.0.2:
             url: "https://downloads.haskell.org/~ghc/8.0.2/ghc-8.0.2-armv7-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-armv7-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-armv7-deb8-linux.tar.xz"
             content-length: 143338004
             sha1: 65b6a2c8ffed5fde60ebffaf2ad2bc97c680dd61
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-armv7-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-armv7-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-armv7-deb8-linux.tar.xz"
             content-length: 173741784
             sha1: 58a274d9fb9899123f680ec0857fda58a6b430ff
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-armv7-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-armv7-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-armv7-deb8-linux.tar.xz"
             content-length: 156227876
             sha1: 7d734275c6486f440f31c4026f220c2d7f64a753
         8.6.3:
@@ -2014,21 +2016,21 @@ ghc:
         8.10.1:
             # Mirrored from http://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-armv7-deb9-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-armv7-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-armv7-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-armv7-deb9-linux.tar.xz"
             content-length: 342015984
             sha1: 8a84cb1f08cbf29e4d7c3958754cd1d855be9999
             sha256: afe1bde2b0d6deb0320b9460fffe5d9427e302df85aec866b9c1458777d52b28
         8.10.2:
             # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-armv7-deb10-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-armv7-deb10-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-armv7-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-armv7-deb10-linux.tar.xz"
             content-length: 341245768
             sha1: 66f286cc897c31473d05d9ea8a92b1b842d4c74a
             sha256: bb9c97826b1f4d7a8ef8bce0616b612f1ded10480ef10fcf7fb4e6d10a6681c8
         8.10.3:
             # Mirrored from http://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-armv7-deb10-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-armv7-deb10-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-armv7-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-armv7-deb10-linux.tar.xz"
             content-length: 342497964
             sha1: 59f8e8e1847b82664bdb95343a940ed771e5dcac
             sha256: b823b58cae36fbac0741680ca7605180fa4cf4c6ae439123d282184b94d32fd6
@@ -2036,77 +2038,77 @@ ghc:
     linux-aarch64:
         8.2.1:
             url: "https://downloads.haskell.org/~ghc/8.2.1/ghc-8.2.1-aarch64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-aarch64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-aarch64-deb8-linux.tar.xz"
             content-length: 163469920
             sha1: 7cd428c5bc376d3d33ece59da55404a570f13cff
         8.2.2:
             url: "https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-aarch64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-aarch64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-aarch64-deb8-linux.tar.xz"
             content-length: 163937116
             sha1: 36b29a3f02d76b7c6d8ced92d7f831e502e3cc01
         8.4.1:
             url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-aarch64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-aarch64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-aarch64-deb8-linux.tar.xz"
             content-length: 200351604
             sha1: 5e39c72c9440564d552c425cc72701c543597e10
             sha256: 04c313c0574a6f61720d2a0b7839b8b307eb638f009673be51abf669d6357fcd
         8.4.2:
             url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-aarch64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-aarch64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-aarch64-deb8-linux.tar.xz"
             content-length: 200629892
             sha1: 64c063a98a37c133b4be3de7ab995c05bdff612f
             sha256: 684f8d2f5ddb954719e5c0cc149333e3c0396de9592cbad2b7b78c1547dffadc
         8.6.2:
             url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-aarch64-deb8-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-aarch64-deb8-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-aarch64-deb8-linux.tar.xz"
             content-length: 207834124
             sha1: cedb6aa1283911cf720dc8d1df432b3436e72389
             sha256: 841d4cf0673a4db44d93082f56479ffd679bd369c67d715e7b288630ec7eb4f0
         8.6.5:
             # Mirrored from http://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-aarch64-ubuntu18.04-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-aarch64-ubuntu18.04-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-aarch64-ubuntu18.04-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-aarch64-ubuntu18.04-linux.tar.xz"
             content-length: 190614704
             sha1: 74c5682cce4a59ca4e3782f1df65e46d19b83388
             sha256: 1852589037e4b2805ab517bc430e25a3125c4a118a1674ffefbb443394a0c786
         8.8.1:
             url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-aarch64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-aarch64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-aarch64-deb9-linux.tar.xz"
             content-length: 300455372
             sha1: 912e03f10aae333dd5edbf555634196c4baf74a8
             sha256: d4201c618f9ce1be6b531b35235de1575fa64cf1a1cf19e3244abb6eb35d2b9a
         8.8.2:
             # Mirrored from http://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-aarch64-deb9-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-aarch64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-aarch64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-aarch64-deb9-linux.tar.xz"
             content-length: 300890924
             sha1: ffb1d0d8c2f67ad7bf5b66daa92eb3fe82f03648
             sha256: b4b66b8d38a8b6d9ab4ce9c27a34d016c55729e7cba4385d4e4c755b937457f4
         8.8.3:
             # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-aarch64-deb9-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-aarch64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-aarch64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-aarch64-deb9-linux.tar.xz"
             content-length: 300943608
             sha1: c533c36439c13b06325aa9968d51e5078a0e16bd
             sha256: 2a6821d0e7326cfa7670851702924bbab3b092415ba41247c37419158327eed9
         8.10.1:
             # Mirrored from http://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-aarch64-deb9-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-aarch64-deb9-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-aarch64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-aarch64-deb9-linux.tar.xz"
             content-length: 313033012
             sha1: 947f53273ac37a9478739f0f60a78eb30a9fff80
             sha256: c099011e07999db917e797fb5d89c31f075a562556ab99be8ab0accbf2a94db7
         8.10.2:
             # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-aarch64-deb10-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-aarch64-deb10-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-aarch64-deb10-linux.tar.xz"
             content-length: 310742020
             sha1: 22bd6d4f9f9004cc8e0dd74d0da16bb90ec73903
             sha256: 5cf24189077e6e2dce2aa16367ad8a53f603e751a15010dfb23d067206e55593
         8.10.3:
             # Mirrored from http://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-aarch64-deb10-linux.tar.xz
             url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-aarch64-deb10-linux.tar.xz"
-            #mirror_url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-aarch64-deb10-linux.tar.xz"
             content-length: 312544072
             sha1: 4b12cc5609493d2ffcfa671f4872b20bcb4357a9
             sha256: a531432d505a1fe886cdc8639d168eb1c92d76464c1270713e01ce81891bbadb
