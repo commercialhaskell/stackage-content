@@ -378,6 +378,18 @@ ghc:
             content-length: 168216184
             sha1: f69980ef17d4e359d69be183dd674ca1a6ae0cbc
             sha256: 4a1ac89a0e6432f7d19af3dc169d885c1fe591c51323a4774a91ce521ecb4f70
+        8.10.4:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.10.4-musl/ghc-8.10.4-i386-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.4-release/ghc-8.10.4-i386-unknown-linux-musl.tar.xz"
+            content-length: 168188344
+            sha1: 9db1e0038d8bf2bb3181be122d18b2e614e99dd4
+            sha256: 25c601758125e64d43d42023fcb8519906e8aae53ed2ee28507e56e65a86586d
+        9.0.1:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-9.0.1-musl/ghc-9.0.1-i386-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-i386-unknown-linux-musl.tar.xz"
+            content-length: 169422852
+            sha1: b48832a98936d5d6ae87caa5253cf8a96a6f51bf
+            sha256: 7b26289bb0017c54218ddc123f59b4c22d52472caa4c20b3f5c313bec1953314
 
     linux64:
         7.8.4:
@@ -675,6 +687,18 @@ ghc:
             content-length: 162147076
             sha1: 7df79cc82da7859edb3749cbdccbcd311d4232db
             sha256: 21cecc5c9c8ee1dad62ddc3be39cbef776b651a61e5245baeb5edec80f73be54
+        8.10.4:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.10.4-musl/ghc-8.10.4-x86_64-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.4-release/ghc-8.10.4-x86_64-unknown-linux-musl.tar.xz"
+            content-length: 162175760
+            sha1: 5a7f6e933ee875f44664135d4872547d6d3314db
+            sha256: 50b34f1eaf94db494f26fe574a573a0af825b37405f3f633e3b6693ef3452f1e
+        9.0.1:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-9.0.1-musl/ghc-9.0.1-x86_64-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-x86_64-unknown-linux-musl.tar.xz"
+            content-length: 163256064
+            sha1: 90eef5c8431c0687f66ecf8f6158d86f8467d6f0
+            sha256: ae864c207221d2c76ac84a725767a033cf5112bbc64fcfb7e0b116c9c5833936
 
     linux32-gmp4:
         7.8.4:
