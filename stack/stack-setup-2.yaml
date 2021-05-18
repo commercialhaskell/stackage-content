@@ -1600,12 +1600,18 @@ ghc:
             sha1: ef92d66448e4ab8ddfe22407ccedbf3799981083
             sha256: e9175a276504c3390a5e0084954e6997d56078737dbe7158049518892cf6bfb2
         9.0.1:
+            # Modified to make top-level-directory consistent with other bindists so that Stack can install it
+            # (see https://github.com/commercialhaskell/stack/issues/5545)
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-x86_64-unknown-mingw32-modified-dir.tar.xz"
-            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 249434048
             sha1: af3b69a58baf80ec047ec94bd30a6d20582af805
             sha256: 4d2bdab2fca704e5ce4d4754ac9f1a404b57b5148a10cd785d82b796adf14080
-
+            ## ORIGINAL BINDIST:
+            #url: "http://downloads.haskell.org/~ghc/9.0.1/ghc-9.0.1-x86_64-unknown-mingw32.tar.xz"
+            ##mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-x86_64-unknown-mingw32.tar.xz"
+            #content-length: 247505048
+            #sha1: 9876d3418bae3a21da4f30dceb8e2c5057e3f1cc
+            #sha256: 4f4ab118df01cbc7e7c510096deca0cb25025339a97730de0466416296202493
     freebsd32:
         7.8.4:
             url: "https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-i386-portbld-freebsd.tar.xz"
