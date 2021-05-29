@@ -2,7 +2,7 @@
 author: Chris Dornan
 title: Stackage nightly snapshots to switch to GHC 9.0.1
 description: We will be releasing LST-18 and switching nightly to GHC 9
-timestamp: 2021-06-29T16:07:00Z
+timestamp: 2021-05-29T16:07:00Z
 ---
 
 We have been looking for an opportunity to switch to GHC-9 on our nightly builds and have decided
