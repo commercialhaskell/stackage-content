@@ -17,4 +17,6 @@ eventual deployment as the Haskell toolchain of choice. To that end, in the comi
 We can expect many packages to be removed from nightly due to build constraints being violated, or
 even real API breakage, and we will need your help getting everything back into the new release.
 
+We have prepared a [ghc-9 branch](https://github.com/commercialhaskell/stackage/pull/6047) which will become the first GHC 9 nightly and encourage you to check the diff to see if any of your packages are subject to removal. If you'd like them to be included in the initial GHC 9 nightly, please file a PR against that branch ([example](https://github.com/commercialhaskell/stackage/pull/6048))
+
 Stand by!
