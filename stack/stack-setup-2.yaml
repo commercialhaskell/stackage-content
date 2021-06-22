@@ -77,10 +77,10 @@ msys2:
         content-length: 79049224
         sha256: 9152ddf50c6bacfae33c1436338235f8db4b10d73aaea63adefd96731fb0bceb
     windows64:
-        version: "20200903"
-        url: "https://github.com/fpco/stackage-content/releases/download/msys2-20200903/msys2-20200903-x86_64.tar.xz"
-        content-length: 92352020
-        sha256: c53a9ed4b58f3b7a76c0be373342b7013ebf7799ea141ac91efd66cace7c00de
+        version: "20210604"
+        url: "https://github.com/commercialhaskell/stackage-content/releases/download/msys2-20210604/msys2-20210604-x86_64.tar.xz"
+        content-length: 99822772
+        sha256: 754afa315584afb601a275e658151ce2eaab7822a0da70791bbe31e26927dde2
 ghc:
     linux32:
         7.8.4:
