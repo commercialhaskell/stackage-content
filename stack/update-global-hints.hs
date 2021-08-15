@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-14.3 script
+-- stack --resolver lts-18.5 script
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Yaml
@@ -12,7 +12,8 @@ import Distribution.Types.PackageId
 import qualified RIO.ByteString.Lazy as BL
 import qualified Distribution.Text as DT (simpleParse, display)
 
-import Text.HTML.Scalpel.Core
+import Text.HTML.DOM (parseBSChunks)
+import Text.XML.Cursor
 import Data.Text.Encoding (decodeUtf8, encodeUtf8)
 import Network.HTTP.Simple
 
@@ -75,8 +76,8 @@ globalPackageDbHints vers = do
   pure $ Map.fromList pairs
 
 scrapeGhcReleaseNotes :: [GhcVer] -> RIO SimpleApp GlobalHintsFragment
-scrapeGhcReleaseNotes vers = liftIO $ do
-  pairs <- for vers $ \ghcVer -> myScrapeURL ghcVer parser
+scrapeGhcReleaseNotes vers = do
+  pairs <- for vers myScrapeURL
   pure $ Map.fromList pairs
     where
       url ver = T.unpack $ mconcat
@@ -86,16 +87,22 @@ scrapeGhcReleaseNotes vers = liftIO $ do
         , ver'
         , "-notes.html"
         ] where ver' = fromMaybe ver (T.stripPrefix "ghc-" ver)
-      -- scalpel uses cURL on Windows, yuck
-      -- https://stackoverflow.com/q/51936453/388010
-      myScrapeURL ghcVer parser = do
-        response <- httpBS (fromString (url ghcVer))
-        let mversions = scrapeStringLike (decodeUtf8 $ getResponseBody response) parser
-        pure (ghcVer, fromMaybe mempty mversions)
-      parser = Map.fromList <$> pairs
-      pairs = chroots ("div" @: ["id" @= "included-libraries"] // "tr") $ do
-        (pkg:ver:_) <- texts "td"
-        pure (pkg, ver)
+      myScrapeURL ghcVer = do
+        let url' = url ghcVer
+        req <- parseRequest url'
+        response <- httpBS req
+        let doc = parseBSChunks [getResponseBody response]
+            cursor = fromDocument doc
+            rows = cursor $// attributeIs "id" "included-libraries" &// element "tbody" &/ element "tr"
+        pairs <- traverse toPair rows
+        if null pairs
+          then error $ "Unable to parse HTML at " ++ url'
+          else pure (ghcVer, Map.fromList pairs)
+
+      toPair row =
+        case map (\td -> fold $ td $// content) $ row $/ element "td" of
+          (pkg:ver:_) -> pure (pkg, ver)
+          _ -> error $ "Could not parse row " ++ show row
 
 globalHintsFragmentProviders :: [GhcVer] -> [RIO SimpleApp GlobalHintsFragment]
 globalHintsFragmentProviders vers =
