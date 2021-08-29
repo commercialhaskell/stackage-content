@@ -1808,6 +1808,7 @@ ghc:
             sha256: 8bbf889fffdc4527dfc9f20bc249c8a544a1905d957e4c8d445ee268dbbe5e43
         8.10.6:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.10.6-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.6-release/ghc-8.10.6-i386-portbld-freebsd.tar.xz"
             content-length: 146213964
             sha1: b54f329249506fdc02a79b4e3cb5595751027722
             sha256: 54183714f44d984fc362346f669afd23a1653814da0ef546889b3a49cbb37665
@@ -1886,6 +1887,7 @@ ghc:
             sha256: e07be584d780440cb3eff58c4ba9c2141784697f215b26a8be22dde41688b08a
         8.10.6:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.10.6-i386-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.6-release/ghc-8.10.6-i386-portbld-freebsd_ino64.tar.xz"
             content-length: 146429836
             sha1: 24d9478800fdb2d90189508834ce2df7a823fb32
             sha256: b34a9c1a5a265094fc5ee1ed4495dd7038b0d7ef7a1e6a4d004ea69b9baba744
@@ -2023,6 +2025,7 @@ ghc:
             sha256: f11759f4a5b8d23d32840adeb721e38a29a3bd40ca8b8fff42fb0e621efa0971
         8.10.6:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/11/ghc-8.10.6-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.6-release/ghc-8.10.6-x86_64-portbld-freebsd.tar.xz"
             content-length: 145261080
             sha1: 1f559ffd53ae87a2b5b3b82b32cb5ae6676001f4
             sha256: 4959c9e9294a96ed5c2d81ed822344900bdc8be8c8265c40bf17d75e15ac1f12
@@ -2101,6 +2104,7 @@ ghc:
             sha256: adffb88aeb99ec16da53e272d14a77912fb38180af9ee43e1909a80d236510b0
         8.10.6:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-8.10.6-x86_64-portbld-freebsd.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.6-release/ghc-8.10.6-x86_64-portbld-freebsd_ino64.tar.xz"
             content-length: 145501284
             sha1: 754054acf2abe834cb5d02c09029ca9976b69a32
             sha256: 905b8c827c039e0c0b5929f6b5c1b677b0daa3f39781984779d07b9ff528fd7d
