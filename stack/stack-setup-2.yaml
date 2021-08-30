@@ -414,6 +414,12 @@ ghc:
             content-length: 168615100
             sha1: 40f75db312975eec088069f5b9d19107f984cf41
             sha256: c1b29b9ecaeac465037febd1a039c8284520534315b535098791bd2ca21aca44
+        8.10.7:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.10.7-musl/ghc-8.10.7-i386-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.7-release/ghc-8.10.7-i386-unknown-linux-musl.tar.xz"
+            content-length: 168626240
+            sha1: d4eba03a1730f7b2113c44253a4a7f3b09ad02de
+            sha256: 3ca3ae457a57419960af0283c1d2d779d1c8368e39fdf6573add899b3f1ad26b
         9.0.1:
             url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-9.0.1-musl/ghc-9.0.1-i386-unknown-linux-musl.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-i386-unknown-linux-musl.tar.xz"
@@ -753,6 +759,12 @@ ghc:
             content-length: 153884204
             sha1: 62252970d16d6f30b239aa21156140588a3df167
             sha256: bfa4e97c067b83c45456aebd8d8d3af2a76c23353725f677bf056512b30b2894
+        8.10.7:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-8.10.7-musl/ghc-8.10.7-x86_64-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.7-release/ghc-8.10.7-x86_64-unknown-linux-musl.tar.xz"
+            content-length: 153913528
+            sha1: 8b9e0c858ff071b968e33a6d195623c0494d7eaf
+            sha256: 804bd83494c3d5e4e53592d91427e574e92cd8131704aa28a2a01fdc96fec99c
         9.0.1:
             url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-9.0.1-musl/ghc-9.0.1-x86_64-unknown-linux-musl.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-x86_64-unknown-linux-musl.tar.xz"
