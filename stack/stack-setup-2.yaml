@@ -1739,6 +1739,12 @@ ghc:
             content-length: 434114408
             sha1: 1677cb422920539a5c47c5bc773d83bc1bd1550a
             sha256: ff62f4a245c2427a1a5e6f5f1c2ad7521f69f9274a27ffb17c76f252ca573f3b
+        8.10.7:
+            url: "http://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.7-release/ghc-8.10.7-x86_64-unknown-mingw32.tar.xz"
+            content-length: 434126144
+            sha1: c7685527919393a5e868e4b4a54b08aa02176ca6
+            sha256: b6515b0ea3f7a6e34d92e7fcd0c1fef50d6030fe8f46883000185289a4b8ea9a
         9.0.1:
             # Modified to make top-level-directory consistent with other bindists so that Stack can install it
             # (see https://github.com/commercialhaskell/stack/issues/5545)
@@ -1854,12 +1860,6 @@ ghc:
             content-length: 146213964
             sha1: b54f329249506fdc02a79b4e3cb5595751027722
             sha256: 54183714f44d984fc362346f669afd23a1653814da0ef546889b3a49cbb37665
-        8.10.7:
-            url: "http://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-x86_64-unknown-mingw32.tar.xz"
-            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.7-release/ghc-8.10.7-x86_64-unknown-mingw32.tar.xz"
-            content-length: 434126144
-            sha1: c7685527919393a5e868e4b4a54b08aa02176ca6
-            sha256: b6515b0ea3f7a6e34d92e7fcd0c1fef50d6030fe8f46883000185289a4b8ea9a
 
     freebsd32-ino64:
         8.4.3:
