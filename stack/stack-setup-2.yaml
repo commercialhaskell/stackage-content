@@ -2279,6 +2279,18 @@ ghc:
             sha1: 5c54c56444f480601e1bf188a9dfc280d07885c8
             sha256: 9e5957f3497f4b58ecd3699568d9caaa11a47a6d7e902032c261e450fa0f6686
 
+    freebsd-aarch64-ino64:
+        8.10.6:
+            url: "http://distcache.FreeBSD.org/local-distfiles/mikael/stack-bindists/ghc-8.10.6-aarch64-unknown-freebsd.tar.xz"
+            content-length: 247039320
+            sha1: bca3c59e8f6383ce3f667d543fb52e74c54366ae
+            sha256: 62411a57333b6bb152bd3da791df69731e1a225560b65ae04f36b338623cee63
+        8.10.7:
+            url: "http://distcache.FreeBSD.org/local-distfiles/mikael/stack-bindists/ghc-8.10.7-aarch64-unknown-freebsd.tar.xz"
+            content-length: 246852068
+            sha1: cfbb7fe93f3e007a6dd4a7217535e289d7c432ad
+            sha256: 53040b32747f7496c59d04c7088d708b3c7fd7d316ff2d37844580cced0bc87a
+
     # OpenBSD releases are not binary compatible. For each release, we need a separate block, called `openbsd64-$GhcBuild`,
     # with any bindists available for that OpenBSD release. `$GhcBuild` encodes the OpenBSD release number.
     # For instance, OpenBSD 5.9, 6.0, and 6.1 would have blocks called openbsd64-maj5-min9, openbsd64-maj6-min0, openbsd64-maj6-min1.
