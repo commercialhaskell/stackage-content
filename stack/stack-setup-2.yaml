@@ -1424,6 +1424,11 @@ ghc:
             content-length: 275378217
             sha1: bb6f82b12ef8b1ce267b4bed17f36806fede59dd
             sha256: bd4d66c28ef71a4480414cf6534a9a331b301c578d27a3e9ec3da62cd2ecc9bf
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-apple-darwin.tar.bz2"
+            content-length: 172033065
+            sha1: 81070219b2e3dfcd6d714842621fd25ab93ffbe7
+            sha256: 8690a0f4d8549d427e06424fc620027de4a8388a81c3247bd9d40a3efa4cea10
 
     macosx-aarch64:
         8.10.5:
