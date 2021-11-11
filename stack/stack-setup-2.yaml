@@ -245,6 +245,12 @@ ghc:
             content-length: 218717576
             sha1: 16a3a7b19f30331519651df5bba9033fc438da7f
             sha256: 880e37cea8328401bcfecfe4bb56eb85195f30135b140140b3f24094264f8ba5
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-i386-deb9-linux.tar.xz"
+            content-length: 127415076
+            sha1: fe6ffc0f65aa71957c938b4fd97b5e7ce1894578
+            sha256: 6daa9e983fbe5af5a3c449c92e5b331d2ecb8e76ea07fc4e237ba5ff27af2c45
 
     linux32-nopie:
         7.8.4:
@@ -426,6 +432,12 @@ ghc:
             content-length: 169422852
             sha1: b48832a98936d5d6ae87caa5253cf8a96a6f51bf
             sha256: 7b26289bb0017c54218ddc123f59b4c22d52472caa4c20b3f5c313bec1953314
+        9.2.1:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-9.2.1-musl/ghc-9.2.1-i386-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-i386-unknown-linux-musl.tar.xz"
+            content-length: 175804380
+            sha1: 855f3bf08200604e85cad861d7ae6743f4948555
+            sha256: 2b3e11446255bddfb5a946c5e64987829a5c9585707da69397fd49723db85903
 
     linux64:
         7.8.4:
@@ -590,6 +602,12 @@ ghc:
             content-length: 217978008
             sha1: 324c47d98b80a55828d4e70701ed5894d33e8f5f
             sha256: 4ca6252492f59fe589029fadca4b6f922d6a9f0ff39d19a2bd9886fde4e183d5
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-deb9-linux.tar.xz"
+            content-length: 243336888
+            sha1: 53eba996cd4bb679158a90733916510c77dc4f05
+            sha256: f09133ed735e9f3b221b5ed54787e5651f039ed0f7dab0ab834a27c8ca68fc9b
 
     linux64-nopie:
         7.8.4:
@@ -771,6 +789,12 @@ ghc:
             content-length: 163256064
             sha1: 90eef5c8431c0687f66ecf8f6158d86f8467d6f0
             sha256: ae864c207221d2c76ac84a725767a033cf5112bbc64fcfb7e0b116c9c5833936
+        9.2.1:
+            url: "https://github.com/redneb/ghc-alt-libc/releases/download/ghc-9.2.1-musl/ghc-9.2.1-x86_64-unknown-linux-musl.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-unknown-linux-musl.tar.xz"
+            content-length: 157643708
+            sha1: 1201c6565695dc9905fd59812643794494ed078b
+            sha256: 0b8b1bf2e09c41fb05858af9b8d6a45ca110a05b653ecc68245800546e052f6b
 
     linux32-gmp4:
         7.8.4:
@@ -1060,6 +1084,12 @@ ghc:
             content-length: 220795024
             sha1: 51456ef7b49a413edded28e678535fb2f8d0e896
             sha256: 1fb8e27eeec51b4cdbfd1b3c16727adc5f77388d3e925e63799d8232647f316d
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
+            content-length: 128403584
+            sha1: 9e39bf1015815b4d6f7732ab38e4f212089dc69a
+            sha256: e37cd1fe64006dd42f418dacbae3fea0938ce0905407cfc7c3ea61054f5d5329
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -1424,6 +1454,12 @@ ghc:
             content-length: 275378217
             sha1: bb6f82b12ef8b1ce267b4bed17f36806fede59dd
             sha256: bd4d66c28ef71a4480414cf6534a9a331b301c578d27a3e9ec3da62cd2ecc9bf
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-apple-darwin.tar.bz2"
+            content-length: 172033065
+            sha1: 81070219b2e3dfcd6d714842621fd25ab93ffbe7
+            sha256: 8690a0f4d8549d427e06424fc620027de4a8388a81c3247bd9d40a3efa4cea10
 
     macosx-aarch64:
         8.10.5:
@@ -1444,6 +1480,12 @@ ghc:
             content-length: 384760980
             sha1: 8013c19c4b1ca63179a20d3b672f937d36de1686
             sha256: 87f387790e3a96d8b0827a0a9f6ac8dc57711424851ad68e8e263c86fd1043dd
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-aarch64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-aarch64-apple-darwin.tar.bz2"
+            content-length: 175602172
+            sha1: 924c9ce2fce9176ffee30c73d2a538e899cc458f
+            sha256: 8348f4a45074fb5de2507d05014b32a9a933ad20407f9c12a072a9e8cde9f5c0
 
     windows32-integersimple:
         7.8.4:
@@ -1758,6 +1800,13 @@ ghc:
             #content-length: 247505048
             #sha1: 9876d3418bae3a21da4f30dceb8e2c5057e3f1cc
             #sha256: 4f4ab118df01cbc7e7c510096deca0cb25025339a97730de0466416296202493
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-unknown-mingw32.tar.xz"
+            content-length: 502290804
+            sha1: b378c41f915525d275e20b89033c41824da58faa
+            sha256: 649e04abd4fa35796070b35de1c353721507a49842b18663aa1c7adc6b4115d8
+
     freebsd32:
         7.8.4:
             url: "https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-i386-portbld-freebsd.tar.xz"
@@ -2482,6 +2531,12 @@ ghc:
             content-length: 318952020
             sha1: c8593265bbe9dc1dd8723d7e4bc3e06416c18020
             sha256: fac7a0bdfc83c05df94024a2d67b8f00a9cd2733b9cb41fb8ad76be399014906
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-aarch64-deb10-linux.tar.xz"
+            content-length: 140649744
+            sha1: 74eeaac88a424f9db6697e3e8e20a9674f45fa6d
+            sha256: 717d4246a8b407a807048ce6eddb2785aca2e4c73b6b634c01e1726f42d539a1
 
 ghcjs:
     source:
