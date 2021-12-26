@@ -245,6 +245,12 @@ ghc:
             content-length: 218717576
             sha1: 16a3a7b19f30331519651df5bba9033fc438da7f
             sha256: 880e37cea8328401bcfecfe4bb56eb85195f30135b140140b3f24094264f8ba5
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-i386-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-i386-deb9-linux.tar.xz"
+            content-length: 122499044
+            sha1: 84d52622eaf8e698e6cc32e3c86ded0456c9759a
+            sha256: fdeb9f8928fbe994064778a8e1e85bb1a58a6cd3dd7b724fcc2a1dcfda6cad47
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-i386-deb9-linux.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-i386-deb9-linux.tar.xz"
@@ -602,6 +608,12 @@ ghc:
             content-length: 217978008
             sha1: 324c47d98b80a55828d4e70701ed5894d33e8f5f
             sha256: 4ca6252492f59fe589029fadca4b6f922d6a9f0ff39d19a2bd9886fde4e183d5
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-x86_64-deb9-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-x86_64-deb9-linux.tar.xz"
+            content-length: 234240804
+            sha1: 1a62ae3174c7a0db79600c728cc89b3e0d996ccb
+            sha256: 805f5628ce6cec678ba77ff48c924831ebdf75ec2c66368e8935a618913a150e
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-deb9-linux.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-deb9-linux.tar.xz"
@@ -1084,6 +1096,12 @@ ghc:
             content-length: 220795024
             sha1: 51456ef7b49a413edded28e678535fb2f8d0e896
             sha256: 1fb8e27eeec51b4cdbfd1b3c16727adc5f77388d3e925e63799d8232647f316d
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 122667728
+            sha1: eaa7ba05a33082e7a4a3e547306cae719b7b5436
+            sha256: f42f7bf075665a3971fa0d9b881f1400725e9e6cc3b5067cb83442f578c62691
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
@@ -1454,6 +1472,12 @@ ghc:
             content-length: 275378217
             sha1: bb6f82b12ef8b1ce267b4bed17f36806fede59dd
             sha256: bd4d66c28ef71a4480414cf6534a9a331b301c578d27a3e9ec3da62cd2ecc9bf
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-x86_64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-x86_64-apple-darwin.tar.bz2"
+            content-length: 264948596
+            sha1: 15d6735c4409f6468e6f24460e3305ae372ad68f
+            sha256: 66189f20f428405a68f9383d42e04b565bb569a4a3a77303ad5bdf7a1ed34dc1
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-apple-darwin.tar.bz2"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-apple-darwin.tar.bz2"
@@ -1480,6 +1504,12 @@ ghc:
             content-length: 384760980
             sha1: 8013c19c4b1ca63179a20d3b672f937d36de1686
             sha256: 87f387790e3a96d8b0827a0a9f6ac8dc57711424851ad68e8e263c86fd1043dd
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-aarch64-apple-darwin.tar.bz2"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-aarch64-apple-darwin.tar.bz2"
+            content-length: 357645825
+            sha1: 54961fdadfde4abfdf181e24f52a9af3c50a1e8a
+            sha256: ef1cb39b93448ce0b2551d8f1a3d1bf5f815e04e988c34ef591af87c923c5543
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-aarch64-apple-darwin.tar.bz2"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-aarch64-apple-darwin.tar.bz2"
@@ -1800,6 +1830,12 @@ ghc:
             #content-length: 247505048
             #sha1: 9876d3418bae3a21da4f30dceb8e2c5057e3f1cc
             #sha256: 4f4ab118df01cbc7e7c510096deca0cb25025339a97730de0466416296202493
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-x86_64-unknown-mingw32.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-x86_64-unknown-mingw32.tar.xz"
+            content-length: 487700912
+            sha1: e9ede14af13beedc2adc37c10b4de5092076da3f
+            sha256: f6fbb8047ae16049dc6215a6abb652b4307205310bfffddea695a854af92dc99
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-unknown-mingw32.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-unknown-mingw32.tar.xz"
@@ -2543,6 +2579,12 @@ ghc:
             content-length: 318952020
             sha1: c8593265bbe9dc1dd8723d7e4bc3e06416c18020
             sha256: fac7a0bdfc83c05df94024a2d67b8f00a9cd2733b9cb41fb8ad76be399014906
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-aarch64-deb10-linux.tar.xz"
+            content-length: 164802160
+            sha1: 7dcaba567118c09bd486fb07b8dbaab66bb9a147
+            sha256: cb016344c70a872738a24af60bd15d3b18749087b9905c1b3f1b1549dc01f46d
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-aarch64-deb10-linux.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-aarch64-deb10-linux.tar.xz"
