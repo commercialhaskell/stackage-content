@@ -2314,6 +2314,11 @@ ghc:
             content-length: 145424852
             sha1: f0e3ba80c3c7beddffacfc65d24241c903c19b48
             sha256: 264bd28d4088e345cd50737e8608f3c09e2facda336126983710aad114d7000e
+        9.0.2:
+            url: "https://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-x86_64-portbld-freebsd.tar.xz"
+            content-length: 159193920
+            sha1: 9f8e1a8cd91a9a2fb5f5f6ccc5a687f62b127c94
+            sha256: 1c8057803e3d8dcb86b5e36a1cfcad15d95bdf6a202f4ac614aea5952d34673d
 
     freebsd64-11:
         8.2.1:
