@@ -1608,6 +1608,59 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-unknown-mingw32-integer-simple.tar.xz"
             content-length: 168449672
             sha1: b3167c2cf1a44d8336d0e74509adbfe4a632fc07
+       #8.4.1: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_4_1.html
+       #8.4.2: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_4_2.html
+       #8.4.3: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_4_3.html
+       #8.4.4: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_4_4.html
+       #8.6.1: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_6_1.html
+       #8.6.2: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_6_2.html
+       #8.6.3: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_6_3.html
+       #8.6.4: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_6_4.html
+       #8.6.5: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_6_5.html
+       #8.8.1: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_8_1.html
+       #8.8.2: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_8_2.html
+       #8.8.3: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_8_3.html
+       #8.8.4: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_8_4.html
+       #8.10.1: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_10_1.html
+       #8.10.2: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_10_2.html     
+       #8.10.3: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_10_3.html
+       #8.10.4: No binary distribution at https://www.haskell.org/ghc/download_ghc_8_10_4.html
+        8.10.5:
+            url: "https://downloads.haskell.org/~ghc/8.10.5/ghc-8.10.5-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 434257004
+            sha1: 26c25c7b540583f71632836e74161bba78d89c58
+            sha256: f95db4ed10739cccb3043798621d585f57590a2ab83ca7b8bee5df640bfc2688
+        8.10.6:
+            url: "https://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 432082732
+            sha1: 44ef863ca3907ff52ccd33fd8a04bfcda5da3af3
+            sha256: 83ed942e366c7670180f46be756c53b23ca649acd39125f424106ab2bfdb5a01
+        8.10.7:
+            url: "https://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 432063988
+            sha1: d3a0201c690f6cb48bac7050f015f6cfc159f21e
+            sha256: 8d0ab3d0c2f2f1fb1c6c63d0b2b34173408157368c1f3255909fafa355adcc09
+       #9.0.1: No binary distribution at https://www.haskell.org/ghc/download_ghc_9_0_1.html
+        9.0.2:
+            url: "https://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 485721748
+            sha1: 57394b52ea54f9743858bef95f55cf914239a26d
+            sha256: 03eb59dd881ad577784b9505894860bdb74220d0e1e5062ee53a3853eb833793
+        9.2.1:
+            url: "https://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 500316432
+            sha1: d232a5ce7830e9d604292c27d60ec0d426f73f22
+            sha256: 907886dc2b66db4b044403e807fd8c44d37ebd30fb1f71c8f87ba9ffcd2e7aea
+        9.2.2:
+            url: "https://downloads.haskell.org/~ghc/9.2.2/ghc-9.2.2-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 346765136
+            sha1: 3e1de56ede8091e65a0cc5320ba2e3df39f310c5
+            sha256: 146fd58c67d8fe01e478e950afad1d753de89cfbe2e6677a3129f090c213ff48
+        9.2.3:
+            url: "https://downloads.haskell.org/~ghc/9.2.3/ghc-9.2.3-x86_64-unknown-mingw32-integer-simple.tar.xz"
+            content-length: 502745320
+            sha1: a9187f1b2207e013aefcafe04f2e57ab433292da
+            sha256: a93d8f238d0f13a085f00d0f46479e8e86e054af5ec6a85a52bccfc40a371bd1
 
     windows32:
         7.8.4:
