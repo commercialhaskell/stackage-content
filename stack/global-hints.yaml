@@ -1170,7 +1170,7 @@ ghc-9.4.0.20220523:
   ghci: 9.4.0.20220523
   haskeline: 0.8.2
   hpc: 0.6.1.0
-  integer: gmp-1.1
+  integer-gmp: 1.1
   libiserv: 9.4.0.20220523
   mtl: 2.2.2
   parsec: 3.1.15.0
