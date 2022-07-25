@@ -1134,11 +1134,11 @@ ghc:
             sha1: 51456ef7b49a413edded28e678535fb2f8d0e896
             sha256: 1fb8e27eeec51b4cdbfd1b3c16727adc5f77388d3e925e63799d8232647f316d
         9.0.2:
-            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-x86_64-fedora27-linux.tar.xz"
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2a-x86_64-fedora27-linux.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-x86_64-fedora27-linux.tar.xz"
-            content-length: 122667728
-            sha1: eaa7ba05a33082e7a4a3e547306cae719b7b5436
-            sha256: f42f7bf075665a3971fa0d9b881f1400725e9e6cc3b5067cb83442f578c62691
+            content-length: 237286244
+            sha1: affc2aaa3e6a1c446698a884f56a0a13e57f00b4
+            sha256: b2670e9f278e10355b0475c2cc3b8842490f1bca3c70c306f104aa60caff37b0
         9.2.1:
             url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
             #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
