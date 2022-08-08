@@ -2,19 +2,21 @@
 -- stack --resolver lts-18.5 script
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
+{-# OPTIONS -Wall #-}
 import Data.Yaml
 import RIO
+import Data.String.Conversions
+import Data.List ((!!))
+import Data.Maybe (fromJust)
 import qualified RIO.Map as Map
 import qualified RIO.Text as T
 import System.Environment (getArgs)
 import RIO.Process
+import qualified Data.Text as T
 import Distribution.Types.PackageId
 import qualified RIO.ByteString.Lazy as BL
 import qualified Distribution.Text as DT (simpleParse, display)
 
-import Text.HTML.DOM (parseBSChunks)
-import Text.XML.Cursor
-import Data.Text.Encoding (decodeUtf8, encodeUtf8)
 import Network.HTTP.Simple
 
 comment :: ByteString
@@ -29,6 +31,7 @@ type PackageId' = Text
 type PackageVersion = Text
 type GlobalHintsFragment = Map GhcVer (Map PackageId' PackageVersion)
 
+globalHintsFile :: FilePath
 globalHintsFile = "global-hints.yaml"
 
 readGlobalHintsFile :: RIO SimpleApp GlobalHintsFragment
@@ -80,29 +83,22 @@ scrapeGhcReleaseNotes vers = do
   pairs <- for vers myScrapeURL
   pure $ Map.fromList pairs
     where
-      url ver = T.unpack $ mconcat
-        [ "https://downloads.haskell.org/~ghc/"
-        , ver'
-        , "/docs/html/users_guide/"
-        , ver'
-        , "-notes.html"
-        ] where ver' = fromMaybe ver (T.stripPrefix "ghc-" ver)
+      url _ = "https://gitlab.haskell.org/bgamari/ghc-utils/-/raw/master/library-versions/pkg_versions.txt"
       myScrapeURL ghcVer = do
         let url' = url ghcVer
         req <- parseRequest url'
         response <- httpBS req
-        let doc = parseBSChunks [getResponseBody response]
-            cursor = fromDocument doc
-            rows = cursor $// attributeIs "id" "included-libraries" &// element "tbody" &/ element "tr"
-        pairs <- traverse toPair rows
-        if null pairs
-          then error $ "Unable to parse HTML at " ++ url'
-          else pure (ghcVer, Map.fromList pairs)
+        let body = getResponseBody response
+        let ghcVerNo = fromJust $ T.stripPrefix "ghc-" ghcVer
+        pure (ghcVer, Map.fromList $ parsePkgVersions ghcVerNo body)
 
-      toPair row =
-        case map (\td -> fold $ td $// content) $ row $/ element "td" of
-          (pkg:ver:_) -> pure (pkg, ver)
-          _ -> error $ "Could not parse row " ++ show row
+      parsePkgVersions :: Text -> ByteString -> [(Text, Text)]
+      parsePkgVersions ghcVerNo = concatMap fun . T.lines . cs
+        where
+          fun :: Text -> [(Text, Text)]
+          fun t = case T.stripPrefix (ghcVerNo <> " ") t of
+            Nothing -> []
+            Just rest -> map (\e -> let pv = T.splitOn "/" e in if length pv /= 2 then error (show e) else (pv !! 0, pv !! 1)) $ T.splitOn " " $ T.dropWhile (== ' ') rest
 
 globalHintsFragmentProviders :: [GhcVer] -> [RIO SimpleApp GlobalHintsFragment]
 globalHintsFragmentProviders vers =
