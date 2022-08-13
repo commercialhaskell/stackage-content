@@ -1220,6 +1220,7 @@ ghc-9.4.1:
   stm: 2.5.1.0
   system-cxx-std-lib: '1.0'
   template-haskell: 2.19.0.0
+  terminfo: 0.4.1.5
   text: 2.0.1
   time: 1.12.2
   transformers: 0.5.6.2
