@@ -1788,6 +1788,32 @@ ghc:
             content-length: 501018140
             sha1: 9ca19fb421305af188849a504cf4c59195d76bb0
             sha256: 7abcff01e7cd390860e7f7a64d070b613819a2c21314cadeddac452b2ca03a32
+        # The integer-simple variant/build of GHC ceased from GHC 9.4.1. To
+        # assist users of Stack 2.7.5 (and earlier versions), from GHC 9.4.1,
+        # the `integersimple` GHC variant/build is treated as a synonym for the
+        # `int-native` GHC variant/build.
+        9.4.1:
+            url: https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-unknown-mingw32-int_native.tar.xz
+            content-length: 279878272
+            sha1: 972910a076d5cf755554cef81036fdcaacd3b7a5
+            sha256: 6aa125379a8db5a0544049a33673bf86b02c8819c2a2008e4a93ac240d427ed4
+        9.4.2:
+            url: https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-unknown-mingw32-int_native.tar.xz
+            content-length: 282584664
+            sha1: 6469af0cc463ee15826cda353784cfea6c81f439
+            sha256: e5267e340da903be81a55f12d63637ed5c493b6d5232bb87149ae4bf420ae0dd
+
+    windows64-int-native:
+        9.4.1:
+            url: https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-unknown-mingw32-int_native.tar.xz
+            content-length: 279878272
+            sha1: 972910a076d5cf755554cef81036fdcaacd3b7a5
+            sha256: 6aa125379a8db5a0544049a33673bf86b02c8819c2a2008e4a93ac240d427ed4
+        9.4.2:
+            url: https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-unknown-mingw32-int_native.tar.xz
+            content-length: 282584664
+            sha1: 6469af0cc463ee15826cda353784cfea6c81f439
+            sha256: e5267e340da903be81a55f12d63637ed5c493b6d5232bb87149ae4bf420ae0dd
 
     windows32:
         7.8.4:
