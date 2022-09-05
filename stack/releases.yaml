@@ -11,8 +11,8 @@
   pattern: linux-x86_64
 # - name: Linux ARMv7
 #   pattern: linux-arm
-# - name: Linux AArch64
-#   pattern: linux-aarch64
+- name: Linux AArch64
+  pattern: linux-aarch64
 - name: MacOS 64-bit
   pattern: osx-x86_64
 # - name: FreeBSD 64-bit
