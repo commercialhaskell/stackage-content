@@ -2906,6 +2906,87 @@ ghc:
             sha1: 014f3af4830e4f134af15bc38217fe6708e5e069
             sha256: ea075c54143dde37ea50cd085af61abb1fcfce8913deac298adc328bbb349464
 
+    linux-aarch64-tinfo6:
+        8.10.2:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-aarch64-deb10-linux.tar.xz
+            url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-aarch64-deb10-linux.tar.xz"
+            content-length: 310742020
+            sha1: 22bd6d4f9f9004cc8e0dd74d0da16bb90ec73903
+            sha256: 5cf24189077e6e2dce2aa16367ad8a53f603e751a15010dfb23d067206e55593
+        8.10.3:
+            # Mirrored from http://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-aarch64-deb10-linux.tar.xz
+            url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-aarch64-deb10-linux.tar.xz"
+            content-length: 312544072
+            sha1: 4b12cc5609493d2ffcfa671f4872b20bcb4357a9
+            sha256: a531432d505a1fe886cdc8639d168eb1c92d76464c1270713e01ce81891bbadb
+        8.10.4:
+            url: "http://downloads.haskell.org/~ghc/8.10.4/ghc-8.10.4-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.4-release/ghc-8.10.4-aarch64-deb10-linux.tar.xz"
+            content-length: 312593384
+            sha1: 39fb231f59bc384c17e019607a374acc77c39b63
+            sha256: 249da6310be799a5eefe0579b6dae1701eb984afb980fe08309d19cf704038ed
+        8.10.5:
+            url: "http://downloads.haskell.org/~ghc/8.10.5/ghc-8.10.5-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.5-release/ghc-8.10.5-aarch64-deb10-linux.tar.xz"
+            content-length: 314621152
+            sha1: 10883cf6b5d72cc7d2304cda21ad557cc780d727
+            sha256: 9a085cd8a7f8e0ace21ac67dbf659a56fcf41564b48817ba42cd8a1aac7f0ddc
+        8.10.6:
+            url: "http://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.6-release/ghc-8.10.6-aarch64-deb10-linux.tar.xz"
+            content-length: 314125232
+            sha1: cac34f392372740660e8b982bbe179f66d53298c
+            sha256: 1ea27a7776e3cbd0881ecf2eb03eb5176e2cef177a12271a1c33417f4fa48a59
+        8.10.7:
+            url: "http://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.7-release/ghc-8.10.7-aarch64-deb10-linux.tar.xz"
+            content-length: 314148832
+            sha1: 1e6af3d804f74f7a2e7dbc0bf2a4595d7e8c0a7e
+            sha256: fad2417f9b295233bf8ade79c0e6140896359e87be46cb61cd1d35863d9d0e55
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-aarch64-deb10-linux.tar.xz"
+            content-length: 164802160
+            sha1: 7dcaba567118c09bd486fb07b8dbaab66bb9a147
+            sha256: cb016344c70a872738a24af60bd15d3b18749087b9905c1b3f1b1549dc01f46d
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-aarch64-deb10-linux.tar.xz"
+            content-length: 140649744
+            sha1: 74eeaac88a424f9db6697e3e8e20a9674f45fa6d
+            sha256: 717d4246a8b407a807048ce6eddb2785aca2e4c73b6b634c01e1726f42d539a1
+        9.2.2:
+            url: "http://downloads.haskell.org/~ghc/9.2.2/ghc-9.2.2-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.2-release/ghc-9.2.2-aarch64-deb10-linux.tar.xz"
+            content-length: 277422120
+            sha1: cd8cc8bc4ffce74a5489119b207b18fa953e16e9
+            sha256: f3621ccba7ae48fcd67a9505f61bb5ccfb05c4cbfecd5a6ea65fe3f150af0e98
+        9.2.3:
+            url: "https://downloads.haskell.org/~ghc/9.2.3/ghc-9.2.3-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.3-release/ghc-9.2.3-aarch64-deb10-linux.tar.xz"
+            content-length: 277448912
+            sha1: 4560e46125e96615c4b7e476c78a5af5707bcaab
+            sha256: 4b0b3848606ca83923b666dc8325df6a93986682c57b2865a44c52795a30f808
+        9.2.4:
+            url: "https://downloads.haskell.org/~ghc/9.2.4/ghc-9.2.4-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.4-release/ghc-9.2.4-aarch64-deb10-linux.tar.xz"
+            content-length: 276846884
+            sha1: 31a21434ea3f9d5ee330299541ba048727296138
+            sha256: fc7dbc6bae36ea5ac30b7e9a263b7e5be3b45b0eb3e893ad0bc2c950a61f14ec
+        9.4.1:
+            url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.4.1-release/ghc-9.4.1-aarch64-deb10-linux.tar.xz"
+            content-length: 204195676
+            sha1: 70d1e117a85622049df06e2c4a41b1155cc0996f
+        9.4.2:
+            url: "https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-aarch64-deb10-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.4.2-release/ghc-9.4.2-aarch64-deb10-linux.tar.xz"
+            content-length: 203923164
+            sha1: 014f3af4830e4f134af15bc38217fe6708e5e069
+            sha256: ea075c54143dde37ea50cd085af61abb1fcfce8913deac298adc328bbb349464
+
 ghcjs:
     source:
         ghcjs-0.1.0.20150924_ghc-7.10.2:
