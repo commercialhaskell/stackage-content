@@ -55,14 +55,17 @@ stack:
         #
         # AS OF STACK 1.3.0, THIS INFORMATION IS NO LONGER USED, AND NEWER VERSIONS OF STACK WILL NOT BE ADDED.
         #
+
 sevenzexe-info:
-    url: "https://github.com/fpco/minghc/blob/master/bin/7z.exe?raw=true"
-    content-length: 73728
-    sha1: 187dff8a3327da87050f678579816e5bae40c632
+    url: "https://github.com/commercialhaskell/stackage-content/releases/download/7z-22.01/7z.exe"
+    content-length: 545280
+    sha256: 254cf6411d38903b2440819f7e0a847f0cfee7f8096cfad9e90fea62f42b0c23
+
 sevenzdll-info:
-    url: "https://github.com/fpco/minghc/blob/master/bin/7z.dll?raw=true"
-    content-length: 447488
-    sha1: 168a288d4456f0473f66e86a2d6fec4eb6f4b993
+    url: "https://github.com/commercialhaskell/stackage-content/releases/download/7z-22.01/7z.dll"
+    content-length: 1814016
+    sha256: 73578f14d50f747efa82527a503f1ad542f9db170e2901eddb54d6bce93fc00e
+
 portable-git:
     version: 2.4.5.1
     url: "https://github.com/git-for-windows/git/releases/download/v2.4.5.windows.1/PortableGit-2.4.5.1-4th-release-candidate-32-bit.7z.exe"
