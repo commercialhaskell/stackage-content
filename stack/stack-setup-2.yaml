@@ -1203,17 +1203,15 @@ ghc:
             sha1: 73d2b75abc819ebae782529180f8e33866bfb07b
             sha256: 3fdda484dc1054b27bb75975c379d4a7fdaff59c969098c807dad87d4bc91626
         9.4.1:
-            url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-fedora33-linux.tar.xz"
-            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.4.1-release/ghc-9.4.1-x86_64-fedora33-linux.tar.xz"
-            content-length: 181135844
-            sha1: e39936226242cf5bdcd652df9a6e0cbc98fd2ebc
-            sha256: efe05368d6367ce9109c7607a0945d85273cc95a730dd17f23d8ae79ee3524ea
+            url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-deb10-linux.tar.xz"
+            content-length: 186574068
+            sha1: 7e885cae97fbf893d8d3e41e19131a6c73264941
+            sha256: dcbff828b14a59d01d3fda68bb01b9cbc3a321a0c013905f436df5627128aa58
         9.4.2:
-            url: "https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-fedora33-linux.tar.xz"
-            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.4.2-release/ghc-9.4.2-x86_64-fedora33-linux.tar.xz"
-            content-length: 184588448
-            sha1: a679379b65b4f00a2edf41732498d7751fe8338a
-            sha256: 017bbf5ba0d526ec82ac97a2ea2a177f162424ea970cd5d6279b843b3d799668
+            url: "https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-deb10-linux.tar.xz"
+            content-length: 184995132
+            sha1: 004f5aec6ab60ca95ddd78fa2b99d6d7657e6a06
+            sha256: 5bf34ef70a2b824d45e525f09690c76707b7f01698962e425e8fd78b94ea9174
 
     linux64-tinfo6-nopie:
         7.8.4:
