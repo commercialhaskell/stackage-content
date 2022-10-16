@@ -80,10 +80,10 @@ msys2:
         content-length: 79049224
         sha256: 9152ddf50c6bacfae33c1436338235f8db4b10d73aaea63adefd96731fb0bceb
     windows64:
-        version: "20220503"
-        url: "https://github.com/commercialhaskell/stackage-content/releases/download/msys2-20220503/msys2-20220503-x86_64.tar.xz"
-        content-length: 93835868
-        sha256: c918f66e984f70add313ee3a5c5b101132cd93d5a3f8e3555e129e2d3dcb3718
+        version: "20220904"
+        url: "https://github.com/commercialhaskell/stackage-content/releases/download/msys2-20220904/msys2-20220904-x86_64.tar.xz"
+        content-length: 78115544
+        sha256: 88282ebcb3650fae2d1bbec9eb324ba3b55eda3e6bdd98ccd0e947fbcdf73acd
 ghc:
 
     linux32:
