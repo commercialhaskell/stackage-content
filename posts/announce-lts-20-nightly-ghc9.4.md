@@ -20,3 +20,5 @@ At the same time we are also excited to have moved Stackage [Nightly to GHC 9.4.
 Almost 500 Nightly packages had to be [disabled](https://www.stackage.org/diff/nightly-2022-11-17/nightly-2022-11-19) as part of the upgrade to 9.4. Please help us to update your packages to build with ghc-9.4 and get them back into Stackage Nightly, thank you!
 
 Big thank you to the community for all your help and support, and do keep the contributions coming!
+
+(_Note for Linux users of older glibc < 2.32_: at the time of writing stack setups for ghc-9.4 default to the fedora33 bindist which uses glibc-2.32. Some possible workarounds are mentioned in [this issue](https://github.com/commercialhaskell/stack/issues/5881) though the Stackage team has not verified the suggestions.)
