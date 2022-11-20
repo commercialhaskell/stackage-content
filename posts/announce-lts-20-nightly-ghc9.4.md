@@ -17,6 +17,6 @@ If your package is missing from LTS 20 and builds there, you can easily request 
 
 At the same time we are also excited to have moved Stackage [Nightly to GHC 9.4.3](https://www.stackage.org/nightly-2022-11-19) now!
 
-Almost 500 Nightly packages had to be [disabled](https://www.stackage.org/diff/nightly-2022-11-17/nightly-2022-11-19) as part of the upgrade to 9.4. Please help help to update your packages to build with ghc-9.4 and get them back into Stackage Nightly, thank you!
+Almost 500 Nightly packages had to be [disabled](https://www.stackage.org/diff/nightly-2022-11-17/nightly-2022-11-19) as part of the upgrade to 9.4. Please help us to update your packages to build with ghc-9.4 and get them back into Stackage Nightly, thank you!
 
 Big thank you to the community for all your help and support, and do keep the contributions coming!
