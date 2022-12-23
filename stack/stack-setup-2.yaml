@@ -1251,6 +1251,221 @@ ghc:
             sha1: 76008a3d2d2d272332bea5142d13eeb0139105fe
             sha256: 50037bc8672f0429e2de1255b21f04529807182cf74887a60e4d416d3b6ce8f2
 
+    # Prior to GHC 9.4.1, linux64-tinfo6-libc6-pre2.32 and linux64-tinfo6 are
+    # equivalent.
+    linux64-tinfo6-libc6-pre2.32:
+        7.8.4:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 81402732
+            sha1: db66bf82ab022d335c52309c2b4afc618aeb25d3
+        7.10.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.2-release/ghc-7.10.2-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 84702008
+            sha1: c71fc8b46f1532f1632460339a00af4403d6c70d
+        7.10.3:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 83788536
+            sha1: 86f66ffe380fbfd19e2e8a57303b90b75ebb9e68
+        8.0.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 106992736
+            sha1: f9b6ca4a6ca4e2fdcf8d4761df2255f68fb28a5a
+        8.0.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.2-release/ghc-8.0.2-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 106426808
+            sha1: 1adfec095c341ce5fff4bc0e1419e8a4d8eb8a8c
+            sha256: 1e5faace39e79bf308c1fed1e627804a938c815494b5e0c0bf737a741eea874e
+        8.2.1:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.1-release/ghc-8.2.1-x86_64-fedora24-linux-patch1.tar.xz"
+            content-length: 127450796
+            sha1: cac207dd01575bb936430fd0428c1100e2fbf123
+            sha256: 76d689246f6b18292b542c438cbe0ca6e73b2824ac223bfc3d6bc9bf4de79617
+        8.2.2:
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.2.2-release/ghc-8.2.2-x86_64-fedora27-linux-patch1.tar.xz"
+            content-length: 128823976
+            sha1: 124b0f81079cecfa5813cbed0b37cd4bff89345d
+            sha256: 282094d67a786e975d71022f1c9650d19f6f5eeb6a618a9c14dd9cccf1eff9f7
+        8.4.1:
+            url: "https://downloads.haskell.org/~ghc/8.4.1/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.1-release/ghc-8.4.1-x86_64-fedora27-linux.tar.xz"
+            content-length: 152583608
+            sha1: 76a63daba744d94ca870ea17696e5f69293cdaa0
+            sha256: 89328a013e64b9b56825a9071fea5616ddd623d37fd41e8fb913dfebc609e7ea
+        8.4.2:
+            url: "https://downloads.haskell.org/~ghc/8.4.2/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.2-release/ghc-8.4.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 152889300
+            sha1: 0765e4af6e5db27bfc0c1782678611c4680e43bf
+            sha256: d057b5c833596dbe4ae5d0dc2994f6cc5d0f4c2a21ea1d7900821d165fd4e846
+        8.4.3:
+            url: "https://downloads.haskell.org/~ghc/8.4.3/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.3-release/ghc-8.4.3-x86_64-fedora27-linux.tar.xz"
+            content-length: 152892592
+            sha1: 8d4328ebfd10c08c9b8e221df27c54e5d035017c
+            sha256: 269e7a4d3f336491b88409a020998122b30a3a729af78d33be86d3b3f8000c3e
+        8.4.4:
+            url: "https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.4.4-release/ghc-8.4.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 152903812
+            sha1: cc71b6329b930d317a7efff069ad80975b8b5fb9
+            sha256: 8ab2befddc14d1434d0aad0c5d3c7e0c2b78ff84caa3429fa62527bfc6b86095
+        8.6.1:
+            url: "https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.1-release/ghc-8.6.1-x86_64-fedora27-linux.tar.xz"
+            content-length: 182150376
+            sha1: 6878d9017edfd4341b0f9dd598a7bc0c229d84e4
+            sha256: da903fbcf11ee6c977a8b7dac3f04dbc098d674def587880b6624b8f32588beb
+        8.6.2:
+            url: "https://downloads.haskell.org/~ghc/8.6.2/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 182230252
+            sha1: e1c195d4f15a5762cf58aabf129989291113a652
+            sha256: 702aa5dfa1639c37953ceb7571a5057d9fb0562aecb197b277953a037d78047d
+        8.6.3:
+            url: "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.3-release/ghc-8.6.3-x86_64-fedora27-linux.tar.xz"
+            content-length: 182356948
+            sha1: ca192a146e70996d31a0aae8ec7de20608508d10
+            sha256: 52ae92f4e8bb2ac0b7847287ea3da37081f5f7bf8bbb7c78ac35fde537d1a89f
+        8.6.4:
+            url: "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.4-release/ghc-8.6.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 188609132
+            sha1: 13c153c27d34b8efc1beaed29dfb3bf2266a2638
+            sha256: e0b1ada7a679d6c35f9d7a1192ed35fde054f3650bb0bd2570d103729ad3b846
+        8.6.5:
+            url: "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.5-release/ghc-8.6.5-x86_64-fedora27-linux.tar.xz"
+            content-length: 189351696
+            sha1: 0b5b1b15dd36edf01eb29fadbb8566864f95838f
+            sha256: cf78b53eaf336083e7a05f4a3000afbae4abe5bbc77ef80cc40e09d04ac5b4a1
+        8.8.1:
+            url: "https://downloads.haskell.org/~ghc/8.8.1/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.1-release/ghc-8.8.1-x86_64-fedora27-linux.tar.xz"
+            content-length: 202227084
+            sha1: 1150e35cd4f30cfa1729b97c4eff4bc4b96be9a8
+            sha256: 851a78df620bc056c34b252c97040d5755e294993fa8afa5429708b5229204d6
+        8.8.2:
+            url: "https://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 202542116
+            sha1: 18f7ad61250a850b4b3fd555c31092c374d75a3a
+            sha256: dbe2db717b33460f790e155e487d2a31c9b21a9d245f0c9490ad65844c3ea21f
+        8.8.3:
+            url: "https://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-x86_64-fedora27-linux.tar.xz"
+            content-length: 202566004
+            sha1: 7318afe94b784f10720892a999275aac067f63fc
+            sha256: 45ee1de3bfc98cbcc4886b65fc7651ade2d3820aa85eac2dbe9bc7bf91e7c818
+        8.8.4:
+            url: "https://downloads.haskell.org/~ghc/8.8.4/ghc-8.8.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.4-release/ghc-8.8.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 208262692
+            sha1: 6220f1209f0fa0d103fb18668cbe3227ca4c1456
+            sha256: f32e37f8aa03e74bad533ae02f62dc27a4521e78199576af490888ba34b515db
+        8.10.1:
+            url: "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-x86_64-fedora27-linux.tar.xz"
+            content-length: 214693280
+            sha1: 3023b3456c50a045e6431de8dbba4e3840c7ab14
+            sha256: 3c4cd72b4806045779739e8f5d1658e30e57123d88c2c8966422cdbcae448470
+        8.10.2:
+            url: "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.2-release/ghc-8.10.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 215874384
+            sha1: ca8e587c5a8631896fb46332cd5689fe8c5be8eb
+            sha256: 8c675da83e9b3c2f64ebb407b5f9ebb2c1f21aa5d701020614fdce644a542e3b
+        8.10.3:
+            url: "https://downloads.haskell.org/~ghc/8.10.3/ghc-8.10.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.3-release/ghc-8.10.3-x86_64-fedora27-linux.tar.xz"
+            content-length: 217616268
+            sha1: 2cae3641ebe10eb0aeb6d29ce3d2df87c700007a
+            sha256: f8739b12008712d6b6a9ffc6c39f9d05af77ef3bcb932c9aff20fa0893c8c159
+        8.10.4:
+            url: "http://downloads.haskell.org/~ghc/8.10.4/ghc-8.10.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.4-release/ghc-8.10.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 217672548
+            sha1: 71ef12be54efb87f79ad36e0beed70ef8b7403c4
+            sha256: a189eed900a8717d6d7906bafd10b9a9a9688ad942d1c75e19df480376dff9ea
+        8.10.5:
+            url: "http://downloads.haskell.org/~ghc/8.10.5/ghc-8.10.5-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.5-release/ghc-8.10.5-x86_64-fedora27-linux.tar.xz"
+            content-length: 218270948
+            sha1: a5bb6f3fa959777626f4d5480d32f851a9bf25f2
+            sha256: 73528ebfb219b50aa9042ee51a0a2bd764828d605f058404989d0b645752d210
+        8.10.6:
+            url: "http://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.6-release/ghc-8.10.6-x86_64-fedora27-linux.tar.xz"
+            content-length: 217713848
+            sha1: e1cf9b018a81ffc67db72bc8799b90f28e541f1e
+            sha256: c452b84565cfc07c476694dd0fd389ed6d2b83619490b3c238f6bded438eddb1
+        8.10.7:
+            url: "http://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.7-release/ghc-8.10.7-x86_64-fedora27-linux.tar.xz"
+            content-length: 217724856
+            sha1: e5e6a28d442b9b902d4b36e333a22f7c9b8c2a6c
+            sha256: b6ed67049a23054a8042e65c9976d5e196e5ee4e83b29b2ee35c8a22ab1e5b73
+        9.0.1:
+            url: "http://downloads.haskell.org/~ghc/9.0.1/ghc-9.0.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.1-release/ghc-9.0.1-x86_64-fedora27-linux.tar.xz"
+            content-length: 220795024
+            sha1: 51456ef7b49a413edded28e678535fb2f8d0e896
+            sha256: 1fb8e27eeec51b4cdbfd1b3c16727adc5f77388d3e925e63799d8232647f316d
+        9.0.2:
+            url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2a-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.0.2-release/ghc-9.0.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 237286244
+            sha1: affc2aaa3e6a1c446698a884f56a0a13e57f00b4
+            sha256: b2670e9f278e10355b0475c2cc3b8842490f1bca3c70c306f104aa60caff37b0
+        9.2.1:
+            url: "http://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.1-release/ghc-9.2.1-x86_64-fedora27-linux.tar.xz"
+            content-length: 128403584
+            sha1: 9e39bf1015815b4d6f7732ab38e4f212089dc69a
+            sha256: e37cd1fe64006dd42f418dacbae3fea0938ce0905407cfc7c3ea61054f5d5329
+        9.2.2:
+            url: "http://downloads.haskell.org/~ghc/9.2.2/ghc-9.2.2-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.2-release/ghc-9.2.2-x86_64-fedora27-linux.tar.xz"
+            content-length: 248089648
+            sha1: 542b525995e66edf639be3f42b6e0c743cc77ef2
+            sha256: eab2b4e3ca99eb7cc81aa3136e9e0b245ba6b3e9057f02a2d289fbf60856eb10
+        9.2.3:
+            url: "https://downloads.haskell.org/~ghc/9.2.3/ghc-9.2.3-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.3-release/ghc-9.2.3-x86_64-fedora27-linux.tar.xz"
+            content-length: 247900108
+            sha1: f010321a2862a9e4cf1f4eed407eefd8c3bddd2d
+            sha256: 1d86fe94eadbe2f4a61632a9b6f4314ff531a00be44b88765bb2281f4aacac51
+        9.2.4:
+            url: "https://downloads.haskell.org/~ghc/9.2.4/ghc-9.2.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.4-release/ghc-9.2.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 247520928
+            sha1: 73d2b75abc819ebae782529180f8e33866bfb07b
+            sha256: 3fdda484dc1054b27bb75975c379d4a7fdaff59c969098c807dad87d4bc91626
+        9.2.5:
+            url: "https://downloads.haskell.org/~ghc/9.2.5/ghc-9.2.5-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.2.5-release/ghc-9.2.5-x86_64-fedora27-linux.tar.xz"
+            content-length: 246762592
+            sha1: b2d994393bde0907d4b721ac765aa917d3a0debd
+            sha256: 5bf47d6eb9332d76098669623668836d8e44c7d67c1bc0a954332e8385735fe7
+
+        # From GHC 9.4.1, linux64-tinfo6-libc6-pre2.32 diverges form
+        # linux64-tinfo6.
+        9.4.1:
+            url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-deb10-linux.tar.xz"
+            content-length: 186574068
+            sha1: 7e885cae97fbf893d8d3e41e19131a6c73264941
+            sha256: dcbff828b14a59d01d3fda68bb01b9cbc3a321a0c013905f436df5627128aa58
+        9.4.2:
+            url: "https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-deb10-linux.tar.xz"
+            content-length: 184995132
+            sha1: 004f5aec6ab60ca95ddd78fa2b99d6d7657e6a06
+            sha256: 5bf34ef70a2b824d45e525f09690c76707b7f01698962e425e8fd78b94ea9174
+        9.4.3:
+            url: "https://downloads.haskell.org/~ghc/9.4.3/ghc-9.4.3-x86_64-deb10-linux.tar.xz"
+            content-length: 184837364
+            sha1: 28a94f2da6077d725a7d72f48bc909cf9f2444e3
+            sha256: 940ac2b1770dc63b5f3f38f829bfe69f4a572d6b26cd93094cdd99d5300b5067
+
     linux64-tinfo6-nopie:
         7.8.4:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-fedora24-linux-patch1.tar.xz"
