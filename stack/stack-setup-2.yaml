@@ -1251,9 +1251,9 @@ ghc:
             sha1: 76008a3d2d2d272332bea5142d13eeb0139105fe
             sha256: 50037bc8672f0429e2de1255b21f04529807182cf74887a60e4d416d3b6ce8f2
 
-    # Prior to GHC 9.4.1, linux64-tinfo6-libc6-pre2.32 and linux64-tinfo6 are
+    # Prior to GHC 9.4.1, linux64-tinfo6-libc6-pre232 and linux64-tinfo6 are
     # equivalent.
-    linux64-tinfo6-libc6-pre2.32:
+    linux64-tinfo6-libc6-pre232:
         7.8.4:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-fedora24-linux-patch1.tar.xz"
             content-length: 81402732
@@ -1448,7 +1448,7 @@ ghc:
             sha1: b2d994393bde0907d4b721ac765aa917d3a0debd
             sha256: 5bf47d6eb9332d76098669623668836d8e44c7d67c1bc0a954332e8385735fe7
 
-        # From GHC 9.4.1, linux64-tinfo6-libc6-pre2.32 diverges form
+        # From GHC 9.4.1, linux64-tinfo6-libc6-pre232 diverges form
         # linux64-tinfo6.
         9.4.1:
             url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-deb10-linux.tar.xz"
