@@ -1263,14 +1263,14 @@ ghc:
             sha1: 76008a3d2d2d272332bea5142d13eeb0139105fe
             sha256: 50037bc8672f0429e2de1255b21f04529807182cf74887a60e4d416d3b6ce8f2
         9.4.4:
-            url: "https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-fedora33-linux.tar.xz"
-            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.4.4-release/ghc-9.4.4-x86_64-fedora33-linux.tar.xz"
-            content-length: 183498464
-            sha1: 8b361cce2b629ee0e185dff92289025cda1d0a9d
-            sha256: 8d6dee632966123ec901660cd155dfdc3aa3f13116574215d958a4705b8327e1
+            url: "https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-fedora27-linux.tar.xz"
+            #mirror-url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-9.4.4-release/ghc-9.4.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 179500040
+            sha1: 5d6bd82661cc29e82565826411490c7c4eaa487d
+            sha256: 05fe3cacfba752602f6136139344d9ec13c5f38a4e842fb26c82923731c37998
 
-    # Prior to GHC 9.4.1, linux64-tinfo6-libc6-pre232 and linux64-tinfo6 are
-    # equivalent.
+    # Prior to GHC 9.4.1 and for GHC 9.4.4, linux64-tinfo6-libc6-pre232 and
+    # linux64-tinfo6 are equivalent.
     linux64-tinfo6-libc6-pre232:
         7.8.4:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.8.4-release/ghc-7.8.4-x86_64-fedora24-linux-patch1.tar.xz"
@@ -1466,7 +1466,7 @@ ghc:
             sha1: b2d994393bde0907d4b721ac765aa917d3a0debd
             sha256: 5bf47d6eb9332d76098669623668836d8e44c7d67c1bc0a954332e8385735fe7
 
-        # From GHC 9.4.1, linux64-tinfo6-libc6-pre232 diverges form
+        # From GHC 9.4.1 to 9.4.3, linux64-tinfo6-libc6-pre232 diverges form
         # linux64-tinfo6.
         9.4.1:
             url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-deb10-linux.tar.xz"
@@ -1484,10 +1484,10 @@ ghc:
             sha1: 28a94f2da6077d725a7d72f48bc909cf9f2444e3
             sha256: 940ac2b1770dc63b5f3f38f829bfe69f4a572d6b26cd93094cdd99d5300b5067
         9.4.4:
-            url: "https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-deb10-linux.tar.xz"
-            content-length: 187207372
-            sha1: e8b22f0c2b523e368a7df557e8ee915c42790cb9
-            sha256: a3ecd2426bb519d6fdad05904c386f1c74b433f07722b0d1ef606c23159ade2d
+            url: "https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-fedora27-linux.tar.xz"
+            content-length: 179500040
+            sha1: 5d6bd82661cc29e82565826411490c7c4eaa487d
+            sha256: 05fe3cacfba752602f6136139344d9ec13c5f38a4e842fb26c82923731c37998
 
     linux64-tinfo6-nopie:
         7.8.4:
