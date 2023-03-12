@@ -1555,10 +1555,10 @@ ghc:
             sha1: 5d6bd82661cc29e82565826411490c7c4eaa487d
             sha256: 05fe3cacfba752602f6136139344d9ec13c5f38a4e842fb26c82923731c37998
         9.6.1:
-            url: "https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-deb10-linux.tar.xz"
-            content-length: 203477344
-            sha1: e123485b5ff9652fccfe8f666722d73e61aa049d
-            sha256: 48d533c88ba2d852c50eaf98859a7779844512d05577f1ced17cc68cc63f4d03
+            url: "https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-rocky8-linux.tar.xz"
+            content-length: 199564500
+            sha1: f0c49ad2ac6a14c4eabc2296fbb1ec3b24952b79
+            sha256: 97172efe434bfe27c112f16b3ab3708c1fb3defb5c1d1319c738c7afea95901d
 
     linux64-tinfo6-nopie:
         7.8.4:
