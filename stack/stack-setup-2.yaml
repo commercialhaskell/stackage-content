@@ -3234,6 +3234,11 @@ ghc:
             content-length: 151511240
             sha1: 72b853ce2695996e635f5389407b60cf37060063
             sha256: ae3a14fa8e40ea49a85d634154e6b2acfeaf8426a8fa724eb392136696bd9b59
+        9.4.5:
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-9.4.5-x86_64-portbld-freebsd.tar.xz"
+            content-length: 123198276
+            sha1: 64a6c1733af1c9d7bc2a16e6ed6df0759e0ba1aa
+            sha256: e7c202283ec94069875ede845cce0db021e59d74c946491ceb71c00ddd5889d8
 
     freebsd64-11:
         8.2.1:
