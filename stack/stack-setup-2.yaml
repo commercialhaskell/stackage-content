@@ -2984,6 +2984,11 @@ ghc:
             content-length: 152514444
             sha1: 6fb262daa5b1bb018800b33b7a688699dad5ae29
             sha256: fa15fa742e860d9bd0d42f00e9f13eb10fddd608458c0a6f4ad0b4042f43a2e1
+        9.2.8:
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-9.2.8-i386-portbld-freebsd.tar.xz"
+            content-length: 152749328
+            sha1: c60a72692a97e2feb4f9838cd878df8e57acdfaf
+            sha256: d80b3d257eccec9a520696e35c69eacdfabc0ef8841db3f8ad2f7a3c4742b20a
 
     freebsd64:
         7.8.4:
@@ -3234,6 +3239,11 @@ ghc:
             content-length: 151511240
             sha1: 72b853ce2695996e635f5389407b60cf37060063
             sha256: ae3a14fa8e40ea49a85d634154e6b2acfeaf8426a8fa724eb392136696bd9b59
+        9.2.8:
+            url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-9.2.8-x86_64-portbld-freebsd.tar.xz"
+            content-length: 118511376
+            sha1: 05cdc1dc77c37aee0633b227c0447405e4fa3a11
+            sha256: 9babe91f8ec1087de053bec1f37ed71be25cf1799374c3a6c79e7e271f962d93
         9.4.5:
             url: "http://distcache.FreeBSD.org/local-distfiles/arrowd/stack-bindists/ghc-9.4.5-x86_64-portbld-freebsd.tar.xz"
             content-length: 123198276
