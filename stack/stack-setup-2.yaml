@@ -1011,6 +1011,11 @@ ghc:
             content-length: 157643708
             sha1: 1201c6565695dc9905fd59812643794494ed078b
             sha256: 0b8b1bf2e09c41fb05858af9b8d6a45ca110a05b653ecc68245800546e052f6b
+        9.4.7:
+            url: "https://downloads.haskell.org/~ghc/9.4.7/ghc-9.4.7-x86_64-alpine3_12-linux.tar.xz"
+            content-length: 202180316
+            sha1: f894da0c6468ef6a9490957df4a5628f790f5173
+            sha256: d26b4e8d14f4e547d63661122c78cf00686923a62916cb4151234e8e955ef7d4
 
     linux32-gmp4:
         7.8.4:
