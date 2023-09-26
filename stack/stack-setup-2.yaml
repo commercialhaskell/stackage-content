@@ -2162,10 +2162,11 @@ ghc:
             sha1: a6bfe4925466e046f86220481914e2e51523bc63
             sha256: cb2e1b4edf5c892e7faafcc2c8774d06e3d571e736061eed9ab1b233814a42ee
         9.6.3:
-            url: "https://downloads.haskell.org/~ghc/9.6.3/ghc-9.6.3-x86_64-apple-darwin.tar.bz2"
-            content-length: 43139072
-            sha1: b807a50b0168897480892876519d683729ce2b57
-            sha256: d71402603de001c2eae3524af0346c239b1db6d46bf03d40f279200d1489b968
+            # Using .xz rather than .bz2 in this case, because the latter is corrupted as of 2023-09-26
+            url: "https://downloads.haskell.org/~ghc/9.6.3/ghc-9.6.3-x86_64-apple-darwin.tar.xz"
+            content-length: 196017596
+            sha1: 5cc5645fe900ac0db2ac7ad44a1d03d983d695aa
+            sha256: dde46118ab8388fb1066312c097123e93b1dcf6ae366e3370f88ea456382c9db
 
     macosx-aarch64:
         8.10.5:
