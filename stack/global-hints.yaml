@@ -1759,7 +1759,7 @@ ghc-9.8.1:
   system-cxx-std-lib: '1.0'
   template-haskell: 2.21.0.0
   terminfo: 0.4.1.6
-  text: 2.1
+  text: '2.1'
   time: 1.12.2
   transformers: 0.6.1.0
   unix: 2.8.3.0
