@@ -1503,7 +1503,7 @@ ghc:
             sha256: dd21379f9d2dfd27817adba94ac1209c03e1c40acc3f499eac94e245a56b5dc6
         9.8.2:
             url: "https://downloads.haskell.org/ghc/9.8.2/ghc-9.8.2-x86_64-fedora33-linux.tar.xz"
-            content-length:  214363160
+            content-length:  213956760
             sha1: ab5afb49b6f63bc6f40c18336770d9c71f585cd0
             sha256: 99639e49179664cf69f533d00ab30da5f7333370a9b9d3c750453a1e51be4f29
 
