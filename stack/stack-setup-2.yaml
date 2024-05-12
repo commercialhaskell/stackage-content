@@ -384,6 +384,11 @@ ghc:
             content-length: 197630384
             sha1: c220526f5002204e8a222878039c61665167f52d
             sha256: 9607b12351ff1bf8771a037fe943f2e23b7b03f8e7cca9c66b555e11f83610b9
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-i386-deb10-linux.tar.xz"
+            content-length: 201283840
+            sha1: 3975c811f92c88bca0843e656ffcbaa5940491d3
+            sha256: 5367e692dd9efd9062846334ec6aeeddf186c01b1551b3207649a2ce16f4df76
 
     linux32-nopie:
         7.8.4:
@@ -875,6 +880,11 @@ ghc:
             content-length: 198430944
             sha1: f469c994fb26a4465d393962f5280874d9294fb4
             sha256: 9ff735b0b9dcb0c48cc32d6df7826b6ee9b2fdf1f1e056f015bab9e79fc86c11
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-deb9-linux.tar.xz"
+            content-length: 204137160
+            sha1: 8cd925b3abcbf776c9a6d739b9fa82f21c4f8371
+            sha256: 5c4fb1c2185320afd6b1efaa155f97e956fa782004ce829fb41879ad0fd1cd14
 
     linux64-nopie:
         7.8.4:
@@ -1103,6 +1113,11 @@ ghc:
             content-length: 199452716
             sha1: 619613f884a9e359105faaec7d2a6ae7aef9d5a6
             sha256: 7fe06e083a8878da84e906170b106de4b31306fd1b390093aee50c4cdcaed026
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-alpine3_12-linux.tar.xz"
+            content-length: 221569688
+            sha1: 06329084d546775677d630f08943acfeb89e1f4d
+            sha256: 327b424d30524a9d2dfe569e1ef72b8967675c555ce684ef60deec1233e3f4f5
 
     linux32-gmp4:
         7.8.4:
@@ -1523,9 +1538,14 @@ ghc:
             sha256: dd21379f9d2dfd27817adba94ac1209c03e1c40acc3f499eac94e245a56b5dc6
         9.8.2:
             url: "https://downloads.haskell.org/ghc/9.8.2/ghc-9.8.2-x86_64-fedora33-linux.tar.xz"
-            content-length:  213956760
+            content-length: 213956760
             sha1: ab5afb49b6f63bc6f40c18336770d9c71f585cd0
             sha256: 99639e49179664cf69f533d00ab30da5f7333370a9b9d3c750453a1e51be4f29
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-fedora33-linux.tar.xz"
+            content-length: 222181712
+            sha1: 1b3c7976198af17a35abb4921e79407b0dd47eed
+            sha256: eef58297f48cae3d8003fd6e8bc295b6e42fe982ad902eada99a72d559384cab
 
     # Prior to GHC 9.4.1 and for GHC 9.4.4, linux64-tinfo6-libc6-pre232 and
     # linux64-tinfo6 are equivalent.
@@ -1819,6 +1839,11 @@ ghc:
             content-length: 207768988
             sha1: 30e5c82640adc968e682ce2aed856a72c53a5de2
             sha256: c2784e2bcc6574021fb3450fec3948cc753ddcde2da4951f76679e2f4b4d307b
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-rocky8-linux.tar.xz"
+            content-length: 223657164
+            sha1: fcc563b34abbd4553b4ddde8816dc1591c7abdfd
+            sha256: 853909835ea9de6db39a0db0d52c01e7f200c816e925895199a1e62ad7c5901f
 
     linux64-tinfo6-nopie:
         7.8.4:
@@ -2318,6 +2343,11 @@ ghc:
             content-length: 318371132
             sha1: 824ab9acbe20c80936d88adb4ad67c47b8c63d71
             sha256: fed7deafb5470976c3e830132210dc301b3a96115f9c5f1a4c311ecfc0bedc10
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-apple-darwin.tar.bz2"
+            content-length: 346646379
+            sha1: b53d96b6b6e06c201b89847e4a5132ca3ddb0cbb
+            sha256: 0a9a9a5499ffa8a7b7b3755088674c9e765281d35febff30a601de7277aa6d5d
 
     macosx-aarch64:
         8.10.5:
@@ -2472,6 +2502,11 @@ ghc:
             content-length: 336783068
             sha1: 8102880a68c57241b98ee9f0412a4500917cbe19
             sha256: cb0916f2993d544d3f14d461714851a16ae3a43b79b0567a28ef75060ca5b2f3
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-aarch64-apple-darwin.tar.bz2"
+            content-length: 355683088
+            sha1: 64994ef36ce6902c4b906e307a6b71fb70827158
+            sha256: 6156efc2fb9f17a8845fbcdb5bdf73d02a06e4e3f7fcea1c1f9b835e5fadeae2
 
     windows32-integersimple:
         7.8.4:
@@ -2684,6 +2719,11 @@ ghc:
             content-length: 324262068
             sha1: 0ea477b7b67db8400c2374fd42894abbf5fd6138
             sha256: eae687b9436448010512eb8cec1011621d0eb4ab839f81226486a65626ab6a3e
+        9.10.1:
+            url: https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-unknown-mingw32-int_native.tar.xz
+            content-length: 580176408
+            sha1: f1050b9bf346e888ddb1b9bff9f764abf602a41a
+            sha256: 97320f300820545ea2cee571d7ea3a5f6a5cbbd93e537d197b37777cff7f73ef
 
     windows64-int-native:
         9.4.1:
@@ -2761,7 +2801,11 @@ ghc:
             content-length: 324262068
             sha1: 0ea477b7b67db8400c2374fd42894abbf5fd6138
             sha256: eae687b9436448010512eb8cec1011621d0eb4ab839f81226486a65626ab6a3e
-
+        9.10.1:
+            url: https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-unknown-mingw32-int_native.tar.xz
+            content-length: 580176408
+            sha1: f1050b9bf346e888ddb1b9bff9f764abf602a41a
+            sha256: 97320f300820545ea2cee571d7ea3a5f6a5cbbd93e537d197b37777cff7f73ef
 
     windows32:
         7.8.4:
@@ -3161,6 +3205,11 @@ ghc:
             content-length: 325008420
             sha1: 16c44f26a6d812ab8b326b4078061f02e1560712
             sha256: f7d496b850686ea5fbfcecc722ec399ec7acb8d06ebec23bb4dcb9338f430764
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-unknown-mingw32.tar.xz"
+            content-length: 585558012
+            sha1: 7b43f00b86c3d69ca242d4d9b8f2ce161619a8e3
+            sha256: 8bac01906ec2fa5c10c730b5ee5b8165654d654dbaf25ba9d3c42f8e26484c6a
 
     freebsd32:
         7.8.4:
@@ -4082,6 +4131,11 @@ ghc:
             content-length: 216538540
             sha1: a5d3a17fec7b06899248494aa0b567614d62e3c2
             sha256: 9a3776fd8dc02f95b751f0e44823d6727dea2c212857e2c5c5f6a38a034d1575
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-aarch64-deb10-linux.tar.xz"
+            content-length: 220503956
+            sha1: ed6e840804cc31702bb7b1ea354901ee0c5a255f
+            sha256: e6df50e62b696e3a8b759670fc79207ccc26e88a79a047561ca1ccb8846157dd
 
     # Up to GHC 9.8.1, linux64-aarch64-tinfo6 and
     # linux64-aarch64-tinfo6-libc6-pre232 are equivalent.
@@ -4247,6 +4301,11 @@ ghc:
             content-length: 216538540
             sha1: a5d3a17fec7b06899248494aa0b567614d62e3c2
             sha256: 9a3776fd8dc02f95b751f0e44823d6727dea2c212857e2c5c5f6a38a034d1575
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-aarch64-deb10-linux.tar.xz"
+            content-length: 220503956
+            sha1: ed6e840804cc31702bb7b1ea354901ee0c5a255f
+            sha256: e6df50e62b696e3a8b759670fc79207ccc26e88a79a047561ca1ccb8846157dd
 
     # Up to GHC 9.8.1, linux64-aarch64-tinfo6-libc6-pre232 and
     # linux64-aarch64-tinfo6 are equivalent.
@@ -4400,6 +4459,11 @@ ghc:
             content-length: 216538540
             sha1: a5d3a17fec7b06899248494aa0b567614d62e3c2
             sha256: 9a3776fd8dc02f95b751f0e44823d6727dea2c212857e2c5c5f6a38a034d1575
+        9.10.1:
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-aarch64-deb10-linux.tar.xz"
+            content-length: 220503956
+            sha1: ed6e840804cc31702bb7b1ea354901ee0c5a255f
+            sha256: e6df50e62b696e3a8b759670fc79207ccc26e88a79a047561ca1ccb8846157dd
 
 ghcjs:
     source:
