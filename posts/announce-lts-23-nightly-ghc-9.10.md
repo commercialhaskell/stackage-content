@@ -9,11 +9,11 @@ timestamp: 2024-12-12T07:00:00Z
 
 The Stackage team is happy to announce that [Stackage LTS version 23](https://www.stackage.org/lts-23.0) has finally been released a couple of days ago, based on GHC stable version 9.8.4. It follows on from the LTS 22 series which was the longest lived LTS major release to date (with probable final snapshot lts-22.43).
 
+*We are dedicating the LTS 23 release to the memory of Chris Dornan, who left this world suddenly and unexceptedly around the end of May. We are indebted to Christopher for his many years of wide Haskell community service, including also being one of the Stackage Curators up until the time he passed away. He is warmly remembered.*
+
 LTS 23 includes many [package changes](https://www.stackage.org/diff/lts-22.43/lts-23.0), and almost 3200 packages!
 Thank you for all your nightly contributions that made this release possible: the initial release was prepared by Jens Petersen.
 (The closest nightly snapshot to lts-23.0 is [nightly-2024-12-09](https://www.stackage.org/diff/nightly-2024-12-09/lts-23.0), but lts-23 is just ahead of it with pandoc-3.6.)
-
-*We are dedicating the LTS 23 release to the memory of Chris Dornan, who left this world suddenly and unexceptedly around the end of May. We are indebted to Christopher for his many years of wide Haskell community service, including also being one of the Stackage Curators up until the time he passed away. He is warmly remembered.*
 
 If your package is missing from LTS 23 and can build there, you can easily have it added by opening a PR in [lts-haskell](https://github.com/commercialhaskell/lts-haskell/) to the [build-constraints/lts-23-build-constraints.yaml](https://github.com/commercialhaskell/lts-haskell/blob/master/build-constraints/lts-23-build-constraints.yaml) file.
 
