@@ -13,7 +13,7 @@ LTS 23 includes many [package changes](https://www.stackage.org/diff/lts-22.43/l
 Thank you for all your nightly contributions that made this release possible: the initial release was prepared by Jens Petersen.
 (The closest nightly snapshot to lts-23.0 is [nightly-2024-12-09](https://www.stackage.org/diff/nightly-2024-12-09/lts-23.0), but lts-23 is just ahead of it with pandoc-3.6.)
 
-***Dedication**: We are dedicating the LTS 23 release to the memory of Chris Dornan, who left this world suddenly and unexceptedly around the end of May. We are indebted to Christopher for his many years of wide Haskell community service, including also being one of the Stackage Curators up until the time he passed away. He is warmly remembered.*
+We are dedicating the LTS 23 release to the memory of Chris Dornan, who left this world suddenly and unexceptedly around the end of May. We are indebted to Christopher for his many years of wide Haskell community service, including also being one of the Stackage Curators up until the time he passed away. He is warmly remembered.*
 
 If your package is missing from LTS 23 and can build there, you can easily have it added by opening a PR in [lts-haskell](https://github.com/commercialhaskell/lts-haskell/) to the [build-constraints/lts-23-build-constraints.yaml](https://github.com/commercialhaskell/lts-haskell/blob/master/build-constraints/lts-23-build-constraints.yaml) file.
 
