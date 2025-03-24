@@ -378,6 +378,11 @@ ghc:
             content-length: 186212528
             sha1: 83fca3773af48db854827fa1aaf89ac501232915
             sha256: 5c09a0e36ea305c422ac259c810d94d0b2223f6929903c86586d2ca3cbd01c9d
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-i386-deb9-linux.tar.xz"
+            content-length: 190460736
+            sha1: d146ae7153e693194a377830507352a3d4950bc7
+            sha256: a1f59f25d6f1accf3bb521d6b623c8a062313baaa1679dd304437bbc381dce51
         9.8.1:
             # The GHC project switched from Debian 9 to Debian 10
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-i386-deb10-linux.tar.xz"
@@ -900,6 +905,11 @@ ghc:
             content-length: 192870372
             sha1: a362e00307477457d0bc014ec2594f58b68c1442
             sha256: ff5b4929a4e89c536e7badb3b142e353dc4bda1f31d3ee446406ad88c3bebddf
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-deb9-linux.tar.xz"
+            content-length: 198137688
+            sha1: f3dfdaba705edaceac437a930d5f07788a864a08
+            sha256: ee692080785f31af3116a23773acf1cc0def38c883669839c50a4dd06e97cb65
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-deb9-linux.tar.xz"
             content-length: 202098276
@@ -1158,6 +1168,11 @@ ghc:
             content-length: 224131196
             sha1: 29afa805eb11fbd89cd46fd42ae8d5ee988f5b88
             sha256: 1a0e7ba35535115a87ece6b8454bc80cd52e2cb01fbcb86458d4f3c6d6e9858f
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-alpine3_12-linux.tar.xz"
+            content-length: 201033892
+            sha1: eef3cfb049c43c3c74e2cd7b45cb683a32769af6
+            sha256: 62bba2b8a0dead3a1b86de91ff9f91b597bc718e3c1f3358bcf3d5f295c25aaf
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-alpine3_12-linux.tar.xz"
             content-length: 203986464
@@ -1611,6 +1626,11 @@ ghc:
             content-length: 208228192
             sha1: ef0ae561ce4ca3fa44a84c1199fd9501edb661d8
             sha256: 2364e780b5f017fc384b0669dde40f5a13c45f3a17f4e4db39cad3c4bed806a0
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-fedora33-linux.tar.xz"
+            content-length: 213951040
+            sha1: fbcd148b196a865d3c977c4dfd498832af7ef42f
+            sha256: f845a79f15fcbfe8e659c43f4cd0b1f1bc15e2309665726c573de850278296f1
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-fedora33-linux.tar.xz"
             content-length: 218572928
@@ -1645,7 +1665,7 @@ ghc:
             url: "https://downloads.haskell.org/ghc/9.12.2/ghc-9.12.2-x86_64-fedora33-linux.tar.xz"
             content-length: 302752040
             sha1: 233b1e00c4b5b713238fa6bbd81bc5a3e02e4b73
-            sha256: 8a0ac83e3178ba787b1e94b46514671c2b385b9b608d89e02d500c685d3818c1 
+            sha256: 8a0ac83e3178ba787b1e94b46514671c2b385b9b608d89e02d500c685d3818c1
 
     # Prior to GHC 9.4.1 and for GHC 9.4.4, linux64-tinfo6-libc6-pre232 and
     # linux64-tinfo6 are equivalent.
@@ -1934,6 +1954,11 @@ ghc:
             content-length: 201887560
             sha1: 22ef3a1455436bc768f1a4fea97d28129ea26225
             sha256: 048b7981fd168f1029a697b47673146b253e9a26d448ca07fb40652512ee9750
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-rocky8-linux.tar.xz"
+            content-length: 198830252
+            sha1: a56f1cd12d558f2d9e3c74ec8a7f73e1e6a37f95
+            sha256: e2935bcf64b114a508183454d4c351323840de8829c0fa0506cf4fbe555dde08
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-rocky8-linux.tar.xz"
             content-length: 208766124
@@ -2463,6 +2488,11 @@ ghc:
             content-length: 309583252
             sha1: 865587adc7d0b4833cfbdd0b3ef44c5097c5fa08
             sha256: 951d1b5ed47fc25a782014befccb82699fcbe585265bd2c6c1a4e0163a2a6dff
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-apple-darwin.tar.bz2"
+            content-length: 311514338
+            sha1: 9a87f0f1bb1c9bdd383ab575be9aecd24905ce6c
+            sha256: 61f2b7a7a32cf35f30ae8155b29f11da900d442b216b498969225ed702a7125a
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-apple-darwin.tar.bz2"
             content-length: 317354550
@@ -2647,6 +2677,11 @@ ghc:
             content-length: 327914369
             sha1: 07a60da1cc2f9c3cedde1b2c49fba3f066f704f1
             sha256: c812e10db846185ea576619b3454151604531b0c14791ac1d368439e755be613
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-aarch64-apple-darwin.tar.bz2"
+            content-length: 329938318
+            sha1: b09e8fb33df5c50369e91f9462d249fa7a934dcc
+            sha256: 0169e9ead4a34667b27503b6172c6753f65794ea98216e6d07ae721296b94692
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-aarch64-apple-darwin.tar.bz2"
             content-length: 337548732
@@ -2820,82 +2855,87 @@ ghc:
         # the `integersimple` GHC variant/build is treated as a synonym for the
         # `int-native` GHC variant/build.
         9.4.1:
-            url: https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 279878272
             sha1: 972910a076d5cf755554cef81036fdcaacd3b7a5
             sha256: 6aa125379a8db5a0544049a33673bf86b02c8819c2a2008e4a93ac240d427ed4
         9.4.2:
-            url: https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 282584664
             sha1: 6469af0cc463ee15826cda353784cfea6c81f439
             sha256: e5267e340da903be81a55f12d63637ed5c493b6d5232bb87149ae4bf420ae0dd
         9.4.3:
-            url: https://downloads.haskell.org/~ghc/9.4.3/ghc-9.4.3-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.3/ghc-9.4.3-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 278171344
             sha1: 8aa809fae047af97babd361fef42d6ed75282598
             sha256: cff1585f0d63513ec0fe73edef32f531c9cf9e17f5a046e52a4b645786233c7f
         9.4.4:
-            url: https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 278007844
             sha1: 7d4abb578519e4e19f16f95c6a31ca2e08a5c39f
             sha256: d4601a8dfde5b812d214789a073603b96bbd5a6a3f8906f3a8500285d7e1f8ab
         9.4.5:
-            url: https://downloads.haskell.org/~ghc/9.4.5/ghc-9.4.5-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.5/ghc-9.4.5-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 274024320
             sha1: 59528c7f565a3480dde5c0baeefae002943196aa
             sha256: 908f6989c8b77bdd6e8cfb10a4bcb09b04eacd13a546b89a0de8f17f524e7a0e
         9.4.6:
-            url: https://downloads.haskell.org/~ghc/9.4.6/ghc-9.4.6-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.6/ghc-9.4.6-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 274254176
             sha1: 2c65f5e323ee3cad5050f110b9482dd1c867b348
             sha256: c061de13cbb4798943d07f926d7af959a4cb55e28eb05c3b086aa23020216432
         9.4.7:
-            url: https://downloads.haskell.org/~ghc/9.4.7/ghc-9.4.7-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.7/ghc-9.4.7-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 274311620
             sha1: e52e3ee4921b69ff898a22d361d8f5f720b3356a
             sha256: f46a9c1ce07d99abc9285dd00b7f2630e71e906cf4234c8150aeb9441cdee9b7
         9.4.8:
-            url: https://downloads.haskell.org/~ghc/9.4.8/ghc-9.4.8-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.8/ghc-9.4.8-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 306859592
             sha1: 143c4983dd953326bbbced34cecf7d6413bb974d
             sha256: 24d643fcedae99a6d08709605914e4b8e4eecf1d62c3044239a1cd61fe679e8a
         9.6.1:
-            url: https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 283850872
             sha1: 65c7df6322ddafb80945df5a8caf21dd5b45b4b8
             sha256: bdb2b84225adc7f0459514d3638db00be97223949338bb1852076b4d4518ed90
         9.6.2:
-            url: https://downloads.haskell.org/~ghc/9.6.2/ghc-9.6.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.2/ghc-9.6.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 283854144
             sha1: a843a0e8d933fbc7845fb9a67755935047d0b3de
             sha256: 356eaad713502c440922d9e9fd2bbcf750a34e3fe56cbfd3a0726e30a094a1b8
         9.6.3:
-            url: https://downloads.haskell.org/~ghc/9.6.3/ghc-9.6.3-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.3/ghc-9.6.3-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322134964
             sha1: 4c540903eda2e430dc1f01239704540f0fe47b81
             sha256: 37134a9285ae5e621cb9eb9ba20ce2592230f63a2619f79f9d302cea4fecf73a
         9.6.4:
-            url: https://downloads.haskell.org/~ghc/9.6.4/ghc-9.6.4-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.4/ghc-9.6.4-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322348924
             sha1: 7c03fe38d9859b672d7d6e767ea349352d287b66
             sha256: 91262bf14b4fc41655ea0554eb5b907c61b29492a69db099a8cab3f5176ceb02
         9.6.5:
-            url: https://downloads.haskell.org/ghc/9.6.5/ghc-9.6.5-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.6.5/ghc-9.6.5-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322577744
             sha1: 643bc82dc83320bc6ca66b7d773e5fa9510ab470
             sha256: dcd711c04aca5ea069ac46d489d0ab9d94858bc8d92af6c2ba2ead3fa453c3c8
         9.6.6:
-            url: https://downloads.haskell.org/ghc/9.6.6/ghc-9.6.6-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.6.6/ghc-9.6.6-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322677684
             sha1: 54136cfbaab83080cb722a8406422ab864e53a5d
             sha256: dcd66465335e0e3ec00e94f09d0217a45a6e7538f6902ead01d53db625f467cf
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-unknown-mingw32-int_native.tar.xz"
+            content-length: 325003388
+            sha1: ab9670434559127f59a325b4b6e9eb7547c75cee
+            sha256: 4c4d4482bbc9cc4e304e578c02ace2a382219aba02763978bc8ad611d3d14e4f
         9.8.1:
-            url: https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 324199576
             sha1: 201e93dc4a28b799c42525cd767c5b5731eb9e3f
             sha256: 75139c5fba3ee90ea25cd061d4e0a0199f376ea11b1f30acb1b3215d8884e9c7
         9.8.2:
-            url: https://downloads.haskell.org/ghc/9.8.2/ghc-9.8.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.8.2/ghc-9.8.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 324262068
             sha1: 0ea477b7b67db8400c2374fd42894abbf5fd6138
             sha256: eae687b9436448010512eb8cec1011621d0eb4ab839f81226486a65626ab6a3e
@@ -2910,99 +2950,104 @@ ghc:
             sha1: 3ec7119d25e097fc614f183e6b924c37fad8c676
             sha256: 3d6b87e050a02a9ea52fb8a39e6ec3052b627e7abbb7972de9c3a4ae0e72d69e
         9.10.1:
-            url: https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 580176408
             sha1: f1050b9bf346e888ddb1b9bff9f764abf602a41a
             sha256: 97320f300820545ea2cee571d7ea3a5f6a5cbbd93e537d197b37777cff7f73ef
         9.12.1:
-            url: https://downloads.haskell.org/ghc/9.12.1/ghc-9.12.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.12.1/ghc-9.12.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 374870412
             sha1: 6bb0480e669b217040f6f70013e76ee1a14b65ae
             sha256: 0c0283c276cf57370e20571f86d8de55a14eaa4653589168b29fdf0e992897ec
         9.12.2:
-            url: https://downloads.haskell.org/ghc/9.12.2/ghc-9.12.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.12.2/ghc-9.12.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 374986828
             sha1: ce718baab5a8f74a292479e51a86b370cd6ed2de
             sha256: 680a85bbe2611c2b60e892a7157701a512864412bed5275ff46a468c45681668
 
     windows64-int-native:
         9.4.1:
-            url: https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.1/ghc-9.4.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 279878272
             sha1: 972910a076d5cf755554cef81036fdcaacd3b7a5
             sha256: 6aa125379a8db5a0544049a33673bf86b02c8819c2a2008e4a93ac240d427ed4
         9.4.2:
-            url: https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.2/ghc-9.4.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 282584664
             sha1: 6469af0cc463ee15826cda353784cfea6c81f439
             sha256: e5267e340da903be81a55f12d63637ed5c493b6d5232bb87149ae4bf420ae0dd
         9.4.3:
-            url: https://downloads.haskell.org/~ghc/9.4.3/ghc-9.4.3-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.3/ghc-9.4.3-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 278171344
             sha1: 8aa809fae047af97babd361fef42d6ed75282598
             sha256: cff1585f0d63513ec0fe73edef32f531c9cf9e17f5a046e52a4b645786233c7f
         9.4.4:
-            url: https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 278007844
             sha1: 7d4abb578519e4e19f16f95c6a31ca2e08a5c39f
             sha256: d4601a8dfde5b812d214789a073603b96bbd5a6a3f8906f3a8500285d7e1f8ab
         9.4.5:
-            url: https://downloads.haskell.org/~ghc/9.4.5/ghc-9.4.5-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.5/ghc-9.4.5-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 274024320
             sha1: 59528c7f565a3480dde5c0baeefae002943196aa
             sha256: 908f6989c8b77bdd6e8cfb10a4bcb09b04eacd13a546b89a0de8f17f524e7a0e
         9.4.6:
-            url: https://downloads.haskell.org/~ghc/9.4.6/ghc-9.4.6-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.6/ghc-9.4.6-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 274254176
             sha1: 2c65f5e323ee3cad5050f110b9482dd1c867b348
             sha256: c061de13cbb4798943d07f926d7af959a4cb55e28eb05c3b086aa23020216432
         9.4.7:
-            url: https://downloads.haskell.org/~ghc/9.4.7/ghc-9.4.7-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.7/ghc-9.4.7-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 274311620
             sha1: e52e3ee4921b69ff898a22d361d8f5f720b3356a
             sha256: f46a9c1ce07d99abc9285dd00b7f2630e71e906cf4234c8150aeb9441cdee9b7
         9.4.8:
-            url: https://downloads.haskell.org/~ghc/9.4.8/ghc-9.4.8-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.4.8/ghc-9.4.8-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 306859592
             sha1: 143c4983dd953326bbbced34cecf7d6413bb974d
             sha256: 24d643fcedae99a6d08709605914e4b8e4eecf1d62c3044239a1cd61fe679e8a
         9.6.1:
-            url: https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 283850872
             sha1: 65c7df6322ddafb80945df5a8caf21dd5b45b4b8
             sha256: bdb2b84225adc7f0459514d3638db00be97223949338bb1852076b4d4518ed90
         9.6.2:
-            url: https://downloads.haskell.org/~ghc/9.6.2/ghc-9.6.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.2/ghc-9.6.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 283854144
             sha1: a843a0e8d933fbc7845fb9a67755935047d0b3de
             sha256: 356eaad713502c440922d9e9fd2bbcf750a34e3fe56cbfd3a0726e30a094a1b8
         9.6.3:
-            url: https://downloads.haskell.org/~ghc/9.6.3/ghc-9.6.3-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.3/ghc-9.6.3-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322134964
             sha1: 4c540903eda2e430dc1f01239704540f0fe47b81
             sha256: 37134a9285ae5e621cb9eb9ba20ce2592230f63a2619f79f9d302cea4fecf73a
         9.6.4:
-            url: https://downloads.haskell.org/~ghc/9.6.4/ghc-9.6.4-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.6.4/ghc-9.6.4-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322348924
             sha1: 7c03fe38d9859b672d7d6e767ea349352d287b66
             sha256: 91262bf14b4fc41655ea0554eb5b907c61b29492a69db099a8cab3f5176ceb02
         9.6.5:
-            url: https://downloads.haskell.org/ghc/9.6.5/ghc-9.6.5-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.6.5/ghc-9.6.5-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322577744
             sha1: 643bc82dc83320bc6ca66b7d773e5fa9510ab470
             sha256: dcd711c04aca5ea069ac46d489d0ab9d94858bc8d92af6c2ba2ead3fa453c3c8
         9.6.6:
-            url: https://downloads.haskell.org/ghc/9.6.6/ghc-9.6.6-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.6.6/ghc-9.6.6-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 322677684
             sha1: 54136cfbaab83080cb722a8406422ab864e53a5d
             sha256: dcd66465335e0e3ec00e94f09d0217a45a6e7538f6902ead01d53db625f467cf
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-unknown-mingw32-int_native.tar.xz"
+            content-length: 325003388
+            sha1: ab9670434559127f59a325b4b6e9eb7547c75cee
+            sha256: 4c4d4482bbc9cc4e304e578c02ace2a382219aba02763978bc8ad611d3d14e4f
         9.8.1:
-            url: https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 324199576
             sha1: 201e93dc4a28b799c42525cd767c5b5731eb9e3f
             sha256: 75139c5fba3ee90ea25cd061d4e0a0199f376ea11b1f30acb1b3215d8884e9c7
         9.8.2:
-            url: https://downloads.haskell.org/ghc/9.8.2/ghc-9.8.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.8.2/ghc-9.8.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 324262068
             sha1: 0ea477b7b67db8400c2374fd42894abbf5fd6138
             sha256: eae687b9436448010512eb8cec1011621d0eb4ab839f81226486a65626ab6a3e
@@ -3017,17 +3062,17 @@ ghc:
             sha1: 3ec7119d25e097fc614f183e6b924c37fad8c676
             sha256: 3d6b87e050a02a9ea52fb8a39e6ec3052b627e7abbb7972de9c3a4ae0e72d69e
         9.10.1:
-            url: https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 580176408
             sha1: f1050b9bf346e888ddb1b9bff9f764abf602a41a
             sha256: 97320f300820545ea2cee571d7ea3a5f6a5cbbd93e537d197b37777cff7f73ef
         9.12.1:
-            url: https://downloads.haskell.org/ghc/9.12.1/ghc-9.12.1-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.12.1/ghc-9.12.1-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 374870412
             sha1: 6bb0480e669b217040f6f70013e76ee1a14b65ae
             sha256: 0c0283c276cf57370e20571f86d8de55a14eaa4653589168b29fdf0e992897ec
         9.12.2:
-            url: https://downloads.haskell.org/ghc/9.12.2/ghc-9.12.2-x86_64-unknown-mingw32-int_native.tar.xz
+            url: "https://downloads.haskell.org/ghc/9.12.2/ghc-9.12.2-x86_64-unknown-mingw32-int_native.tar.xz"
             content-length: 374986828
             sha1: ce718baab5a8f74a292479e51a86b370cd6ed2de
             sha256: 680a85bbe2611c2b60e892a7157701a512864412bed5275ff46a468c45681668
@@ -3425,6 +3470,11 @@ ghc:
             content-length: 324070356
             sha1: fcce6ba8a8a6e331f15484e90108d83d421ba10c
             sha256: fc12b7bfc78e69c8c7ebcb9f874f868665e5744df1af73e71cf5224c32d9c6e4
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-x86_64-unknown-mingw32.tar.xz"
+            content-length: 324720392
+            sha1: 6d9019a574962773049b01f8ab5bd3f943a1e831
+            sha256: cf0e736ce4c875de0296426ee575eca177acf6b9b5c1dd4881b9fc79681e1d5f
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-x86_64-unknown-mingw32.tar.xz"
             content-length: 324672464
@@ -4376,6 +4426,11 @@ ghc:
             content-length: 206315536
             sha1: 08b1f04a1f51f7bff655cd534b4606629cbc5826
             sha256: 58d5ce65758ec5179b448e4e1a2f835924b4ada96cf56af80d011bed87d91fef
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-aarch64-deb10-linux.tar.xz"
+            content-length: 211865436
+            sha1: e6e80a65a8f5f420e3d1926af2d13ee2527e92ad
+            sha256: 3cfa843687856de304a946dbe849a497c4fdad021f0275628b8ca7b55ccf8082
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-aarch64-deb10-linux.tar.xz"
             content-length: 211778444
@@ -4571,6 +4626,11 @@ ghc:
             content-length: 206315536
             sha1: 08b1f04a1f51f7bff655cd534b4606629cbc5826
             sha256: 58d5ce65758ec5179b448e4e1a2f835924b4ada96cf56af80d011bed87d91fef
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-aarch64-deb10-linux.tar.xz"
+            content-length: 211865436
+            sha1: e6e80a65a8f5f420e3d1926af2d13ee2527e92ad
+            sha256: 3cfa843687856de304a946dbe849a497c4fdad021f0275628b8ca7b55ccf8082
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-aarch64-deb10-linux.tar.xz"
             content-length: 211778444
@@ -4754,6 +4814,11 @@ ghc:
             content-length: 206315536
             sha1: 08b1f04a1f51f7bff655cd534b4606629cbc5826
             sha256: 58d5ce65758ec5179b448e4e1a2f835924b4ada96cf56af80d011bed87d91fef
+        9.6.7:
+            url: "https://downloads.haskell.org/ghc/9.6.7/ghc-9.6.7-aarch64-deb10-linux.tar.xz"
+            content-length: 211865436
+            sha1: e6e80a65a8f5f420e3d1926af2d13ee2527e92ad
+            sha256: 3cfa843687856de304a946dbe849a497c4fdad021f0275628b8ca7b55ccf8082
         9.8.1:
             url: "https://downloads.haskell.org/~ghc/9.8.1/ghc-9.8.1-aarch64-deb10-linux.tar.xz"
             content-length: 211778444
