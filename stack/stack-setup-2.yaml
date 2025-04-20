@@ -1165,7 +1165,7 @@ ghc:
             sha256: 5539c84159f53abd2ac192fe8a4914de1f705a6a941b6ae96382d65b5b13121c
         9.6.6:
             url: "https://downloads.haskell.org/ghc/9.6.6/ghc-9.6.6-x86_64-alpine3_12-linux.tar.xz"
-            content-length: 224131196
+            content-length: 198860724
             sha1: 29afa805eb11fbd89cd46fd42ae8d5ee988f5b88
             sha256: 1a0e7ba35535115a87ece6b8454bc80cd52e2cb01fbcb86458d4f3c6d6e9858f
         9.6.7:
