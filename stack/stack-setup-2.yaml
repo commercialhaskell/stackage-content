@@ -4094,6 +4094,38 @@ ghc:
             content-length: 125429280
             sha1: 37281dc42c87d6b1921facd6b3a91d65eaac4aa3
             sha256: f0b78fe257e3754e856592cdd6644347125f0b71ab526a7c0c4b151dd615f104
+        9.8.1:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.8.1/ghc-9.8.1-x86_64-portbld-freebsd.tar.xz"
+            content-length: 136271652
+            sha256: cb82a34c59611f02b0ae3398a0a2101966c0ad3ac479215f699d6848f28cfa42
+        9.8.2:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.8.2/ghc-9.8.2-x86_64-portbld-freebsd.tar.xz"
+            content-length: 212137744
+            sha256: 150468d0d4ece45bb913565a7f3fdd3f4c75af832d70198721083b65c9f863d6
+        9.8.4:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.8.4/ghc-9.8.4-x86_64-freebsd-14.0.tar.xz"
+            content-length: 211330912
+            sha256: f13aaa33af32e2ffd5c7d222063a9c80be2ca1a311404f38ab99d9612d7babd5
+        9.10.1:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.10.1/ghc-9.10.1-x86_64-portbld-freebsd.tar.xz"
+            content-length: 214400344
+            sha256: f424d789e78185377a48d54c6d0c2ab8337252835b659d4c75b11a5959f6e34a
+        9.10.2:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.10.2/ghc-9.10.2-x86_64-portbld-freebsd.tar.xz"
+            content-length: 216986244
+            sha256: 15aea6989376b4f06f8f4e00f65fde569dee0b407c23eea229c891ca94ec1825
+        9.10.3:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.10.3/ghc-9.10.3-x86_64-portbld-freebsd.tar.xz"
+            content-length: 216957224
+            sha256: bcdf3aeeda163cd98664ea5789a805b89af45875c9dd319b8284d08cad019bc9
+        9.12.1:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.12.1/ghc-9.12.1-x86_64-portbld-freebsd.tar.xz"
+            content-length: 315745116
+            sha256: 1003d793a1d4183b409b74c734a68b56a924061cfc1b55c9a24342c3627d61ae
+        9.12.2:
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.12.2/ghc-9.12.2-x86_64-portbld-freebsd.tar.xz"
+            content-length: 316613228
+            sha256: 168fc7a6dffa8231aa6b84c7bc5e37af6082486f6c97b8ffecaca02bd873f8ba
 
     freebsd64-11:
         8.2.1:
