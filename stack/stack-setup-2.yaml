@@ -4223,17 +4223,19 @@ ghc:
             content-length: 315745116
             sha256: 1003d793a1d4183b409b74c734a68b56a924061cfc1b55c9a24342c3627d61ae
         9.12.2:
-            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.12.2/ghc-9.12.2-x86_64-portbld-freebsd.tar.xz"
+            url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.12.2/ghc-9.12.2-r2-x86_64-portbld-freebsd.tar.xz"
             content-length: 316613228
             sha256: 168fc7a6dffa8231aa6b84c7bc5e37af6082486f6c97b8ffecaca02bd873f8ba
+# The GHCup project states that it will not support GHC 9.12.3.
 #       9.12.3:
 #           url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.12.3/ghc-9.12.3-x86_64-portbld-freebsd.tar.xz"
 #           content-length:
 #           sha256:
-#       9.14.1:
-#           url: "https://downloads.haskell.org/ghcup/unofficial-bindists/ghc/9.14.1/ghc-9.14.1-x86_64-portbld-freebsd.tar.xz"
-#           content-length:
-#           sha256:
+        9.14.1:
+            url: "https://downloads.haskell.org/ghc/9.14.1/ghc-9.14.1-x86_64-unknown-freebsd14.tar.xz"
+            content-length: 272174728
+            sha1: 791d43bc3264f30e60746c4158af2f8408635afb
+            sha256: 54874f9cd8720d926301e4076126b1aca12b7e2711347a5c7d38c1a03796820f
 
     freebsd64-11:
         8.2.1:
